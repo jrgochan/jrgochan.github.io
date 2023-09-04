@@ -7,7 +7,7 @@ SPHINXOPTS    ?=
 SPHINXBUILD   ?= sphinx-build
 SPHINXDIR     = .sphinx
 SOURCEDIR     = .
-BUILDDIR      = _build
+BUILDDIR      = docs
 VENVDIR       = $(SPHINXDIR)/venv
 VENV          = $(VENVDIR)/bin/activate
 
