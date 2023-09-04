@@ -8,7 +8,7 @@ matrix:
     - .wordlist.txt
     output: .sphinx/.wordlist.dic
   sources:
-  - docs/**/*.html
+  - _build/**/*.html
   pipeline:
   - pyspelling.filters.html:
       comments: false
