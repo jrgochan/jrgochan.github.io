@@ -122,7 +122,7 @@ You should never modify the common ``conf.py`` file.
 
 Go through all settings in the ``Project information`` section of the ``custom_conf.py`` file and update them for your project.
 
-See the following sections for further customisation.
+See the following sections for further customization.
 
 Configure the header
 ~~~~~~~~~~~~~~~~~~~~
@@ -229,7 +229,7 @@ Add custom configuration
 To add custom configurations for your project, see the ``Additions to default configuration`` and ``Additional configuration`` sections in the ``custom_conf.py`` file.
 These can be used to extend or override the common configuration, or to define additional configuration that is not covered by the common ``conf.py`` file.
 
-(Optional) Synchronise GitHub issues to Jira
+(Optional) Synchronize GitHub issues to Jira
 --------------------------------------------
 
 If you wish to sync issues from your documentation repository on GitHub to your
@@ -243,7 +243,7 @@ The ``.jira_sync_config.yaml`` file that is included in the starter pack
 contains configuration for syncing issues from the starter pack repository to 
 its documentation Jira board.
 Therefore, it does not work out of the box for other repositories in GitHub, 
-and you must update it if you want to use the synchronisation feature.
+and you must update it if you want to use the synchronization feature.
 
 Change log
 ----------
