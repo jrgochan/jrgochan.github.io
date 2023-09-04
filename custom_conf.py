@@ -15,8 +15,8 @@ import datetime
 ############################################################
 
 # Product name
-project = 'Documentation starter pack'
-author = 'Canonical Group Ltd'
+project = 'Notes on things'
+author = 'Jason Gochanour'
 
 # Uncomment if your product uses release numbers
 # release = '1.0'
