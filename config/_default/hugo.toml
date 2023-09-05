@@ -2,6 +2,7 @@ baseURL = 'https://jrgochan.github.io'
 languageCode = 'en-us'
 title = 'jrgochan thoughts'
 theme = "learn"
+paginate = 10
 
 [params]
   author = "Jason Gochanour"

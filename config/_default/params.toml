@@ -1,0 +1,5 @@
+author = "John Doe"
+description = "A personal website built with Hugo"
+profilePicture = "/images/profile.jpg"
+themeColor = "#ff5733"
+

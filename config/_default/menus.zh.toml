@@ -1,0 +1,10 @@
+[[main]]
+  name = "首页"
+  url = "/"
+  weight = 1
+
+[[main]]
+  name = "博客"
+  url = "/blog/"
+  weight = 2
+

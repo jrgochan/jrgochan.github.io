@@ -1,0 +1,12 @@
+[en]
+  title = "My Hugo Site"
+  description = "A site built with Hugo"
+  languageName = "English"
+  weight = 1
+
+[zh]
+  title = "我的Hugo网站"
+  description = "使用Hugo构建的网站"
+  languageName = "Chinese"
+  weight = 2
+
