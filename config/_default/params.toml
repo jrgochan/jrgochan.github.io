@@ -66,3 +66,12 @@ showPreviousPage = true
   weight = 1
   url = "https://github.com/jrgochan"
 
+
+[Lanugages]
+[Lanugages.en]
+landingPageURL = "/en"
+landingPageName = "<i class='fas fa-home'></i> Redirect to Home"
+
+[Lanugages.fr]
+landingPageURL = "/fr"
+landingPageName = "<i class='fas fa-home'></i> Accueil"
