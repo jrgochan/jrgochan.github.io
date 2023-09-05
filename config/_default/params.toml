@@ -1,5 +1,30 @@
-author = "John Doe"
-description = "A personal website built with Hugo"
-profilePicture = "/images/profile.jpg"
-themeColor = "#ff5733"
+# General settings
+author = "Your Name"
+description = "Awesome documentation built with Hugo and the Learn theme"
+showVisitedLinks = false
+
+# Appearance
+pygmentsStyle = "friendly"
+pygmentsUseClasses = true
+disableInlineCopyToClipBoard = true
+
+# Search functionality
+search = true
+
+# Features
+collapseSections = true
+showNextPage = true
+showPreviousPage = true
+
+# Taxonomies and other
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+# Social links
+[[params.social]]
+  name = "GitHub"
+  icon = "fab fa-github"
+  weight = 1
+  url = "https://github.com/yourusername"
 

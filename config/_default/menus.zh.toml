@@ -1,10 +1,5 @@
 [[main]]
-  name = "首页"
-  url = "/"
+  name = "自定义链接"
+  url = "https://external-link.com/"
   weight = 1
-
-[[main]]
-  name = "博客"
-  url = "/blog/"
-  weight = 2
 
