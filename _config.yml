@@ -1,5 +1,0 @@
-exclude:
-  - _build/
-  - Makefile
-  - make.bat
-
