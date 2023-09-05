@@ -4,21 +4,3 @@ title = 'jrgochan thoughts'
 theme = "learn"
 paginate = 10
 
-[params]
-  author = "Jason Gochanour"
-  description = "A short description."
-
-[menu]
-  [[menu.main]]
-    name = "Home"
-    url = "/"
-    weight = 1
-  [[menu.main]]
-    name = "Blog"
-    url = "/posts/"
-    weight = 2
-
-[taxonomies]
-  tag = "tags"
-  category = "categories"
-
