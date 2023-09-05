@@ -5,9 +5,6 @@
   languageName = "English"
   weight = 1
 
-  [params]
-    color = 'blue'
-
 [sv]
   languageCode = 'sv'
   title = 'Min blogg'
