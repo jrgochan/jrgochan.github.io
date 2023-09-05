@@ -1,10 +1,21 @@
 [en]
+  languageCode = 'en'
   title = "My Hugo Site"
   description = "A site built with Hugo"
   languageName = "English"
   weight = 1
 
+  [params]
+    color = 'blue'
+
+[sv]
+  languageCode = 'sv'
+  title = 'Min blogg'
+  description = "sv site desc"
+
+
 [zh]
+  languageCode = 'zh'
   title = "我的Hugo网站"
   description = "使用Hugo构建的网站"
   languageName = "Chinese"

@@ -1,0 +1,5 @@
+[[main]]
+  name = "Externer Link"
+  url = "https://external-link.com/"
+  weight = 5
+
