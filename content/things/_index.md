@@ -36,7 +36,18 @@ Started the day with an example of what monte carlo can be used for to approxima
 #### McStas Conversation w/ Peter Willendrup
 - McStas
   - Monte Carlo Simulation of triple axis spectrometers
-  - Should be McStaf
+  - Should be McStof (Time of Flight) ;) is a joke. isn't going to happen.
 - Clinton Pile at Oak Ridge (one of the first production research reactors)
   - Someone had the idea that we could cut some holes in the side and there we go. World's first Neutron source.
   - Nobel Prize for Neutron Scattering to these guys: Clifford Shull, Bertrand Brockhouse
+    - For Establishing Neutron
+  - First place that neutron diffraction happened.
+- Work starded on McStas in 1997. Release in 1998. Peter started in 2002.
+- Bragg is a british physicist that established x-ray diffraction. (1894ish)
+- Kristian Nielsen is the original CS guy that taught the physicist
+- "Peter was explaining how McCode compiles a binary and runs it on HPC"
+- OpenACC
+  - NVidia compiler like "gcc but openmp"
+  - nvhpc is the only compiler that fully supports this.
+
+  
