@@ -5,6 +5,10 @@ date = 2023-09-05T03:34:38+02:00
 draft = false
 +++
 
+## ToDo
+- Email Jean-Luc, Andrew, Max
+  - Thoughts about ARKs, NOIDs, NCAR Facilities and Instruments, Data Pipelines and stuff and things?
+
 ### Info Header
 A Landing Page of Things and stuff.
 
