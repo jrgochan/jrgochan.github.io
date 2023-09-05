@@ -3,6 +3,10 @@ author = "Your Name"
 description = "Awesome documentation built with Hugo and the Learn theme"
 showVisitedLinks = false
 
+# Change default color scheme with a variant one. Can be "red", "blue", "green".
+themeVariant = "red"
+
+
 # Appearance
 pygmentsStyle = "friendly"
 pygmentsUseClasses = true
@@ -26,5 +30,5 @@ showPreviousPage = true
   name = "GitHub"
   icon = "fab fa-github"
   weight = 1
-  url = "https://github.com/yourusername"
+  url = "https://github.com/jrgochan"
 
