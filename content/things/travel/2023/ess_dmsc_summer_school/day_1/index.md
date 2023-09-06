@@ -1,20 +1,13 @@
 +++
-title = "Things Page"
-description = "A Place for Things"
-identifier = "things"
-date = 2023-09-05T03:34:38+02:00
-pre = "<i class='fas fa-fw fa-bookmark'></i> "
-archetype = "chapter"
+title = 'Ess_dmsc_summer_school_day1'
+date = 2023-09-05T22:09:28+02:00
+menuTitle = "Topic A"
+weight = 3
 bookCollapseSection = false
-# categories = ['Development']
-# series = ['Go Web Dev']
-slug = 'things-page'
-tags = ['Development', 'Go', 'fast', 'Blogging']
 bookHidden = false
 draft = false
-LastModifierDisplayName = "Jason Gochanour"
-# Email of this page modifier. If set with LastModifierDisplayName, it will be displayed in the footer
-LastModifierEmail = "jrgochan@gmail.com"
+categories = ["taxonomy", "content"]
+tags = "tutorial"
 +++
 
 ## ToDo

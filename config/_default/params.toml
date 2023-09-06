@@ -1,3 +1,5 @@
+
+_merge = 'deep'
 # This controls whether submenus will be expanded (true), or collapsed (false) in the
 # menu; if no setting is given, the first menu level is set to false, all others to true;
 # this can be overridden in the pages frontmatter
@@ -78,21 +80,13 @@ disableExplicitIndexURLs = false
 # For external links you can define how they are opened in your browser; this setting will only be applied to the content area but not the shortcut menu
 externalLinkTarget = "_blank"
 # Override default values for image effects, you can even add your own arbitrary effects to the list
-[params.imageEffects]
+[imageEffects]
   border = false
   lightbox = true
   shadow = false
 
-[outputs]
-  home = [ "HTML", "RSS", "JSON"]
-
-# Taxonomies and other
-[taxonomies]
-  tag = "tags"
-  category = "categories"
-
 # Social links
-[[params.social]]
+[social]
   name = "GitHub"
   icon = "fab fa-github"
   weight = 1
