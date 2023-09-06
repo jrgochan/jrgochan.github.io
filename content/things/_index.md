@@ -1,7 +1,16 @@
 +++
-title = "Things Page Title"
-description = "Things Page Description"
+title = "Things Page"
+description = "A Place for Things"
+identifier = "things"
 date = 2023-09-05T03:34:38+02:00
+pre = "<i class='fab fa-github'></i> "
+archetype = "chapter"
+bookCollapseSection = true
+categories = ['Development']
+series = ['Go Web Dev']
+slug = 'hugo'
+tags = ['Development', 'Go', 'fast', 'Blogging']
+bookHidden = false
 draft = false
 +++
 

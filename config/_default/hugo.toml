@@ -1,7 +1,7 @@
 baseURL = 'https://jrgochan.github.io'
 languageCode = 'en-us'
 title = 'jrgochan thoughts'
-theme = "learn"
+theme = "relearn"
 paginate = 10
 
 [build]
@@ -56,3 +56,6 @@ paginate = 10
   _merge = 'none'
 [taxonomies]
   _merge = 'none'
+  category = 'categories'
+  series = 'series'
+  tag = 'tags'
