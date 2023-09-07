@@ -10,6 +10,9 @@ categories = ["taxonomy", "content"]
 tags = "tutorial"
 +++
 
+### Type Hints
+- https://ess-dmsc-dram.github.io/dmsc-school/1-python/python_basics/intermediate_topics.html#type-hints
+
 ### Slicing
 ```
 l = list(range(8))  # NOT a numpy array
