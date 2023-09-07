@@ -11,7 +11,7 @@ A place for posters.
 
 ### Files
 
-- [Download file](./ISIS_Neutron_and_Muon_Source.pdf)
+- [ISIS_Neutron_and_Muon_Source.pdf](./ISIS_Neutron_and_Muon_Source.pdf)
 - [Jülich_Centre_for_Neutron_Science.pdf](./Jülich_Centre_for_Neutron_Science.pdf)
 - [LANSCE.pdf](./LANSCE.pdf)
 - [Laboratorio_Argentino_de_Haces_de_Neutrones.pdf](./Laboratorio_Argentino_de_Haces_de_Neutrones.pdf)
