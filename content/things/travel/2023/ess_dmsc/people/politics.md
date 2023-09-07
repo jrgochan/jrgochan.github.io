@@ -51,3 +51,11 @@ I took the notes below on the first day. Just pasting them in.
 - You mentioned that most facilities have data catalogues. You are using SciCat. Do you know what other catalogs are used in that space?
 - What do you know about https://wholetale.org/ ?
 
+### Older notes from months ago
+
+- Paul Kienzle of NIST
+  - Bumps
+  - Nist refl1d
+  - Sasmodels small angle scatering
+  - Sasview 
+  —Ess isis ornl
