@@ -1,7 +1,7 @@
 +++
-title = 'Ess_dmsc_summer_school_day2'
+title = 'Three'
 date = 2023-09-05T22:09:28+02:00
-menuTitle = "Reduction"
+menuTitle = "2023-09-06"
 weight = 3
 bookCollapseSection = false
 bookHidden = false

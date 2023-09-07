@@ -1,19 +1,22 @@
 +++
-title = 'ess'
+title = 'Conversations'
 date = 2023-09-05T22:09:28+02:00
-menuTitle = "ess-menu-title"
-identifier = "ess"
-archetype = "chapter"
+menuTitle = "Conversations"
+identifier = "conversations"
+archetype = "default"
 bookCollapseSection = false
 bookHidden = false
 draft = false
 +++
 
-# Hi ess
+## 2023-09-05
 
-### Abhjit Bhat Kademane - University of Stavanger
-### parisa roshaninejad
+### Breakfast
+  - University of Stavanger
+    - Abhjit Bhat Kademane
+    - Parisa Roshaninejad
 
+> Talked about different sources and which places put on Neutron Schools
 
 - Compact Neutron Sources
   - ESS Bilbao

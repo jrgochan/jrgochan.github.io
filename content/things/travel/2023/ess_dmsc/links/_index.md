@@ -9,23 +9,24 @@ bookHidden = false
 draft = false
 show_comments = true
 +++
-
-# A List of Links
-
-### Software
+## Software
 - https://scicrunch.org/scicrunch/about/sources/nlx_144509-1
 - https://scicrunch.org/resources
-- https://ess-dmsc-dram.github.io/dmsc-school/intro.html
-- https://e-learning.pan-training.eu/course/view.php?id=135
 - https://mads-bertelsen.github.io/getting_started/overview.html
 - https://easydiffraction.org/
-- https://www.panosc.eu/about-panosc/
 - https://easyscience.software/
 - https://dashboard.wholetale.org/
 - https://scipp.github.io/index.html
 - https://www.dask.org/
 - https://docs.xarray.dev/en/stable/
+
+## Education / Training
+- https://ess-dmsc-dram.github.io/dmsc-school/intro.html
+- https://e-learning.pan-training.eu/course/view.php?id=135
+
+## Organizations
+- https://www.panosc.eu/about-panosc/
+
+## Programs
 - https://research-and-innovation.ec.europa.eu/funding/funding-opportunities/funding-programmes-and-open-calls/horizon-europe_en
 - https://research-and-innovation.ec.europa.eu/funding/funding-opportunities/funding-programmes-and-open-calls/horizon-2020_en
-
-### Other things
