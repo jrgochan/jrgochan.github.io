@@ -6,7 +6,7 @@ archetype = "home"
 draft = false
 +++
 
-### Content
-- List
-- of
-- stuff
+### Landing Page?
+
+HOW TO DOCUMENT
+- https://diataxis.fr/
