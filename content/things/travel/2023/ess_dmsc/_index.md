@@ -11,7 +11,12 @@ include_toc = true
 show_comments = true
 +++
 
+## Landing Page for the Event
+
+https://indico.esss.lu.se/event/3267/overview
+
 ## Read this thing.
+
 - https://ess-dmsc-dram.github.io/dmsc-school/intro.html
 
 ## Training
