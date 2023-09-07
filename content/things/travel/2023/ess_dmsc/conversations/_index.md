@@ -28,3 +28,9 @@ draft = false
     - Nordic Neutron School
       - Science focused
     - Summer School
+
+## 2023-09-07
+
+### Stress/Strain, Crystal Structure, Etc
+- Asked Andrew (Drew)
+  - He said Søren Schmidt works on that stuff.

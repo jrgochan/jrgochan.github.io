@@ -21,6 +21,7 @@ show_comments = true
 - https://2023.jcdl.org/
 - https://ncar.github.io/FAIR-Facilities-Instruments/
   - Next Week (as of this writing 2023-09-07)
+  - https://ncar.github.io/FAIR-Facilities-Instruments/presentations/poster1.pdf
 
 ## Software
 - https://scicrunch.org/scicrunch/about/sources/nlx_144509-1
