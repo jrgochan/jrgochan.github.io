@@ -17,6 +17,16 @@ show_comments = true
 ## Seems Useful
 - https://learn.scientific-python.org/
 
+## Persistant Identiifiers
+- https://arks.org/about/ark-naans-and-systems/#suffix-passthrough
+- https://groups.google.com/g/arks-forum?pli=1
+- https://n2t.net/e/noid.html
+- https://metacpan.org/dist/Noid/view/noid
+
+## Documents
+- https://github.com/scipp/sciline/blob/main/docs/developer/architecture-and-design/workflow-design.md
+- https://github.com/scipp/sciline/blob/main/docs/developer/coding-conventions.md
+
 ## Conferences
 - https://2023.jcdl.org/
 - https://ncar.github.io/FAIR-Facilities-Instruments/
