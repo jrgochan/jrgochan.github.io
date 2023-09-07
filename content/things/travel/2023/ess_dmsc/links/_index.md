@@ -9,6 +9,11 @@ bookHidden = false
 draft = false
 show_comments = true
 +++
+
+### Research Software Engineering (RSE)
+- https://society-rse.org/
+- https://society-rse.org/international-rse-organisations/
+
 ## Seems Useful
 - https://learn.scientific-python.org/
 
@@ -25,6 +30,8 @@ show_comments = true
 - https://scipp.github.io/index.html
 - https://www.dask.org/
 - https://docs.xarray.dev/en/stable/
+- https://mantidproject.org/
+- https://mpltoolbox.readthedocs.io/en/stable/
 
 ## Education / Training
 - https://ess-dmsc-dram.github.io/dmsc-school/intro.html
@@ -36,3 +43,14 @@ show_comments = true
 ## Programs
 - https://research-and-innovation.ec.europa.eu/funding/funding-opportunities/funding-programmes-and-open-calls/horizon-europe_en
 - https://research-and-innovation.ec.europa.eu/funding/funding-opportunities/funding-programmes-and-open-calls/horizon-2020_en
+
+## Good things to know?
+- https://www.epo.org/learning/materials/inventors-handbook/novelty/prior-art.html
+
+## DoE Things
+- https://sandialabs.github.io/
+- http://software.llnl.gov/
+- https://github.com/lanl
+- https://code.ornl.gov/rse-public/ornl-software-catalog
+- https://github.com/ORNL
+

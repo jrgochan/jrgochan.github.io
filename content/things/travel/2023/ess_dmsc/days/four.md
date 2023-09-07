@@ -29,6 +29,10 @@ Hej There!
 - scipp would need to make use of dask to integrate with easyScience
 - It is a four person team
 - easyDiffraction uses easyCrystalography
+- everyone has written a package for the maths
+  - easyDiffraction points to whichever engine you'd like.
+  - It currently can point to the fortran library that GSAS uses.
+  - had not heard of MAUD, but doesn't do that kind of science.
 
 ### Thoughts
 - Would it be possible to record these presentations and post them online?
