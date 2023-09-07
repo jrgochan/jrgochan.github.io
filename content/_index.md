@@ -10,3 +10,7 @@ draft = false
 
 HOW TO DOCUMENT
 - https://diataxis.fr/
+
+### ESS Summer School
+
+- https://jrgochan.github.io/things/travel/2023/ess_dmsc/index.html
