@@ -12,6 +12,9 @@ show_comments = true
 ## Seems Useful
 - https://learn.scientific-python.org/
 
+## Conferences
+- https://2023.jcdl.org/
+
 ## Software
 - https://scicrunch.org/scicrunch/about/sources/nlx_144509-1
 - https://scicrunch.org/resources
