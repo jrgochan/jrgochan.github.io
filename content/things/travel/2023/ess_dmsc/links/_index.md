@@ -90,3 +90,7 @@ show_comments = true
 - https://en.wikipedia.org/wiki/Joint_Institute_for_Nuclear_Research
 - http://www.pnpi.nrcki.ru/en/facilities/reactor-pik
 - https://www.ill.eu/users/user-guide/remote-access
+
+## Videos
+- https://www.youtube.com/@MAXIVLaboratorySweden
+- https://www.youtube.com/@essneutron
