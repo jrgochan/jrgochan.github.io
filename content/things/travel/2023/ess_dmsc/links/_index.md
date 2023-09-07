@@ -9,6 +9,9 @@ bookHidden = false
 draft = false
 show_comments = true
 +++
+## Seems Useful
+- https://learn.scientific-python.org/
+
 ## Software
 - https://scicrunch.org/scicrunch/about/sources/nlx_144509-1
 - https://scicrunch.org/resources
