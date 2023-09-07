@@ -15,7 +15,6 @@ Hej There!
 ## Main Framework
 - https://github.com/easyScience
 
-
 ### EasyCore
 - https://github.com/easyScience/easyCore
 
@@ -24,11 +23,12 @@ Hej There!
   - EasyBragg
   - EasyQENS
   - EasyCore documentation needs some love.
-
-
 - easyScience wants to make use of dask.
 - easyScience does not use dask. it is capable. 
 - scipp and dask are exclusive.
 - scipp would need to make use of dask to integrate with easyScience
 - It is a four person team
 - easyDiffraction uses easyCrystalography
+
+### Thoughts
+- Would it be possible to record these presentations and post them online?
