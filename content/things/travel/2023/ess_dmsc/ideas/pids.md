@@ -6,7 +6,6 @@ draft = false
 weight = 1
 bookCollapseSection = false
 bookHidden = false
-draft = false
 categories = ["taxonomy", "content"]
 tags = "tutorial"
 +++
