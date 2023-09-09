@@ -1,18 +1,19 @@
 +++
-title = "Things Page"
-description = "A Place for Things"
-identifier = "things"
-date = 2023-09-05T03:34:38+02:00
-pre = "<i class='fas fa-fw fa-bookmark'></i> "
+archetype = "default"
 bookCollapseSection = false
-categories = ['Things']
-series = ['Things']
-slug = 'things-page'
-tags = ['Development', 'Things', 'WhoKnows']
 bookHidden = false
+categories = ['Things']
+date = 2023-09-05T03:34:38+02:00
+description = "A Place for Things"
 draft = false
+identifier = "things"
 LastModifierDisplayName = "Jason Gochanour"
 LastModifierEmail = "jrgochan@gmail.com"
+pre = " <i class='fas fa-fw fa-bookmark'></i> "
+series = ['Things']
+slug = 'things'
+tags = ['things', 'notes']
+title = "Things Page"
 +++
 
-Things and stuff.
+Things and stufffffffff
