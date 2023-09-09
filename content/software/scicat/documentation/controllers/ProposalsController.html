@@ -1,0 +1,2257 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>scicat-backend-next documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	   <link rel="stylesheet" href="../styles/style.css">
+        <link rel="stylesheet" href="../styles/dark.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top d-block d-sm-none">
+            <a href="../" class="navbar-brand">scicat-backend-next documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content controller">
+                   <div class="content-data">
+
+
+
+
+
+<ol class="breadcrumb">
+  <li class="breadcrumb-item">Controllers</li>
+  <li class="breadcrumb-item" >ProposalsController</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="nav-item">
+            <a href="#info" 
+                class="nav-link"
+                class="nav-link active"
+                role="tab" id="info-tab" data-bs-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li class="nav-item">
+            <a href="#source" 
+                class="nav-link"
+                
+                role="tab" id="source-tab" data-bs-toggle="tab" data-link="source">Source</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="info">
+        <p class="comment">
+            <h3>File</h3>
+        </p>
+        <p class="comment">
+            <code>src/proposals/proposals.controller.ts</code>
+        </p>
+
+            <p class="comment">
+                <h3>Prefix</h3>
+            </p>
+            <p class="comment">
+                <code>proposals</code>
+            </p>
+
+
+
+
+
+
+            <section data-compodoc="block-index">
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier">Async</span>
+                                <a href="#create" >create</a>
+                            </li>
+                            <li>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier">Async</span>
+                                <a href="#createAttachment" >createAttachment</a>
+                            </li>
+                            <li>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier">Async</span>
+                                <a href="#findAll" >findAll</a>
+                            </li>
+                            <li>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier">Async</span>
+                                <a href="#findAllAttachments" >findAllAttachments</a>
+                            </li>
+                            <li>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier">Async</span>
+                                <a href="#findAllDatasets" >findAllDatasets</a>
+                            </li>
+                            <li>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier">Async</span>
+                                <a href="#findById" >findById</a>
+                            </li>
+                            <li>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier">Async</span>
+                                <a href="#findOneAttachmentAndRemove" >findOneAttachmentAndRemove</a>
+                            </li>
+                            <li>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier">Async</span>
+                                <a href="#findOneAttachmentAndUpdate" >findOneAttachmentAndUpdate</a>
+                            </li>
+                            <li>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier">Async</span>
+                                <a href="#fullfacet" >fullfacet</a>
+                            </li>
+                            <li>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier">Async</span>
+                                <a href="#fullquery" >fullquery</a>
+                            </li>
+                            <li>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier">Async</span>
+                                <a href="#isValid" >isValid</a>
+                            </li>
+                            <li>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier">Async</span>
+                                <a href="#remove" >remove</a>
+                            </li>
+                            <li>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier">Async</span>
+                                <a href="#update" >update</a>
+                            </li>
+                            <li>
+                                <a href="#updateFiltersForList" >updateFiltersForList</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+            <section data-compodoc="block-methods">
+    
+    <h3 id="methods">
+        Methods
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="create"></a>
+                    <span class="name">
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier">Async</span>
+                        <span ><b>create</b></span>
+                        <a href="#create"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>create(request: Request, createProposalDto: <a href="../classes/CreateProposalDto.html" target="_self">CreateProposalDto</a>)</code>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <b>Decorators : </b>
+                    <br />
+                    <code>@UseGuards(PoliciesGuard)<br />@CheckPolicies(ability &#x3D;&gt; )<br />@UseInterceptors(new MultiUTCTimeInterceptor())<br />@Post()<br />@ApiOperation({summary: &#x27;It creates a new proposal.&#x27;, description: &#x27;It creates a new proposal and returnes it completed with systems fields.&#x27;})<br />@ApiExtraModels(CreateProposalDto)<br />@ApiBody({type: CreateProposalDto})<br />@ApiResponse({status: 201, type: ProposalClass, description: &#x27;Create a new proposal and return its representation in SciCat&#x27;})<br /></code>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="126"
+                            class="link-to-prism">src/proposals/proposals.controller.ts:126</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>request</td>
+                                    <td>
+                                            <code>Request</code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                                <tr>
+                                    <td>createProposalDto</td>
+                                    <td>
+                                                <code><a href="../classes/CreateProposalDto.html" target="_self" >CreateProposalDto</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="../classes/ProposalClass.html" target="_self" >Promise&lt;ProposalClass&gt;</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="createAttachment"></a>
+                    <span class="name">
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier">Async</span>
+                        <span ><b>createAttachment</b></span>
+                        <a href="#createAttachment"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>createAttachment(proposalId: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>, createAttachmentDto: <a href="../classes/CreateAttachmentDto.html" target="_self">CreateAttachmentDto</a>)</code>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <b>Decorators : </b>
+                    <br />
+                    <code>@UseGuards(PoliciesGuard)<br />@CheckPolicies(ability &#x3D;&gt; )<br />@Post(&#x27;/:pid/attachments&#x27;)<br />@ApiOperation({summary: &#x27;It creates a new attachement for the proposal specified.&#x27;, description: &#x27;It creates a new attachement for the proposal specified by the pid passed.&#x27;})<br />@ApiParam({name: &#x27;pid&#x27;, description: &#x27;Id of the proposal we would like to create a new attachment for&#x27;, type: String})<br />@ApiExtraModels(CreateAttachmentDto)<br />@ApiBody({type: CreateAttachmentDto})<br />@ApiResponse({status: 201, type: Attachment, description: &#x27;Create a new attachment for the proposal identified by the pid specified&#x27;})<br /></code>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="477"
+                            class="link-to-prism">src/proposals/proposals.controller.ts:477</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>proposalId</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                                <tr>
+                                    <td>createAttachmentDto</td>
+                                    <td>
+                                                <code><a href="../classes/CreateAttachmentDto.html" target="_self" >CreateAttachmentDto</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="../classes/Attachment.html" target="_self" >Promise&lt;Attachment&gt;</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="findAll"></a>
+                    <span class="name">
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier">Async</span>
+                        <span ><b>findAll</b></span>
+                        <a href="#findAll"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>findAll(request: Request, filters?: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>)</code>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <b>Decorators : </b>
+                    <br />
+                    <code>@UseGuards(PoliciesGuard)<br />@CheckPolicies(ability &#x3D;&gt; )<br />@Get()<br />@ApiOperation({summary: &#x27;It returns a list of proposals.&#x27;, description: &#x27;It returns a list of proposals. The list returned can be modified by providing a filter.&#x27;})<br />@ApiQuery({name: &#x27;filters&#x27;, description: undefined, required: false, type: String, example: filterExample})<br />@ApiResponse({status: 200, type: ProposalClass, isArray: true, description: &#x27;Return the proposals requested&#x27;})<br /></code>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="205"
+                            class="link-to-prism">src/proposals/proposals.controller.ts:205</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>request</td>
+                                    <td>
+                                            <code>Request</code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                                <tr>
+                                    <td>filters</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        Yes
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="../classes/ProposalClass.html" target="_self" >Promise&lt;ProposalClass[]&gt;</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="findAllAttachments"></a>
+                    <span class="name">
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier">Async</span>
+                        <span ><b>findAllAttachments</b></span>
+                        <a href="#findAllAttachments"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>findAllAttachments(proposalId: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>)</code>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <b>Decorators : </b>
+                    <br />
+                    <code>@UseGuards(PoliciesGuard)<br />@CheckPolicies(ability &#x3D;&gt; )<br />@Get(&#x27;/:pid/attachments&#x27;)<br />@ApiOperation({summary: &#x27;It returns all the attachments for the proposal specified.&#x27;, description: &#x27;It returns all the attachments for the proposal specified by the pid passed.&#x27;})<br />@ApiParam({name: &#x27;pid&#x27;, description: &#x27;Id of the proposal for which we would like to retrieve all the attachments&#x27;, type: String})<br />@ApiResponse({status: 200, type: Attachment, isArray: true, description: &#x27;Array with all the attachments associated with the proposal with the pid specified&#x27;})<br /></code>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="510"
+                            class="link-to-prism">src/proposals/proposals.controller.ts:510</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>proposalId</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="../classes/Attachment.html" target="_self" >Promise&lt;Attachment[]&gt;</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="findAllDatasets"></a>
+                    <span class="name">
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier">Async</span>
+                        <span ><b>findAllDatasets</b></span>
+                        <a href="#findAllDatasets"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>findAllDatasets(proposalId: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>)</code>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <b>Decorators : </b>
+                    <br />
+                    <code>@UseGuards(PoliciesGuard)<br />@CheckPolicies(ability &#x3D;&gt; )<br />@Get(&#x27;/:pid/datasets&#x27;)<br />@ApiOperation({summary: &#x27;It returns all the datasets associated with the proposal indicated.&#x27;, description: &#x27;It returns all the datasets associated with the proposal indicated by the pid parameter.&lt;br&gt;Changes to the related datasets must be performed through the dataset endpoint.&#x27;})<br />@ApiParam({name: &#x27;pid&#x27;, description: &#x27;Id of the proposal for which we would like to retrieve all the datasets&#x27;, type: String})<br />@ApiResponse({status: 200, type: DatasetClass, isArray: true, description: &#x27;Array with all the datasets associated with the proposal with the pid specified&#x27;})<br /></code>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="620"
+                            class="link-to-prism">src/proposals/proposals.controller.ts:620</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>proposalId</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>    <code>Promise&lt;[] | null&gt;</code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="findById"></a>
+                    <span class="name">
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier">Async</span>
+                        <span ><b>findById</b></span>
+                        <a href="#findById"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>findById(request: Request, proposalId: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>)</code>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <b>Decorators : </b>
+                    <br />
+                    <code>@UseGuards(PoliciesGuard)<br />@CheckPolicies(ability &#x3D;&gt; )<br />@Get(&#x27;/:pid&#x27;)<br />@ApiOperation({summary: &#x27;It returns the proposal requested.&#x27;, description: &#x27;It returns the proposal requested through the pid specified.&#x27;})<br />@ApiParam({name: &#x27;pid&#x27;, description: &#x27;Id of the proposal to return&#x27;, type: String})<br />@ApiResponse({status: 200, type: ProposalClass, isArray: false, description: &#x27;Return proposal with pid specified&#x27;})<br /></code>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="350"
+                            class="link-to-prism">src/proposals/proposals.controller.ts:350</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>request</td>
+                                    <td>
+                                            <code>Request</code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                                <tr>
+                                    <td>proposalId</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="../classes/ProposalClass.html" target="_self" >Promise&lt;ProposalClass | null&gt;</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="findOneAttachmentAndRemove"></a>
+                    <span class="name">
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier">Async</span>
+                        <span ><b>findOneAttachmentAndRemove</b></span>
+                        <a href="#findOneAttachmentAndRemove"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>findOneAttachmentAndRemove(proposalId: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>, attachmentId: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>)</code>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <b>Decorators : </b>
+                    <br />
+                    <code>@UseGuards(PoliciesGuard)<br />@CheckPolicies(ability &#x3D;&gt; )<br />@Delete(&#x27;/:pid/attachments/:aid&#x27;)<br />@ApiOperation({summary: &#x27;It deletes the attachment from the proposal.&#x27;, description: &#x27;It deletes the attachment from the proposal.&lt;br&gt;This endpoint is obsolete and will be dropped in future versions.&lt;br&gt;Deleting attachments will be done only from the attachements endpoint.&#x27;})<br />@ApiParam({name: &#x27;pid&#x27;, description: &#x27;Id of the proposal for which we would like to delete the attachment specified&#x27;, type: String})<br />@ApiParam({name: &#x27;aid&#x27;, description: &#x27;Id of the attachment of this proposal that we would like to delete&#x27;, type: String})<br />@ApiResponse({status: 200, description: &#x27;Remove the attachment with id specified associated with the proposal with the pid specified&#x27;})<br /></code>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="585"
+                            class="link-to-prism">src/proposals/proposals.controller.ts:585</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>proposalId</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                                <tr>
+                                    <td>attachmentId</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>    <code>Promise&lt;&gt;</code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="findOneAttachmentAndUpdate"></a>
+                    <span class="name">
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier">Async</span>
+                        <span ><b>findOneAttachmentAndUpdate</b></span>
+                        <a href="#findOneAttachmentAndUpdate"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>findOneAttachmentAndUpdate(proposalId: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>, attachmentId: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>, updateAttachmentDto: <a href="../classes/UpdateAttachmentDto.html" target="_self">UpdateAttachmentDto</a>)</code>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <b>Decorators : </b>
+                    <br />
+                    <code>@UseGuards(PoliciesGuard)<br />@CheckPolicies(ability &#x3D;&gt; )<br />@Patch(&#x27;/:pid/attachments/:aid&#x27;)<br />@ApiOperation({summary: &#x27;It updates the attachment specified for the proposal indicated.&#x27;, description: &#x27;It updates the attachment specified by the aid parameter for the proposal indicated by the pid parameter.&lt;br&gt;This endpoint is obsolete and it will removed in future version.&lt;br&gt;Attachements can be updated from the attachment endpoint.&#x27;})<br />@ApiParam({name: &#x27;pid&#x27;, description: &#x27;Id of the proposal for which we would like to update the attachment specified&#x27;, type: String})<br />@ApiParam({name: &#x27;aid&#x27;, description: &#x27;Id of the attachment of this proposal that we would like to patch&#x27;, type: String})<br />@ApiResponse({status: 200, type: Attachment, isArray: false, description: &#x27;Update values of the attachment with id specified associated with the proposal with the pid specified&#x27;})<br /></code>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="546"
+                            class="link-to-prism">src/proposals/proposals.controller.ts:546</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>proposalId</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                                <tr>
+                                    <td>attachmentId</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                                <tr>
+                                    <td>updateAttachmentDto</td>
+                                    <td>
+                                                <code><a href="../classes/UpdateAttachmentDto.html" target="_self" >UpdateAttachmentDto</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="../classes/Attachment.html" target="_self" >Promise&lt;Attachment | null&gt;</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="fullfacet"></a>
+                    <span class="name">
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier">Async</span>
+                        <span ><b>fullfacet</b></span>
+                        <a href="#fullfacet"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>fullfacet(request: Request, filters: literal type)</code>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <b>Decorators : </b>
+                    <br />
+                    <code>@UseGuards(PoliciesGuard)<br />@CheckPolicies(ability &#x3D;&gt; )<br />@Get(&#x27;/fullfacet&#x27;)<br />@ApiOperation({summary: &#x27;It returns a list of proposal facets matching the filter provided.&#x27;, description: &#x27;It returns a list of proposal facets matching the filter provided.&lt;br&gt;This endpoint still needs some work on the filter and facets specification.&#x27;})<br />@ApiQuery({name: &#x27;filters&#x27;, description: undefined, required: false, type: String, example: proposalsFullQueryExampleFields})<br />@ApiResponse({status: 200, type: ProposalClass, isArray: true, description: &#x27;Return proposals requested&#x27;})<br /></code>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="303"
+                            class="link-to-prism">src/proposals/proposals.controller.ts:303</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>request</td>
+                                    <td>
+                                            <code>Request</code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                                <tr>
+                                    <td>filters</td>
+                                    <td>
+                                            <code>literal type</code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>    <code>Promise&lt;Record[]&gt;</code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="fullquery"></a>
+                    <span class="name">
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier">Async</span>
+                        <span ><b>fullquery</b></span>
+                        <a href="#fullquery"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>fullquery(request: Request, filters: literal type)</code>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <b>Decorators : </b>
+                    <br />
+                    <code>@UseGuards(PoliciesGuard)<br />@CheckPolicies(ability &#x3D;&gt; )<br />@Get(&#x27;/fullquery&#x27;)<br />@ApiOperation({summary: &#x27;It returns a list of proposals matching the query provided.&#x27;, description: &#x27;It returns a list of proposals matching the query provided.&lt;br&gt;This endpoint still needs some work on the query specification.&#x27;})<br />@ApiQuery({name: &#x27;fields&#x27;, description: undefined, required: false, type: String, example: proposalsFullQueryExampleFields})<br />@ApiQuery({name: &#x27;limits&#x27;, description: undefined, required: false, type: String, example: fullQueryExampleLimits})<br />@ApiResponse({status: 200, type: ProposalClass, isArray: true, description: &#x27;Return proposals requested&#x27;})<br /></code>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="250"
+                            class="link-to-prism">src/proposals/proposals.controller.ts:250</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>request</td>
+                                    <td>
+                                            <code>Request</code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                                <tr>
+                                    <td>filters</td>
+                                    <td>
+                                            <code>literal type</code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="../classes/ProposalClass.html" target="_self" >Promise&lt;ProposalClass[]&gt;</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="isValid"></a>
+                    <span class="name">
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier">Async</span>
+                        <span ><b>isValid</b></span>
+                        <a href="#isValid"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>isValid(createProposal)</code>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <b>Decorators : </b>
+                    <br />
+                    <code>@AllowAny()<br />@HttpCode(HttpStatus.OK)<br />@Post(&#x27;/isValid&#x27;)<br />@ApiOperation({summary: &#x27;It validates the proposal provided as input.&#x27;, description: &#x27;It validates the proposal provided as input, and returns true if the information is a valid proposal&#x27;})<br />@ApiBody({type: CreateProposalDto})<br />@ApiResponse({status: 200, type: Boolean, description: &#x27;Check if the proposal provided pass validation. It return true if the validation is passed&#x27;})<br /></code>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="161"
+                            class="link-to-prism">src/proposals/proposals.controller.ts:161</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>createProposal</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>    <code>Promise&lt;literal type&gt;</code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="remove"></a>
+                    <span class="name">
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier">Async</span>
+                        <span ><b>remove</b></span>
+                        <a href="#remove"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>remove(proposalId: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>)</code>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <b>Decorators : </b>
+                    <br />
+                    <code>@UseGuards()<br />@CheckPolicies(ability &#x3D;&gt; )<br />@Delete(&#x27;/:pid&#x27;)<br />@ApiOperation({summary: &#x27;It deletes the proposal.&#x27;, description: &#x27;It delete the proposal specified through the pid specified.&#x27;})<br />@ApiParam({name: &#x27;pid&#x27;, description: &#x27;Id of the proposal to delete&#x27;, type: String})<br />@ApiResponse({status: 200, description: &#x27;No value is returned&#x27;})<br /></code>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="446"
+                            class="link-to-prism">src/proposals/proposals.controller.ts:446</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>proposalId</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>    <code>Promise&lt;&gt;</code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="update"></a>
+                    <span class="name">
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier">Async</span>
+                        <span ><b>update</b></span>
+                        <a href="#update"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>update(proposalId: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>, updateProposalDto: <a href="../classes/UpdateProposalDto.html" target="_self">UpdateProposalDto</a>)</code>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <b>Decorators : </b>
+                    <br />
+                    <code>@UseGuards(PoliciesGuard)<br />@CheckPolicies(ability &#x3D;&gt; )<br />@UseInterceptors(new MultiUTCTimeInterceptor())<br />@Patch(&#x27;/:pid&#x27;)<br />@ApiOperation({summary: &#x27;It updates the proposal.&#x27;, description: &#x27;It updates the proposal specified through the pid specified. it updates only the specified fields.&#x27;})<br />@ApiParam({name: &#x27;pid&#x27;, description: &#x27;Id of the proposal to modify&#x27;, type: String})<br />@ApiExtraModels(UpdateProposalDto)<br />@ApiBody({type: UpdateProposalDto})<br />@ApiResponse({status: 200, type: ProposalClass, description: &#x27;Update an existing proposal and return its representation in SciCat&#x27;})<br /></code>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="417"
+                            class="link-to-prism">src/proposals/proposals.controller.ts:417</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>proposalId</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                                <tr>
+                                    <td>updateProposalDto</td>
+                                    <td>
+                                                <code><a href="../classes/UpdateProposalDto.html" target="_self" >UpdateProposalDto</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="../classes/ProposalClass.html" target="_self" >Promise&lt;ProposalClass | null&gt;</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="updateFiltersForList"></a>
+                    <span class="name">
+                        <span ><b>updateFiltersForList</b></span>
+                        <a href="#updateFiltersForList"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>updateFiltersForList(request: Request, mergedFilters: <a href="../undefineds/ProposalDocument.html" target="_self">IFilters&lt;ProposalDocument | IProposalFields&gt;</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="75"
+                            class="link-to-prism">src/proposals/proposals.controller.ts:75</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>request</td>
+                                    <td>
+                                            <code>Request</code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                                <tr>
+                                    <td>mergedFilters</td>
+                                    <td>
+                                                <code><a href="../miscellaneous/typealiases.html#ProposalDocument" target="_self" >IFilters&lt;ProposalDocument | IProposalFields&gt;</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="../miscellaneous/typealiases.html#ProposalDocument" target="_self" >IFilters&lt;ProposalDocument, IProposalFields&gt;</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>    </div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import {
+  Controller,
+  Get,
+  Post,
+  Body,
+  Patch,
+  Param,
+  Delete,
+  UseGuards,
+  Query,
+  UseInterceptors,
+  HttpCode,
+  HttpStatus,
+  Req,
+  ForbiddenException,
+  ConflictException,
+} from &quot;@nestjs/common&quot;;
+import { Request } from &quot;express&quot;;
+import { ProposalsService } from &quot;./proposals.service&quot;;
+import { CreateProposalDto } from &quot;./dto/create-proposal.dto&quot;;
+import { UpdateProposalDto } from &quot;./dto/update-proposal.dto&quot;;
+import {
+  ApiBearerAuth,
+  ApiBody,
+  ApiExtraModels,
+  ApiOperation,
+  ApiParam,
+  ApiQuery,
+  ApiResponse,
+  ApiTags,
+} from &quot;@nestjs/swagger&quot;;
+import { PoliciesGuard } from &quot;src/casl/guards/policies.guard&quot;;
+import { CheckPolicies } from &quot;src/casl/decorators/check-policies.decorator&quot;;
+import { AppAbility, CaslAbilityFactory } from &quot;src/casl/casl-ability.factory&quot;;
+import { Action } from &quot;src/casl/action.enum&quot;;
+import { ProposalClass, ProposalDocument } from &quot;./schemas/proposal.schema&quot;;
+import { AttachmentsService } from &quot;src/attachments/attachments.service&quot;;
+import { Attachment } from &quot;src/attachments/schemas/attachment.schema&quot;;
+import { CreateAttachmentDto } from &quot;src/attachments/dto/create-attachment.dto&quot;;
+import { UpdateAttachmentDto } from &quot;src/attachments/dto/update-attachment.dto&quot;;
+import { DatasetsService } from &quot;src/datasets/datasets.service&quot;;
+import { DatasetClass } from &quot;src/datasets/schemas/dataset.schema&quot;;
+import { IProposalFields } from &quot;./interfaces/proposal-filters.interface&quot;;
+import { MultiUTCTimeInterceptor } from &quot;src/common/interceptors/multi-utc-time.interceptor&quot;;
+import { MeasurementPeriodClass } from &quot;./schemas/measurement-period.schema&quot;;
+import {
+  IFacets,
+  IFilters,
+  ILimitsFilter,
+} from &quot;src/common/interfaces/common.interface&quot;;
+import { AllowAny } from &quot;src/auth/decorators/allow-any.decorator&quot;;
+import { plainToInstance } from &quot;class-transformer&quot;;
+import { validate, ValidatorOptions } from &quot;class-validator&quot;;
+import {
+  filterDescription,
+  filterExample,
+  fullQueryDescriptionLimits,
+  fullQueryExampleLimits,
+  proposalsFullQueryDescriptionFields,
+  proposalsFullQueryExampleFields,
+} from &quot;src/common/utils&quot;;
+import { JWTUser } from &quot;src/auth/interfaces/jwt-user.interface&quot;;
+
+@ApiBearerAuth()
+@ApiTags(&quot;proposals&quot;)
+@Controller(&quot;proposals&quot;)
+export class ProposalsController {
+  constructor(
+    private readonly attachmentsService: AttachmentsService,
+    private readonly datasetsService: DatasetsService,
+    private readonly proposalsService: ProposalsService,
+    private caslAbilityFactory: CaslAbilityFactory,
+  ) {}
+
+  updateFiltersForList(
+    request: Request,
+    mergedFilters: IFilters&lt;ProposalDocument, IProposalFields&gt;,
+  ): IFilters&lt;ProposalDocument, IProposalFields&gt; {
+    const user: JWTUser &#x3D; request.user as JWTUser;
+    if (user) {
+      const ability &#x3D; this.caslAbilityFactory.createForUser(user);
+      const canViewAll &#x3D; ability.can(Action.ListAll, ProposalClass);
+      const canViewTheirOwn &#x3D; ability.can(Action.ListOwn, ProposalClass);
+
+      if (!canViewAll &amp;&amp; canViewTheirOwn) {
+        if (!mergedFilters.where) {
+          mergedFilters.where &#x3D; {};
+        }
+        mergedFilters.where[&quot;$or&quot;] &#x3D; [
+          { ownerGroup: { $in: user.currentGroups } },
+          { accessGroups: { $in: user.currentGroups } },
+        ];
+      }
+    }
+
+    return mergedFilters;
+  }
+
+  // POST /proposals
+  @UseGuards(PoliciesGuard)
+  @CheckPolicies((ability: AppAbility) &#x3D;&gt;
+    ability.can(Action.Create, ProposalClass),
+  )
+  @UseInterceptors(
+    new MultiUTCTimeInterceptor&lt;ProposalClass, MeasurementPeriodClass&gt;(
+      &quot;MeasurementPeriodList&quot;,
+      [&quot;start&quot;, &quot;end&quot;],
+    ),
+  )
+  @Post()
+  @ApiOperation({
+    summary: &quot;It creates a new proposal.&quot;,
+    description:
+      &quot;It creates a new proposal and returnes it completed with systems fields.&quot;,
+  })
+  @ApiExtraModels(CreateProposalDto)
+  @ApiBody({
+    type: CreateProposalDto,
+  })
+  @ApiResponse({
+    status: 201,
+    type: ProposalClass,
+    description:
+      &quot;Create a new proposal and return its representation in SciCat&quot;,
+  })
+  async create(
+    @Req() request: Request,
+    @Body() createProposalDto: CreateProposalDto,
+  ): Promise&lt;ProposalClass&gt; {
+    const existingProposal &#x3D; await this.findById(
+      request,
+      createProposalDto.proposalId,
+    );
+
+    if (existingProposal) {
+      throw new ConflictException(
+        &#x60;Proposal with ${createProposalDto.proposalId} already exists&#x60;,
+      );
+    }
+
+    return this.proposalsService.create(createProposalDto);
+  }
+
+  @AllowAny()
+  @HttpCode(HttpStatus.OK)
+  @Post(&quot;/isValid&quot;)
+  @ApiOperation({
+    summary: &quot;It validates the proposal provided as input.&quot;,
+    description:
+      &quot;It validates the proposal provided as input, and returns true if the information is a valid proposal&quot;,
+  })
+  @ApiBody({
+    type: CreateProposalDto,
+  })
+  @ApiResponse({
+    status: 200,
+    type: Boolean,
+    description:
+      &quot;Check if the proposal provided pass validation. It return true if the validation is passed&quot;,
+  })
+  async isValid(
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
+    @Body() createProposal: unknown,
+  ): Promise&lt;{ valid: boolean }&gt; {
+    const validatorOptions: ValidatorOptions &#x3D; {
+      skipMissingProperties: true,
+      whitelist: true,
+      forbidNonWhitelisted: true,
+    };
+
+    const dtoProposal &#x3D; plainToInstance(CreateProposalDto, createProposal);
+    const errorsProposal &#x3D; await validate(dtoProposal, validatorOptions);
+
+    const valid &#x3D; errorsProposal.length &#x3D;&#x3D; 0;
+
+    return { valid: valid };
+  }
+
+  // GET /proposals
+  @UseGuards(PoliciesGuard)
+  @CheckPolicies((ability: AppAbility) &#x3D;&gt;
+    ability.can(Action.Read, ProposalClass),
+  )
+  @Get()
+  @ApiOperation({
+    summary: &quot;It returns a list of proposals.&quot;,
+    description:
+      &quot;It returns a list of proposals. The list returned can be modified by providing a filter.&quot;,
+  })
+  @ApiQuery({
+    name: &quot;filters&quot;,
+    description:
+      &quot;Database filters to apply when retrieving proposals\n&quot; +
+      filterDescription,
+    required: false,
+    type: String,
+    example: filterExample,
+  })
+  @ApiResponse({
+    status: 200,
+    type: ProposalClass,
+    isArray: true,
+    description: &quot;Return the proposals requested&quot;,
+  })
+  async findAll(
+    @Req() request: Request,
+    @Query(&quot;filters&quot;) filters?: string,
+  ): Promise&lt;ProposalClass[]&gt; {
+    const proposalFilters: IFilters&lt;ProposalDocument, IProposalFields&gt; &#x3D;
+      this.updateFiltersForList(request, JSON.parse(filters ?? &quot;{}&quot;));
+
+    return this.proposalsService.findAll(proposalFilters);
+  }
+
+  // GET /proposals/fullquery
+  @UseGuards(PoliciesGuard)
+  @CheckPolicies((ability: AppAbility) &#x3D;&gt;
+    ability.can(Action.Read, ProposalClass),
+  )
+  @Get(&quot;/fullquery&quot;)
+  @ApiOperation({
+    summary: &quot;It returns a list of proposals matching the query provided.&quot;,
+    description:
+      &quot;It returns a list of proposals matching the query provided.&lt;br&gt;This endpoint still needs some work on the query specification.&quot;,
+  })
+  @ApiQuery({
+    name: &quot;fields&quot;,
+    description:
+      &quot;Full query filters to apply when retrieving proposals\n&quot; +
+      proposalsFullQueryDescriptionFields,
+    required: false,
+    type: String,
+    example: proposalsFullQueryExampleFields,
+  })
+  @ApiQuery({
+    name: &quot;limits&quot;,
+    description:
+      &quot;Define further query parameters like skip, limit, order\n&quot; +
+      fullQueryDescriptionLimits,
+    required: false,
+    type: String,
+    example: fullQueryExampleLimits,
+  })
+  @ApiResponse({
+    status: 200,
+    type: ProposalClass,
+    isArray: true,
+    description: &quot;Return proposals requested&quot;,
+  })
+  async fullquery(
+    @Req() request: Request,
+    @Query() filters: { fields?: string; limits?: string },
+  ): Promise&lt;ProposalClass[]&gt; {
+    const user: JWTUser &#x3D; request.user as JWTUser;
+    const fields: IProposalFields &#x3D; JSON.parse(filters.fields ?? &quot;{}&quot;);
+    const limits: ILimitsFilter &#x3D; JSON.parse(filters.limits ?? &quot;{}&quot;);
+    if (user) {
+      const ability &#x3D; this.caslAbilityFactory.createForUser(user);
+      const canViewAll &#x3D; ability.can(Action.ListAll, ProposalClass);
+
+      // NOTE: If we have published true we don&#x27;t add groups at all
+      if (!canViewAll) {
+        fields.userGroups &#x3D; fields.userGroups ?? [];
+        fields.userGroups.push(...user.currentGroups);
+      }
+    }
+
+    const parsedFilters: IFilters&lt;ProposalDocument, IProposalFields&gt; &#x3D; {
+      fields,
+      limits,
+    };
+
+    return this.proposalsService.fullquery(parsedFilters);
+  }
+
+  // GET /proposals/fullfacet
+  @UseGuards(PoliciesGuard)
+  @CheckPolicies((ability: AppAbility) &#x3D;&gt;
+    ability.can(Action.Read, ProposalClass),
+  )
+  @Get(&quot;/fullfacet&quot;)
+  @ApiOperation({
+    summary:
+      &quot;It returns a list of proposal facets matching the filter provided.&quot;,
+    description:
+      &quot;It returns a list of proposal facets matching the filter provided.&lt;br&gt;This endpoint still needs some work on the filter and facets specification.&quot;,
+  })
+  @ApiQuery({
+    name: &quot;filters&quot;,
+    description:
+      &quot;Full facet query filters to apply when retrieving proposals\n&quot; +
+      proposalsFullQueryDescriptionFields,
+    required: false,
+    type: String,
+    example: proposalsFullQueryExampleFields,
+  })
+  @ApiResponse({
+    status: 200,
+    type: ProposalClass,
+    isArray: true,
+    description: &quot;Return proposals requested&quot;,
+  })
+  async fullfacet(
+    @Req() request: Request,
+    @Query() filters: { fields?: string; facets?: string },
+  ): Promise&lt;Record&lt;string, unknown&gt;[]&gt; {
+    const user: JWTUser &#x3D; request.user as JWTUser;
+    const fields: IProposalFields &#x3D; JSON.parse(filters.fields ?? &quot;{}&quot;);
+    const facets &#x3D; JSON.parse(filters.facets ?? &quot;[]&quot;);
+    if (user) {
+      const ability &#x3D; this.caslAbilityFactory.createForUser(user);
+      const canViewAll &#x3D; ability.can(Action.ListAll, ProposalClass);
+
+      // NOTE: If we have published true we don&#x27;t add groups at all
+      if (!canViewAll) {
+        fields.userGroups &#x3D; fields.userGroups ?? [];
+        fields.userGroups.push(...user.currentGroups);
+      }
+    }
+
+    const parsedFilters: IFacets&lt;IProposalFields&gt; &#x3D; {
+      fields,
+      facets,
+    };
+
+    return this.proposalsService.fullfacet(parsedFilters);
+  }
+
+  // GET /proposals/:id
+  @UseGuards(PoliciesGuard)
+  @CheckPolicies((ability: AppAbility) &#x3D;&gt;
+    ability.can(Action.Read, ProposalClass),
+  )
+  @Get(&quot;/:pid&quot;)
+  @ApiOperation({
+    summary: &quot;It returns the proposal requested.&quot;,
+    description: &quot;It returns the proposal requested through the pid specified.&quot;,
+  })
+  @ApiParam({
+    name: &quot;pid&quot;,
+    description: &quot;Id of the proposal to return&quot;,
+    type: String,
+  })
+  @ApiResponse({
+    status: 200,
+    type: ProposalClass,
+    isArray: false,
+    description: &quot;Return proposal with pid specified&quot;,
+  })
+  async findById(
+    @Req() request: Request,
+    @Param(&quot;pid&quot;) proposalId: string,
+  ): Promise&lt;ProposalClass | null&gt; {
+    const proposal &#x3D; await this.proposalsService.findOne({
+      proposalId: proposalId,
+    });
+    const user: JWTUser &#x3D; request.user as JWTUser;
+
+    if (proposal) {
+      // NOTE: We need ProposalClass instance because casl module can not recognize the type from proposal mongo database model. If other fields are needed can be added later.
+      const proposalInstance &#x3D; new ProposalClass();
+      proposalInstance._id &#x3D; proposal._id;
+      proposalInstance.accessGroups &#x3D; proposal.accessGroups;
+      proposalInstance.ownerGroup &#x3D; proposal.ownerGroup;
+      proposalInstance.proposalId &#x3D; proposal.proposalId;
+      proposalInstance.email &#x3D; proposal.email;
+
+      if (user) {
+        const ability &#x3D; this.caslAbilityFactory.createForUser(user);
+        const canView &#x3D;
+          ability.can(Action.Manage, proposalInstance) ||
+          ability.can(Action.Read, proposalInstance);
+
+        if (!canView) {
+          throw new ForbiddenException(&quot;Unauthorized access&quot;);
+        }
+      } else {
+        throw new ForbiddenException(&quot;Unauthorized access&quot;);
+      }
+    }
+
+    return proposal;
+  }
+
+  // PATCH /proposals/:pid
+  @UseGuards(PoliciesGuard)
+  @CheckPolicies((ability: AppAbility) &#x3D;&gt;
+    ability.can(Action.Update, ProposalClass),
+  )
+  @UseInterceptors(
+    new MultiUTCTimeInterceptor&lt;ProposalClass, MeasurementPeriodClass&gt;(
+      &quot;MeasurementPeriodList&quot;,
+      [&quot;start&quot;, &quot;end&quot;],
+    ),
+  )
+  @Patch(&quot;/:pid&quot;)
+  @ApiOperation({
+    summary: &quot;It updates the proposal.&quot;,
+    description:
+      &quot;It updates the proposal specified through the pid specified. it updates only the specified fields.&quot;,
+  })
+  @ApiParam({
+    name: &quot;pid&quot;,
+    description: &quot;Id of the proposal to modify&quot;,
+    type: String,
+  })
+  @ApiExtraModels(UpdateProposalDto)
+  @ApiBody({
+    type: UpdateProposalDto,
+  })
+  @ApiResponse({
+    status: 200,
+    type: ProposalClass,
+    description:
+      &quot;Update an existing proposal and return its representation in SciCat&quot;,
+  })
+  async update(
+    @Param(&quot;pid&quot;) proposalId: string,
+    @Body() updateProposalDto: UpdateProposalDto,
+  ): Promise&lt;ProposalClass | null&gt; {
+    return this.proposalsService.update(
+      { proposalId: proposalId },
+      updateProposalDto,
+    );
+  }
+
+  // DELETE /proposals/:id
+  @UseGuards()
+  @CheckPolicies((ability: AppAbility) &#x3D;&gt;
+    ability.can(Action.Delete, ProposalClass),
+  )
+  @Delete(&quot;/:pid&quot;)
+  @ApiOperation({
+    summary: &quot;It deletes the proposal.&quot;,
+    description: &quot;It delete the proposal specified through the pid specified.&quot;,
+  })
+  @ApiParam({
+    name: &quot;pid&quot;,
+    description: &quot;Id of the proposal to delete&quot;,
+    type: String,
+  })
+  @ApiResponse({
+    status: 200,
+    description: &quot;No value is returned&quot;,
+  })
+  async remove(@Param(&quot;pid&quot;) proposalId: string): Promise&lt;unknown&gt; {
+    return this.proposalsService.remove({ proposalId: proposalId });
+  }
+
+  // POST /proposals/:id/attachments
+  @UseGuards(PoliciesGuard)
+  @CheckPolicies((ability: AppAbility) &#x3D;&gt;
+    ability.can(Action.Create, Attachment),
+  )
+  @Post(&quot;/:pid/attachments&quot;)
+  @ApiOperation({
+    summary: &quot;It creates a new attachement for the proposal specified.&quot;,
+    description:
+      &quot;It creates a new attachement for the proposal specified by the pid passed.&quot;,
+  })
+  @ApiParam({
+    name: &quot;pid&quot;,
+    description:
+      &quot;Id of the proposal we would like to create a new attachment for&quot;,
+    type: String,
+  })
+  @ApiExtraModels(CreateAttachmentDto)
+  @ApiBody({
+    type: CreateAttachmentDto,
+  })
+  @ApiResponse({
+    status: 201,
+    type: Attachment,
+    description:
+      &quot;Create a new attachment for the proposal identified by the pid specified&quot;,
+  })
+  async createAttachment(
+    @Param(&quot;pid&quot;) proposalId: string,
+    @Body() createAttachmentDto: CreateAttachmentDto,
+  ): Promise&lt;Attachment&gt; {
+    const createAttachment &#x3D; {
+      ...createAttachmentDto,
+      proposalId: proposalId,
+    };
+    return this.attachmentsService.create(createAttachment);
+  }
+
+  // GET /proposals/:pid/attachments
+  @UseGuards(PoliciesGuard)
+  @CheckPolicies((ability: AppAbility) &#x3D;&gt; ability.can(Action.Read, Attachment))
+  @Get(&quot;/:pid/attachments&quot;)
+  @ApiOperation({
+    summary: &quot;It returns all the attachments for the proposal specified.&quot;,
+    description:
+      &quot;It returns all the attachments for the proposal specified by the pid passed.&quot;,
+  })
+  @ApiParam({
+    name: &quot;pid&quot;,
+    description:
+      &quot;Id of the proposal for which we would like to retrieve all the attachments&quot;,
+    type: String,
+  })
+  @ApiResponse({
+    status: 200,
+    type: Attachment,
+    isArray: true,
+    description:
+      &quot;Array with all the attachments associated with the proposal with the pid specified&quot;,
+  })
+  async findAllAttachments(
+    @Param(&quot;pid&quot;) proposalId: string,
+  ): Promise&lt;Attachment[]&gt; {
+    return this.attachmentsService.findAll({ proposalId: proposalId });
+  }
+
+  // PATCH /proposals/:pid/attachments/:aid
+  @UseGuards(PoliciesGuard)
+  @CheckPolicies((ability: AppAbility) &#x3D;&gt;
+    ability.can(Action.Update, Attachment),
+  )
+  @Patch(&quot;/:pid/attachments/:aid&quot;)
+  @ApiOperation({
+    summary: &quot;It updates the attachment specified for the proposal indicated.&quot;,
+    description:
+      &quot;It updates the attachment specified by the aid parameter for the proposal indicated by the pid parameter.&lt;br&gt;This endpoint is obsolete and it will removed in future version.&lt;br&gt;Attachements can be updated from the attachment endpoint.&quot;,
+  })
+  @ApiParam({
+    name: &quot;pid&quot;,
+    description:
+      &quot;Id of the proposal for which we would like to update the attachment specified&quot;,
+    type: String,
+  })
+  @ApiParam({
+    name: &quot;aid&quot;,
+    description:
+      &quot;Id of the attachment of this proposal that we would like to patch&quot;,
+    type: String,
+  })
+  @ApiResponse({
+    status: 200,
+    type: Attachment,
+    isArray: false,
+    description:
+      &quot;Update values of the attachment with id specified associated with the proposal with the pid specified&quot;,
+  })
+  async findOneAttachmentAndUpdate(
+    @Param(&quot;pid&quot;) proposalId: string,
+    @Param(&quot;aid&quot;) attachmentId: string,
+    @Body() updateAttachmentDto: UpdateAttachmentDto,
+  ): Promise&lt;Attachment | null&gt; {
+    return this.attachmentsService.findOneAndUpdate(
+      { _id: attachmentId, proposalId: proposalId },
+      updateAttachmentDto,
+    );
+  }
+
+  // DELETE /proposals/:pid/attachments/:aid
+  @UseGuards(PoliciesGuard)
+  @CheckPolicies((ability: AppAbility) &#x3D;&gt;
+    ability.can(Action.Delete, Attachment),
+  )
+  @Delete(&quot;/:pid/attachments/:aid&quot;)
+  @ApiOperation({
+    summary: &quot;It deletes the attachment from the proposal.&quot;,
+    description:
+      &quot;It deletes the attachment from the proposal.&lt;br&gt;This endpoint is obsolete and will be dropped in future versions.&lt;br&gt;Deleting attachments will be done only from the attachements endpoint.&quot;,
+  })
+  @ApiParam({
+    name: &quot;pid&quot;,
+    description:
+      &quot;Id of the proposal for which we would like to delete the attachment specified&quot;,
+    type: String,
+  })
+  @ApiParam({
+    name: &quot;aid&quot;,
+    description:
+      &quot;Id of the attachment of this proposal that we would like to delete&quot;,
+    type: String,
+  })
+  @ApiResponse({
+    status: 200,
+    description:
+      &quot;Remove the attachment with id specified associated with the proposal with the pid specified&quot;,
+  })
+  async findOneAttachmentAndRemove(
+    @Param(&quot;pid&quot;) proposalId: string,
+    @Param(&quot;aid&quot;) attachmentId: string,
+  ): Promise&lt;unknown&gt; {
+    return this.attachmentsService.findOneAndRemove({
+      _id: attachmentId,
+      proposalId: proposalId,
+    });
+  }
+
+  // GET /proposals/:id/datasets
+  @UseGuards(PoliciesGuard)
+  @CheckPolicies((ability: AppAbility) &#x3D;&gt;
+    ability.can(Action.Read, DatasetClass),
+  )
+  @Get(&quot;/:pid/datasets&quot;)
+  @ApiOperation({
+    summary:
+      &quot;It returns all the datasets associated with the proposal indicated.&quot;,
+    description:
+      &quot;It returns all the datasets associated with the proposal indicated by the pid parameter.&lt;br&gt;Changes to the related datasets must be performed through the dataset endpoint.&quot;,
+  })
+  @ApiParam({
+    name: &quot;pid&quot;,
+    description:
+      &quot;Id of the proposal for which we would like to retrieve all the datasets&quot;,
+    type: String,
+  })
+  @ApiResponse({
+    status: 200,
+    type: DatasetClass,
+    isArray: true,
+    description:
+      &quot;Array with all the datasets associated with the proposal with the pid specified&quot;,
+  })
+  async findAllDatasets(
+    @Param(&quot;pid&quot;) proposalId: string,
+  ): Promise&lt;DatasetClass[] | null&gt; {
+    return this.datasetsService.findAll({ where: { proposalId } });
+  }
+}
+</code></pre>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+          <label class="dark-mode-switch">
+               <input type="checkbox">
+               <span class="slider">
+                    <svg class="slider-icon" viewBox="0 0 24 24" fill="none" height="20" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="20" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
+                    </svg>
+               </span>
+          </label>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'controller';
+            var COMPODOC_CURRENT_PAGE_URL = 'ProposalsController.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+
+       <script src="../js/menu-wc.js" defer></script>
+       <script nomodule src="../js/menu-wc_es5.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>

@@ -1,0 +1,1579 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>scicat-backend-next documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	   <link rel="stylesheet" href="../styles/style.css">
+        <link rel="stylesheet" href="../styles/dark.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top d-block d-sm-none">
+            <a href="../" class="navbar-brand">scicat-backend-next documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content controller">
+                   <div class="content-data">
+
+
+
+
+
+<ol class="breadcrumb">
+  <li class="breadcrumb-item">Controllers</li>
+  <li class="breadcrumb-item" >PublishedDataController</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="nav-item">
+            <a href="#info" 
+                class="nav-link"
+                class="nav-link active"
+                role="tab" id="info-tab" data-bs-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li class="nav-item">
+            <a href="#source" 
+                class="nav-link"
+                
+                role="tab" id="source-tab" data-bs-toggle="tab" data-link="source">Source</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="info">
+        <p class="comment">
+            <h3>File</h3>
+        </p>
+        <p class="comment">
+            <code>src/published-data/published-data.controller.ts</code>
+        </p>
+
+            <p class="comment">
+                <h3>Prefix</h3>
+            </p>
+            <p class="comment">
+                <code>publisheddata</code>
+            </p>
+
+
+
+
+
+
+            <section data-compodoc="block-index">
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier">Async</span>
+                                <a href="#count" >count</a>
+                            </li>
+                            <li>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier">Async</span>
+                                <a href="#create" >create</a>
+                            </li>
+                            <li>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier">Async</span>
+                                <a href="#findAll" >findAll</a>
+                            </li>
+                            <li>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier">Async</span>
+                                <a href="#findOne" >findOne</a>
+                            </li>
+                            <li>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier">Async</span>
+                                <a href="#formPopulate" >formPopulate</a>
+                            </li>
+                            <li>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier">Async</span>
+                                <a href="#register" >register</a>
+                            </li>
+                            <li>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier">Async</span>
+                                <a href="#remove" >remove</a>
+                            </li>
+                            <li>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier">Async</span>
+                                <a href="#resync" >resync</a>
+                            </li>
+                            <li>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier">Async</span>
+                                <a href="#update" >update</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+            <section data-compodoc="block-methods">
+    
+    <h3 id="methods">
+        Methods
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="count"></a>
+                    <span class="name">
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier">Async</span>
+                        <span ><b>count</b></span>
+                        <a href="#count"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>count(filter?: literal type)</code>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <b>Decorators : </b>
+                    <br />
+                    <code>@AllowAny()<br />@UseInterceptors(RegisteredInterceptor)<br />@Get(&#x27;/count&#x27;)<br />@ApiQuery({name: &#x27;filter&#x27;, description: &#x27;Database filters to apply when retrieve published data count&#x27;, required: false})<br /></code>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="133"
+                            class="link-to-prism">src/published-data/published-data.controller.ts:133</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>filter</td>
+                                    <td>
+                                            <code>literal type</code>
+                                    </td>
+
+                                    <td>
+                                        Yes
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="../interfaces/ICount.html" target="_self" >Promise&lt;ICount&gt;</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="create"></a>
+                    <span class="name">
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier">Async</span>
+                        <span ><b>create</b></span>
+                        <a href="#create"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>create(createPublishedDataDto: <a href="../classes/CreatePublishedDataDto.html" target="_self">CreatePublishedDataDto</a>)</code>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <b>Decorators : </b>
+                    <br />
+                    <code>@UseGuards(PoliciesGuard)<br />@CheckPolicies(ability &#x3D;&gt; )<br />@Post()<br /></code>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="76"
+                            class="link-to-prism">src/published-data/published-data.controller.ts:76</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>createPublishedDataDto</td>
+                                    <td>
+                                                <code><a href="../classes/CreatePublishedDataDto.html" target="_self" >CreatePublishedDataDto</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="../classes/PublishedData.html" target="_self" >Promise&lt;PublishedData&gt;</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="findAll"></a>
+                    <span class="name">
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier">Async</span>
+                        <span ><b>findAll</b></span>
+                        <a href="#findAll"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>findAll(filter?: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>, limits?: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>, fields?: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>)</code>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <b>Decorators : </b>
+                    <br />
+                    <code>@AllowAny()<br />@UseInterceptors(RegisteredInterceptor)<br />@Get()<br />@ApiQuery({name: &#x27;filter&#x27;, description: &#x27;Database filters to apply when retrieve all published data&#x27;, required: false})<br />@ApiQuery({name: &#x27;limits&#x27;, description: &#x27;Database limits to apply when retrieve all published data&#x27;, required: false})<br /></code>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="99"
+                            class="link-to-prism">src/published-data/published-data.controller.ts:99</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>filter</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        Yes
+                                    </td>
+
+
+                                </tr>
+                                <tr>
+                                    <td>limits</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        Yes
+                                    </td>
+
+
+                                </tr>
+                                <tr>
+                                    <td>fields</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        Yes
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="../classes/PublishedData.html" target="_self" >Promise&lt;PublishedData[]&gt;</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="findOne"></a>
+                    <span class="name">
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier">Async</span>
+                        <span ><b>findOne</b></span>
+                        <a href="#findOne"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>findOne(id: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>)</code>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <b>Decorators : </b>
+                    <br />
+                    <code>@AllowAny()<br />@ApiOperation({summary: &#x27;It returns the published data requested.&#x27;, description: &#x27;It returns the published data requested through the id specified.&#x27;})<br />@ApiParam({name: &#x27;id&#x27;, description: &#x27;Id of the published data to return&#x27;, type: String})<br />@ApiResponse({status: undefined, type: PublishedData, isArray: false, description: &#x27;Return published data with id specified&#x27;})<br />@Get(&#x27;/:id&#x27;)<br /></code>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="220"
+                            class="link-to-prism">src/published-data/published-data.controller.ts:220</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>id</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="../classes/PublishedData.html" target="_self" >Promise&lt;PublishedData | null&gt;</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="formPopulate"></a>
+                    <span class="name">
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier">Async</span>
+                        <span ><b>formPopulate</b></span>
+                        <a href="#formPopulate"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>formPopulate(pid: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>)</code>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <b>Decorators : </b>
+                    <br />
+                    <code>@UseGuards(PoliciesGuard)<br />@CheckPolicies(ability &#x3D;&gt; )<br />@Get(&#x27;/formpopulate&#x27;)<br />@ApiQuery({name: &#x27;pid&#x27;, description: &#x27;Dataset pid used to fetch form data.&#x27;, required: true})<br /></code>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="169"
+                            class="link-to-prism">src/published-data/published-data.controller.ts:169</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>pid</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>    <code>unknown</code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="register"></a>
+                    <span class="name">
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier">Async</span>
+                        <span ><b>register</b></span>
+                        <a href="#register"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>register(id: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>)</code>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <b>Decorators : </b>
+                    <br />
+                    <code>@UseGuards(PoliciesGuard)<br />@CheckPolicies(ability &#x3D;&gt; )<br />@Post(&#x27;/:id/register&#x27;)<br /></code>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="256"
+                            class="link-to-prism">src/published-data/published-data.controller.ts:256</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>id</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="../interfaces/IRegister.html" target="_self" >Promise&lt;IRegister | null&gt;</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="remove"></a>
+                    <span class="name">
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier">Async</span>
+                        <span ><b>remove</b></span>
+                        <a href="#remove"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>remove(id: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>)</code>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <b>Decorators : </b>
+                    <br />
+                    <code>@UseGuards(PoliciesGuard)<br />@CheckPolicies(ability &#x3D;&gt; )<br />@Delete(&#x27;/:id&#x27;)<br /></code>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="246"
+                            class="link-to-prism">src/published-data/published-data.controller.ts:246</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>id</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>    <code>Promise&lt;&gt;</code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="resync"></a>
+                    <span class="name">
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier">Async</span>
+                        <span ><b>resync</b></span>
+                        <a href="#resync"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>resync(id: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>, data: <a href="../classes/UpdatePublishedDataDto.html" target="_self">UpdatePublishedDataDto</a>)</code>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <b>Decorators : </b>
+                    <br />
+                    <code>@UseGuards(PoliciesGuard)<br />@CheckPolicies(ability &#x3D;&gt; )<br />@Post(&#x27;/:id/resync&#x27;)<br /></code>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="437"
+                            class="link-to-prism">src/published-data/published-data.controller.ts:437</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>id</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                                <tr>
+                                    <td>data</td>
+                                    <td>
+                                                <code><a href="../classes/UpdatePublishedDataDto.html" target="_self" >UpdatePublishedDataDto</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="../interfaces/IRegister.html" target="_self" >Promise&lt;IRegister | null&gt;</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="update"></a>
+                    <span class="name">
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier">Async</span>
+                        <span ><b>update</b></span>
+                        <a href="#update"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>update(id: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>, updatePublishedDataDto: <a href="../classes/UpdatePublishedDataDto.html" target="_self">UpdatePublishedDataDto</a>)</code>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <b>Decorators : </b>
+                    <br />
+                    <code>@UseGuards(PoliciesGuard)<br />@CheckPolicies(ability &#x3D;&gt; )<br />@Patch(&#x27;/:id&#x27;)<br /></code>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="230"
+                            class="link-to-prism">src/published-data/published-data.controller.ts:230</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>id</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                                <tr>
+                                    <td>updatePublishedDataDto</td>
+                                    <td>
+                                                <code><a href="../classes/UpdatePublishedDataDto.html" target="_self" >UpdatePublishedDataDto</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="../classes/PublishedData.html" target="_self" >Promise&lt;PublishedData | null&gt;</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>    </div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">/* eslint-disable @typescript-eslint/no-explicit-any */
+import {
+  Controller,
+  Get,
+  Post,
+  Body,
+  Patch,
+  Param,
+  Delete,
+  UseGuards,
+  Query,
+  UseInterceptors,
+  HttpException,
+  HttpStatus,
+  NotFoundException,
+} from &quot;@nestjs/common&quot;;
+import { PublishedDataService } from &quot;./published-data.service&quot;;
+import { CreatePublishedDataDto } from &quot;./dto/create-published-data.dto&quot;;
+import { UpdatePublishedDataDto } from &quot;./dto/update-published-data.dto&quot;;
+import {
+  ApiBearerAuth,
+  ApiOperation,
+  ApiParam,
+  ApiQuery,
+  ApiResponse,
+  ApiTags,
+} from &quot;@nestjs/swagger&quot;;
+import { PoliciesGuard } from &quot;src/casl/guards/policies.guard&quot;;
+import { CheckPolicies } from &quot;src/casl/decorators/check-policies.decorator&quot;;
+import { AppAbility } from &quot;src/casl/casl-ability.factory&quot;;
+import { Action } from &quot;src/casl/action.enum&quot;;
+import {
+  PublishedData,
+  PublishedDataDocument,
+} from &quot;./schemas/published-data.schema&quot;;
+import {
+  ICount,
+  IFormPopulateData,
+  IPublishedDataFilters,
+  IRegister,
+} from &quot;./interfaces/published-data.interface&quot;;
+import { AllowAny } from &quot;src/auth/decorators/allow-any.decorator&quot;;
+import { RegisteredInterceptor } from &quot;./interceptors/registered.interceptor&quot;;
+import { FilterQuery } from &quot;mongoose&quot;;
+import { DatasetsService } from &quot;src/datasets/datasets.service&quot;;
+import { ProposalsService } from &quot;src/proposals/proposals.service&quot;;
+import { AttachmentsService } from &quot;src/attachments/attachments.service&quot;;
+import { existsSync, readFileSync } from &quot;fs&quot;;
+import { HttpService } from &quot;@nestjs/axios&quot;;
+import { ConfigService } from &quot;@nestjs/config&quot;;
+import { firstValueFrom } from &quot;rxjs&quot;;
+import { handleAxiosRequestError } from &quot;src/common/utils&quot;;
+import { DatasetClass } from &quot;src/datasets/schemas/dataset.schema&quot;;
+
+@ApiBearerAuth()
+@ApiTags(&quot;published data&quot;)
+@Controller(&quot;publisheddata&quot;)
+export class PublishedDataController {
+  private doiConfigPath &#x3D; &quot;./src/config/doiconfig.local.json&quot;;
+
+  constructor(
+    private readonly attachmentsService: AttachmentsService,
+    private readonly configService: ConfigService,
+    private readonly datasetsService: DatasetsService,
+    private readonly httpService: HttpService,
+    private readonly proposalsService: ProposalsService,
+    private readonly publishedDataService: PublishedDataService,
+  ) {}
+
+  // POST /publisheddata
+  @UseGuards(PoliciesGuard)
+  @CheckPolicies((ability: AppAbility) &#x3D;&gt;
+    ability.can(Action.Create, PublishedData),
+  )
+  @Post()
+  async create(
+    @Body() createPublishedDataDto: CreatePublishedDataDto,
+  ): Promise&lt;PublishedData&gt; {
+    return this.publishedDataService.create({
+      ...createPublishedDataDto,
+      status: &quot;pending_registration&quot;,
+    });
+  }
+
+  // GET /publisheddata
+  @AllowAny()
+  @UseInterceptors(RegisteredInterceptor)
+  @Get()
+  @ApiQuery({
+    name: &quot;filter&quot;,
+    description: &quot;Database filters to apply when retrieve all published data&quot;,
+    required: false,
+  })
+  @ApiQuery({
+    name: &quot;limits&quot;,
+    description: &quot;Database limits to apply when retrieve all published data&quot;,
+    required: false,
+  })
+  async findAll(
+    @Query(&quot;filter&quot;) filter?: string,
+    @Query(&quot;limits&quot;) limits?: string,
+    @Query(&quot;fields&quot;) fields?: string,
+  ): Promise&lt;PublishedData[]&gt; {
+    const publishedDataFilters: IPublishedDataFilters &#x3D; JSON.parse(
+      filter ?? &quot;{}&quot;,
+    );
+    const publishedDataLimits: {
+      skip: number;
+      limit: number;
+      order: string;
+    } &#x3D; JSON.parse(limits ?? &quot;{}&quot;);
+    const publishedDataFields &#x3D; JSON.parse(fields ?? &quot;{}&quot;);
+
+    if (!publishedDataFilters.limits) {
+      publishedDataFilters.limits &#x3D; publishedDataLimits;
+    }
+    if (!publishedDataFilters.fields) {
+      publishedDataFilters.fields &#x3D; publishedDataFields;
+    }
+
+    return this.publishedDataService.findAll(publishedDataFilters);
+  }
+
+  // GET /publisheddata/count
+  @AllowAny()
+  @UseInterceptors(RegisteredInterceptor)
+  @Get(&quot;/count&quot;)
+  @ApiQuery({
+    name: &quot;filter&quot;,
+    description: &quot;Database filters to apply when retrieve published data count&quot;,
+    required: false,
+  })
+  async count(
+    @Query() filter?: { filter: string; fields: string },
+  ): Promise&lt;ICount&gt; {
+    const jsonFilters: IPublishedDataFilters &#x3D;
+      filter &amp;&amp; filter.filter ? JSON.parse(filter.filter) : {};
+    const jsonFields: FilterQuery&lt;PublishedDataDocument&gt; &#x3D;
+      filter &amp;&amp; filter.fields ? JSON.parse(filter.fields) : {};
+    const whereFilters: FilterQuery&lt;PublishedDataDocument&gt; &#x3D;
+      jsonFilters &amp;&amp; jsonFilters.where
+        ? {
+            ...jsonFilters.where,
+            ...jsonFields,
+          }
+        : {
+            ...jsonFields,
+          };
+    const publishedDataFilters: IPublishedDataFilters &#x3D; {
+      where: whereFilters,
+    };
+    if (jsonFilters &amp;&amp; jsonFilters.limits) {
+      publishedDataFilters.limits &#x3D; jsonFilters.limits;
+    }
+    return this.publishedDataService.count(publishedDataFilters);
+  }
+
+  // GET /publisheddata/formpopulate
+  @UseGuards(PoliciesGuard)
+  @CheckPolicies((ability: AppAbility) &#x3D;&gt;
+    ability.can(Action.Read, PublishedData),
+  )
+  @Get(&quot;/formpopulate&quot;)
+  @ApiQuery({
+    name: &quot;pid&quot;,
+    description: &quot;Dataset pid used to fetch form data.&quot;,
+    required: true,
+  })
+  async formPopulate(@Query(&quot;pid&quot;) pid: string) {
+    const formData: IFormPopulateData &#x3D; {};
+    const dataset &#x3D; await this.datasetsService.findOne({ where: { pid } });
+
+    let proposalId;
+    if (dataset) {
+      formData.resourceType &#x3D; dataset.type;
+      formData.description &#x3D; dataset.description;
+      proposalId &#x3D; (dataset as unknown as DatasetClass).proposalId;
+    }
+
+    let proposal;
+    if (proposalId) {
+      proposal &#x3D; await this.proposalsService.findOne({ proposalId });
+    }
+
+    if (proposal) {
+      formData.title &#x3D; proposal.title;
+      formData.abstract &#x3D; proposal.abstract;
+    }
+
+    const attachment &#x3D; await this.attachmentsService.findOne({
+      datasetId: pid,
+    });
+
+    if (attachment) {
+      formData.thumbnail &#x3D; attachment.thumbnail;
+    }
+
+    return formData;
+  }
+
+  // GET /publisheddata/:id
+  @AllowAny()
+  @ApiOperation({
+    summary: &quot;It returns the published data requested.&quot;,
+    description:
+      &quot;It returns the published data requested through the id specified.&quot;,
+  })
+  @ApiParam({
+    name: &quot;id&quot;,
+    description: &quot;Id of the published data to return&quot;,
+    type: String,
+  })
+  @ApiResponse({
+    status: HttpStatus.OK,
+    type: PublishedData,
+    isArray: false,
+    description: &quot;Return published data with id specified&quot;,
+  })
+  @Get(&quot;/:id&quot;)
+  async findOne(@Param(&quot;id&quot;) id: string): Promise&lt;PublishedData | null&gt; {
+    return this.publishedDataService.findOne({ doi: id });
+  }
+
+  // PATCH /publisheddata/:id
+  @UseGuards(PoliciesGuard)
+  @CheckPolicies((ability: AppAbility) &#x3D;&gt;
+    ability.can(Action.Update, PublishedData),
+  )
+  @Patch(&quot;/:id&quot;)
+  async update(
+    @Param(&quot;id&quot;) id: string,
+    @Body() updatePublishedDataDto: UpdatePublishedDataDto,
+  ): Promise&lt;PublishedData | null&gt; {
+    return this.publishedDataService.update(
+      { doi: id },
+      updatePublishedDataDto,
+    );
+  }
+
+  // DELETE /publisheddata/:id
+  @UseGuards(PoliciesGuard)
+  @CheckPolicies((ability: AppAbility) &#x3D;&gt;
+    ability.can(Action.Delete, PublishedData),
+  )
+  @Delete(&quot;/:id&quot;)
+  async remove(@Param(&quot;id&quot;) id: string): Promise&lt;unknown&gt; {
+    return this.publishedDataService.remove({ doi: id });
+  }
+
+  // POST /publisheddata/:id/register
+  @UseGuards(PoliciesGuard)
+  @CheckPolicies((ability: AppAbility) &#x3D;&gt;
+    ability.can(Action.Update, PublishedData),
+  )
+  @Post(&quot;/:id/register&quot;)
+  async register(@Param(&quot;id&quot;) id: string): Promise&lt;IRegister | null&gt; {
+    const publishedData &#x3D; await this.publishedDataService.findOne({ doi: id });
+
+    if (publishedData) {
+      const data &#x3D; {
+        registeredTime: new Date(),
+        status: &quot;registered&quot;,
+      };
+
+      publishedData.registeredTime &#x3D; data.registeredTime;
+      publishedData.status &#x3D; data.status;
+
+      const xml &#x3D; formRegistrationXML(publishedData);
+
+      await Promise.all(
+        publishedData.pidArray.map(async (pid) &#x3D;&gt; {
+          await this.datasetsService.findByIdAndUpdate(pid, {
+            isPublished: true,
+            datasetlifecycle: { publishedOn: data.registeredTime },
+          });
+        }),
+      );
+      const fullDoi &#x3D; publishedData.doi;
+      const registerMetadataUri &#x3D; this.configService.get&lt;string&gt;(
+        &quot;registerMetadataUri&quot;,
+      );
+      const registerDoiUri &#x3D; this.configService.get&lt;string&gt;(&quot;registerDoiUri&quot;);
+      const OAIServerUri &#x3D; this.configService.get&lt;string&gt;(&quot;oaiProviderRoute&quot;);
+
+      let doiProviderCredentials &#x3D; {
+        username: &quot;removed&quot;,
+        password: &quot;removed&quot;,
+      };
+
+      const username &#x3D; this.configService.get&lt;string&gt;(&quot;doiUsername&quot;);
+      const password &#x3D; this.configService.get&lt;string&gt;(&quot;doiPassword&quot;);
+
+      if (username &amp;&amp; password) {
+        doiProviderCredentials &#x3D; {
+          username,
+          password,
+        };
+      }
+
+      const registerDataciteMetadataOptions &#x3D; {
+        method: &quot;PUT&quot;,
+        data: xml,
+        url: &#x60;${registerMetadataUri}/${fullDoi}&#x60;,
+        headers: {
+          &quot;content-type&quot;: &quot;application/xml;charset&#x3D;UTF-8&quot;,
+        },
+        auth: doiProviderCredentials,
+      };
+
+      const encodeDoi &#x3D; encodeURIComponent(encodeURIComponent(fullDoi)); //Needed to make sure that the &quot;/&quot; between DOI prefix and ID stays encoded in datacite
+      const registerDataciteDoiOptions &#x3D; {
+        method: &quot;PUT&quot;,
+        data: &#x60;#Content-Type:text/plain;charset&#x3D;UTF-8\ndoi&#x3D; ${fullDoi}\nurl&#x3D;${this.configService.get&lt;string&gt;(
+          &quot;publicURLprefix&quot;,
+        )}${encodeDoi}&#x60;,
+        url: &#x60;${registerDoiUri}/${fullDoi}&#x60;,
+        headers: {
+          &quot;content-type&quot;: &quot;text/plain;charset&#x3D;UTF-8&quot;,
+        },
+        auth: doiProviderCredentials,
+      };
+
+      const syncOAIPublication &#x3D; {
+        method: &quot;POST&quot;,
+        body: publishedData,
+        json: true,
+        uri: OAIServerUri,
+        headers: {
+          &quot;content-type&quot;: &quot;application/json;charset&#x3D;UTF-8&quot;,
+        },
+        auth: doiProviderCredentials,
+      };
+
+      if (this.configService.get&lt;string&gt;(&quot;site&quot;) !&#x3D;&#x3D; &quot;PSI&quot;) {
+        console.log(&quot;posting to datacite&quot;);
+        console.log(registerDataciteMetadataOptions);
+        console.log(registerDataciteDoiOptions);
+
+        let res;
+        try {
+          res &#x3D; await firstValueFrom(
+            this.httpService.request({
+              ...registerDataciteMetadataOptions,
+              method: &quot;PUT&quot;,
+            }),
+          );
+        } catch (err: any) {
+          handleAxiosRequestError(err, &quot;PublishedDataController.register&quot;);
+          throw new HttpException(
+            &#x60;Error occurred: ${err}&#x60;,
+            err.response.status || HttpStatus.FAILED_DEPENDENCY,
+          );
+        }
+
+        try {
+          await firstValueFrom(
+            this.httpService.request({
+              ...registerDataciteDoiOptions,
+              method: &quot;PUT&quot;,
+            }),
+          );
+        } catch (err: any) {
+          handleAxiosRequestError(err, &quot;PublishedDataController.register&quot;);
+          throw new HttpException(
+            &#x60;Error occurred: ${err}&#x60;,
+            err.response.status || HttpStatus.FAILED_DEPENDENCY,
+          );
+        }
+
+        try {
+          await this.publishedDataService.update(
+            { doi: publishedData.doi },
+            data,
+          );
+        } catch (error) {
+          console.error(error);
+        }
+
+        return res ? { doi: res.data } : null;
+      } else if (!this.configService.get&lt;string&gt;(&quot;oaiProviderRoute&quot;)) {
+        try {
+          await this.publishedDataService.update(
+            { doi: publishedData.doi },
+            data,
+          );
+        } catch (error) {
+          console.error(error);
+        }
+
+        console.warn(
+          &quot;results not pushed to oaiProvider as oaiProviderRoute route is not specified in the env variables&quot;,
+        );
+
+        throw new HttpException(
+          &quot;results not pushed to oaiProvider as oaiProviderRoute route is not specified in the env variables&quot;,
+          HttpStatus.OK,
+        );
+      } else {
+        let res;
+        try {
+          res &#x3D; await firstValueFrom(
+            this.httpService.request({
+              ...syncOAIPublication,
+              method: &quot;POST&quot;,
+            }),
+          );
+        } catch (err: any) {
+          handleAxiosRequestError(err, &quot;PublishedDataController.register&quot;);
+          throw new HttpException(
+            &#x60;Error occurred: ${err}&#x60;,
+            err.response.status || HttpStatus.FAILED_DEPENDENCY,
+          );
+        }
+
+        try {
+          await this.publishedDataService.update(
+            { doi: publishedData.doi },
+            data,
+          );
+        } catch (error) {
+          console.error(error);
+        }
+
+        return res ? { doi: res.data } : null;
+      }
+    }
+
+    throw new NotFoundException();
+  }
+
+  // POST /publisheddata/:id/resync
+  @UseGuards(PoliciesGuard)
+  @CheckPolicies((ability: AppAbility) &#x3D;&gt;
+    ability.can(Action.Update, PublishedData),
+  )
+  @Post(&quot;/:id/resync&quot;)
+  async resync(
+    @Param(&quot;id&quot;) id: string,
+    @Body() data: UpdatePublishedDataDto,
+  ): Promise&lt;IRegister | null&gt; {
+    // eslint-disable-next-line @typescript-eslint/naming-convention
+    const { _id, doi, ...publishedData } &#x3D; data;
+
+    const OAIServerUri &#x3D; this.configService.get&lt;string&gt;(&quot;oaiProviderRoute&quot;);
+
+    let doiProviderCredentials &#x3D; {
+      username: &quot;removed&quot;,
+      password: &quot;removed&quot;,
+    };
+
+    if (existsSync(this.doiConfigPath)) {
+      doiProviderCredentials &#x3D; JSON.parse(
+        readFileSync(this.doiConfigPath).toString(),
+      );
+    }
+
+    const resyncOAIPublication &#x3D; {
+      method: &quot;PUT&quot;,
+      body: publishedData,
+      json: true,
+      uri: OAIServerUri + &quot;/&quot; + encodeURIComponent(encodeURIComponent(id)),
+      headers: {
+        &quot;content-type&quot;: &quot;application/json;charset&#x3D;UTF-8&quot;,
+      },
+      auth: doiProviderCredentials,
+    };
+
+    let res;
+    try {
+      res &#x3D; await firstValueFrom(
+        this.httpService.request({
+          ...resyncOAIPublication,
+          method: &quot;PUT&quot;,
+        }),
+      );
+    } catch (error) {
+      handleAxiosRequestError(error, &quot;PublishedDataController.resync&quot;);
+    }
+
+    try {
+      await this.publishedDataService.update({ doi: id }, publishedData);
+    } catch (error) {
+      console.error(error);
+    }
+
+    return res ? res.data : null;
+  }
+}
+
+function formRegistrationXML(publishedData: PublishedData): string {
+  const {
+    affiliation,
+    publisher,
+    publicationYear,
+    title,
+    abstract,
+    resourceType,
+    creator,
+  } &#x3D; publishedData;
+  const doi &#x3D; publishedData.doi;
+  const uniqueCreator &#x3D; creator.filter(
+    (author, i) &#x3D;&gt; creator.indexOf(author) &#x3D;&#x3D;&#x3D; i,
+  );
+
+  const creatorElements &#x3D; uniqueCreator.map((author) &#x3D;&gt; {
+    const names &#x3D; author.split(&quot; &quot;);
+    const firstName &#x3D; names[0];
+    const lastName &#x3D; names.slice(1).join(&quot; &quot;);
+
+    return &#x60;
+            &lt;creator&gt;
+                &lt;creatorName&gt;${lastName}, ${firstName}&lt;/creatorName&gt;
+                &lt;givenName&gt;${firstName}&lt;/givenName&gt;
+                &lt;familyName&gt;${lastName}&lt;/familyName&gt;
+                &lt;affiliation&gt;${affiliation}&lt;/affiliation&gt;
+            &lt;/creator&gt;
+        &#x60;;
+  });
+
+  return &#x60;&lt;?xml version&#x3D;&quot;1.0&quot; encoding&#x3D;&quot;UTF-8&quot;?&gt;
+        &lt;resource xmlns:xsi&#x3D;&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns&#x3D;&quot;http://datacite.org/schema/kernel-4&quot; xsi:schemaLocation&#x3D;&quot;http://datacite.org/schema/kernel-4 https://schema.datacite.org/meta/kernel-4.4/metadata.xsd&quot;&gt;
+            &lt;identifier identifierType&#x3D;&quot;doi&quot;&gt;${doi}&lt;/identifier&gt;
+            &lt;creators&gt;
+                ${creatorElements.join(&quot;\n&quot;)}
+            &lt;/creators&gt;
+            &lt;titles&gt;
+                &lt;title&gt;${title}&lt;/title&gt;
+            &lt;/titles&gt;
+            &lt;publisher&gt;${publisher}&lt;/publisher&gt;
+            &lt;publicationYear&gt;${publicationYear}&lt;/publicationYear&gt;
+            &lt;descriptions&gt;
+                &lt;description xml:lang&#x3D;&quot;en-us&quot; descriptionType&#x3D;&quot;Abstract&quot;&gt;${abstract}&lt;/description&gt;
+            &lt;/descriptions&gt;
+            &lt;resourceType resourceTypeGeneral&#x3D;&quot;Dataset&quot;&gt;${resourceType}&lt;/resourceType&gt;
+        &lt;/resource&gt;
+    &#x60;;
+}
+</code></pre>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+          <label class="dark-mode-switch">
+               <input type="checkbox">
+               <span class="slider">
+                    <svg class="slider-icon" viewBox="0 0 24 24" fill="none" height="20" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="20" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
+                    </svg>
+               </span>
+          </label>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'controller';
+            var COMPODOC_CURRENT_PAGE_URL = 'PublishedDataController.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+
+       <script src="../js/menu-wc.js" defer></script>
+       <script nomodule src="../js/menu-wc_es5.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>

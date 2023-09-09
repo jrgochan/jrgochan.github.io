@@ -1,0 +1,1737 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>scicat-backend-next documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	   <link rel="stylesheet" href="../styles/style.css">
+        <link rel="stylesheet" href="../styles/dark.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top d-block d-sm-none">
+            <a href="../" class="navbar-brand">scicat-backend-next documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content injectable">
+                   <div class="content-data">
+
+
+
+
+
+
+
+
+<ol class="breadcrumb">
+  <li class="breadcrumb-item">Injectables</li>
+  <li class="breadcrumb-item" >DatasetsService</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="nav-item">
+            <a href="#info" 
+                class="nav-link"
+                class="nav-link active"
+                role="tab" id="info-tab" data-bs-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li class="nav-item">
+            <a href="#source" 
+                class="nav-link"
+                
+                role="tab" id="source-tab" data-bs-toggle="tab" data-link="source">Source</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="info">
+        <p class="comment">
+            <h3>File</h3>
+        </p>
+        <p class="comment">
+            <code>src/datasets/datasets.service.ts</code>
+        </p>
+
+
+
+
+
+            <section data-compodoc="block-index">
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                    <span class="modifier">Async</span>
+                                <a href="#count" >count</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Async</span>
+                                <a href="#create" >create</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Async</span>
+                                <a href="#findAll" >findAll</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Async</span>
+                                <a href="#findByIdAndDelete" >findByIdAndDelete</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Async</span>
+                                <a href="#findByIdAndReplace" >findByIdAndReplace</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Async</span>
+                                <a href="#findByIdAndUpdate" >findByIdAndUpdate</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Async</span>
+                                <a href="#findOne" >findOne</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Async</span>
+                                <a href="#fullFacet" >fullFacet</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Async</span>
+                                <a href="#fullquery" >fullquery</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Async</span>
+                                <a href="#keepHistory" >keepHistory</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Async</span>
+                                <a href="#metadataKeys" >metadataKeys</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Async</span>
+                                <a href="#updateAll" >updateAll</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Async</span>
+                                <a href="#updateHistory" >updateHistory</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+            <section data-compodoc="block-constructor">
+    <h3 id="constructor">Constructor</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+<code>constructor(configService: ConfigService, datasetModel: <a href="../undefineds/DatasetDocument.html" target="_self">Model&lt;DatasetDocument&gt;</a>, initialDatasetsService: <a href="../injectables/InitialDatasetsService.html" target="_self">InitialDatasetsService</a>, logbooksService: <a href="../injectables/LogbooksService.html" target="_self">LogbooksService</a>, request: Request)</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="43" class="link-to-prism">src/datasets/datasets.service.ts:43</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                            <div>
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>configService</td>
+                                                  
+                                                        <td>
+                                                                    <code>ConfigService</code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>datasetModel</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../miscellaneous/typealiases.html#DatasetDocument" target="_self" >Model&lt;DatasetDocument&gt;</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>initialDatasetsService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/InitialDatasetsService.html" target="_self" >InitialDatasetsService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>logbooksService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/LogbooksService.html" target="_self" >LogbooksService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>request</td>
+                                                  
+                                                        <td>
+                                                                    <code>Request</code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+            <section data-compodoc="block-methods">
+    
+    <h3 id="methods">
+        Methods
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="count"></a>
+                    <span class="name">
+                        <span class="modifier">Async</span>
+                        <span ><b>count</b></span>
+                        <a href="#count"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>count(filter: <a href="../undefineds/DatasetDocument.html" target="_self">FilterQuery&lt;DatasetDocument&gt;</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="138"
+                            class="link-to-prism">src/datasets/datasets.service.ts:138</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>filter</td>
+                                    <td>
+                                                <code><a href="../miscellaneous/typealiases.html#DatasetDocument" target="_self" >FilterQuery&lt;DatasetDocument&gt;</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>    <code>Promise&lt;literal type&gt;</code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="create"></a>
+                    <span class="name">
+                        <span class="modifier">Async</span>
+                        <span ><b>create</b></span>
+                        <a href="#create"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>create(createDatasetDto: <a href="../classes/CreateDatasetDto.html" target="_self">CreateDatasetDto</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="53"
+                            class="link-to-prism">src/datasets/datasets.service.ts:53</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>createDatasetDto</td>
+                                    <td>
+                                                <code><a href="../classes/CreateDatasetDto.html" target="_self" >CreateDatasetDto</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="../miscellaneous/typealiases.html#DatasetDocument" target="_self" >Promise&lt;DatasetDocument&gt;</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="findAll"></a>
+                    <span class="name">
+                        <span class="modifier">Async</span>
+                        <span ><b>findAll</b></span>
+                        <a href="#findAll"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>findAll(filter: <a href="../undefineds/DatasetDocument.html" target="_self">IFilters&lt;DatasetDocument | IDatasetFields&gt;</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="63"
+                            class="link-to-prism">src/datasets/datasets.service.ts:63</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>filter</td>
+                                    <td>
+                                                <code><a href="../miscellaneous/typealiases.html#DatasetDocument" target="_self" >IFilters&lt;DatasetDocument | IDatasetFields&gt;</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="../classes/DatasetClass.html" target="_self" >Promise&lt;DatasetClass[]&gt;</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="findByIdAndDelete"></a>
+                    <span class="name">
+                        <span class="modifier">Async</span>
+                        <span ><b>findByIdAndDelete</b></span>
+                        <a href="#findByIdAndDelete"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>findByIdAndDelete(id: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="226"
+                            class="link-to-prism">src/datasets/datasets.service.ts:226</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>id</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="../classes/DatasetClass.html" target="_self" >Promise&lt;DatasetClass | null&gt;</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="findByIdAndReplace"></a>
+                    <span class="name">
+                        <span class="modifier">Async</span>
+                        <span ><b>findByIdAndReplace</b></span>
+                        <a href="#findByIdAndReplace"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>findByIdAndReplace(id: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>, updateDatasetDto: UpdateDatasetDto | UpdateRawDatasetDto | UpdateDerivedDatasetDto)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="149"
+                            class="link-to-prism">src/datasets/datasets.service.ts:149</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>id</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                                <tr>
+                                    <td>updateDatasetDto</td>
+                                    <td>
+                                            <code>UpdateDatasetDto | UpdateRawDatasetDto | UpdateDerivedDatasetDto</code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="../classes/DatasetClass.html" target="_self" >Promise&lt;DatasetClass&gt;</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="findByIdAndUpdate"></a>
+                    <span class="name">
+                        <span class="modifier">Async</span>
+                        <span ><b>findByIdAndUpdate</b></span>
+                        <a href="#findByIdAndUpdate"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>findByIdAndUpdate(id: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>, updateDatasetDto: <a href="../undefineds/DatasetDocument.html" target="_self">PartialUpdateDatasetDto | PartialUpdateRawDatasetDto | PartialUpdateDerivedDatasetDto | UpdateQuery&lt;DatasetDocument&gt;</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="191"
+                            class="link-to-prism">src/datasets/datasets.service.ts:191</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>id</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                                <tr>
+                                    <td>updateDatasetDto</td>
+                                    <td>
+                                                <code><a href="../miscellaneous/typealiases.html#DatasetDocument" target="_self" >PartialUpdateDatasetDto | PartialUpdateRawDatasetDto | PartialUpdateDerivedDatasetDto | UpdateQuery&lt;DatasetDocument&gt;</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="../classes/DatasetClass.html" target="_self" >Promise&lt;DatasetClass | null&gt;</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="findOne"></a>
+                    <span class="name">
+                        <span class="modifier">Async</span>
+                        <span ><b>findOne</b></span>
+                        <a href="#findOne"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>findOne(filter: <a href="../undefineds/DatasetDocument.html" target="_self">FilterQuery&lt;DatasetDocument&gt;</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="129"
+                            class="link-to-prism">src/datasets/datasets.service.ts:129</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>filter</td>
+                                    <td>
+                                                <code><a href="../miscellaneous/typealiases.html#DatasetDocument" target="_self" >FilterQuery&lt;DatasetDocument&gt;</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="../classes/DatasetClass.html" target="_self" >Promise&lt;DatasetClass | null&gt;</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="fullFacet"></a>
+                    <span class="name">
+                        <span class="modifier">Async</span>
+                        <span ><b>fullFacet</b></span>
+                        <a href="#fullFacet"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>fullFacet(filters: IFacets<IDatasetFields>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="104"
+                            class="link-to-prism">src/datasets/datasets.service.ts:104</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>filters</td>
+                                    <td>
+                                            <code>IFacets&lt;IDatasetFields&gt;</code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>    <code>Promise&lt;Record[]&gt;</code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="fullquery"></a>
+                    <span class="name">
+                        <span class="modifier">Async</span>
+                        <span ><b>fullquery</b></span>
+                        <a href="#fullquery"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>fullquery(filter: <a href="../undefineds/DatasetDocument.html" target="_self">IFilters&lt;DatasetDocument | IDatasetFields&gt;</a>, extraWhereClause: <a href="../undefineds/DatasetDocument.html" target="_self">FilterQuery&lt;DatasetDocument&gt;</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="81"
+                            class="link-to-prism">src/datasets/datasets.service.ts:81</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                    <td>Default value</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>filter</td>
+                                    <td>
+                                                <code><a href="../miscellaneous/typealiases.html#DatasetDocument" target="_self" >IFilters&lt;DatasetDocument | IDatasetFields&gt;</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+                                    <td>
+                                    </td>
+
+                                </tr>
+                                <tr>
+                                    <td>extraWhereClause</td>
+                                    <td>
+                                                <code><a href="../miscellaneous/typealiases.html#DatasetDocument" target="_self" >FilterQuery&lt;DatasetDocument&gt;</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+                                    <td>
+                                        <code>{}</code>
+                                    </td>
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>    <code>Promise&lt;[] | null&gt;</code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="keepHistory"></a>
+                    <span class="name">
+                        <span class="modifier">Async</span>
+                        <span ><b>keepHistory</b></span>
+                        <a href="#keepHistory"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>keepHistory(req: Request)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="293"
+                            class="link-to-prism">src/datasets/datasets.service.ts:293</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>req</td>
+                                    <td>
+                                            <code>Request</code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="metadataKeys"></a>
+                    <span class="name">
+                        <span class="modifier">Async</span>
+                        <span ><b>metadataKeys</b></span>
+                        <a href="#metadataKeys"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>metadataKeys(filters: <a href="../undefineds/DatasetDocument.html" target="_self">IFilters&lt;DatasetDocument | IDatasetFields&gt;</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="231"
+                            class="link-to-prism">src/datasets/datasets.service.ts:231</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>filters</td>
+                                    <td>
+                                                <code><a href="../miscellaneous/typealiases.html#DatasetDocument" target="_self" >IFilters&lt;DatasetDocument | IDatasetFields&gt;</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>    <code>Promise&lt;string[]&gt;</code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="updateAll"></a>
+                    <span class="name">
+                        <span class="modifier">Async</span>
+                        <span ><b>updateAll</b></span>
+                        <a href="#updateAll"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>updateAll(filter: <a href="../undefineds/DatasetDocument.html" target="_self">FilterQuery&lt;DatasetDocument&gt;</a>, updateDatasetDto: Record<string | >)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="120"
+                            class="link-to-prism">src/datasets/datasets.service.ts:120</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>filter</td>
+                                    <td>
+                                                <code><a href="../miscellaneous/typealiases.html#DatasetDocument" target="_self" >FilterQuery&lt;DatasetDocument&gt;</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                                <tr>
+                                    <td>updateDatasetDto</td>
+                                    <td>
+                                            <code>Record&lt;string | &gt;</code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>    <code>Promise&lt;&gt;</code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="updateHistory"></a>
+                    <span class="name">
+                        <span class="modifier">Async</span>
+                        <span ><b>updateHistory</b></span>
+                        <a href="#updateHistory"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>updateHistory(req: Request, dataset: <a href="../classes/DatasetClass.html" target="_self">DatasetClass</a>, data: <a href="../classes/UpdateDatasetDto.html" target="_self">UpdateDatasetDto</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="358"
+                            class="link-to-prism">src/datasets/datasets.service.ts:358</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>req</td>
+                                    <td>
+                                            <code>Request</code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                                <tr>
+                                    <td>dataset</td>
+                                    <td>
+                                                <code><a href="../classes/DatasetClass.html" target="_self" >DatasetClass</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                                <tr>
+                                    <td>data</td>
+                                    <td>
+                                                <code><a href="../classes/UpdateDatasetDto.html" target="_self" >UpdateDatasetDto</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+    </div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import {
+  Inject,
+  Injectable,
+  Logger,
+  NotFoundException,
+  Scope,
+} from &quot;@nestjs/common&quot;;
+import { ConfigService } from &quot;@nestjs/config&quot;;
+import { REQUEST } from &quot;@nestjs/core&quot;;
+import { InjectModel } from &quot;@nestjs/mongoose&quot;;
+import { Request } from &quot;express&quot;;
+import { FilterQuery, Model, QueryOptions, UpdateQuery } from &quot;mongoose&quot;;
+import { JWTUser } from &quot;src/auth/interfaces/jwt-user.interface&quot;;
+import { IFacets, IFilters } from &quot;src/common/interfaces/common.interface&quot;;
+import {
+  addCreatedByFields,
+  addUpdatedByField,
+  createFullfacetPipeline,
+  createFullqueryFilter,
+  extractMetadataKeys,
+  parseLimitFilters,
+} from &quot;src/common/utils&quot;;
+import { InitialDatasetsService } from &quot;src/initial-datasets/initial-datasets.service&quot;;
+import { LogbooksService } from &quot;src/logbooks/logbooks.service&quot;;
+import { DatasetType } from &quot;./dataset-type.enum&quot;;
+import { CreateDatasetDto } from &quot;./dto/create-dataset.dto&quot;;
+import {
+  PartialUpdateDatasetDto,
+  UpdateDatasetDto,
+} from &quot;./dto/update-dataset.dto&quot;;
+import {
+  PartialUpdateDerivedDatasetDto,
+  UpdateDerivedDatasetDto,
+} from &quot;./dto/update-derived-dataset.dto&quot;;
+import {
+  PartialUpdateRawDatasetDto,
+  UpdateRawDatasetDto,
+} from &quot;./dto/update-raw-dataset.dto&quot;;
+import { IDatasetFields } from &quot;./interfaces/dataset-filters.interface&quot;;
+import { DatasetClass, DatasetDocument } from &quot;./schemas/dataset.schema&quot;;
+
+@Injectable({ scope: Scope.REQUEST })
+export class DatasetsService {
+  constructor(
+    private configService: ConfigService,
+    @InjectModel(DatasetClass.name)
+    private datasetModel: Model&lt;DatasetDocument&gt;,
+    private initialDatasetsService: InitialDatasetsService,
+    private logbooksService: LogbooksService,
+    @Inject(REQUEST) private request: Request,
+  ) {}
+
+  async create(createDatasetDto: CreateDatasetDto): Promise&lt;DatasetDocument&gt; {
+    const username &#x3D; (this.request.user as JWTUser).username;
+    const createdDataset &#x3D; new this.datasetModel(
+      // insert created and updated fields
+      addCreatedByFields(createDatasetDto, username),
+    );
+
+    return createdDataset.save();
+  }
+
+  async findAll(
+    filter: IFilters&lt;DatasetDocument, IDatasetFields&gt;,
+  ): Promise&lt;DatasetClass[]&gt; {
+    const whereFilter: FilterQuery&lt;DatasetDocument&gt; &#x3D; filter.where ?? {};
+    const fieldsProjection: FilterQuery&lt;DatasetDocument&gt; &#x3D; filter.fields ?? {};
+    const { limit, skip, sort } &#x3D; parseLimitFilters(filter.limits);
+
+    const datasetPromise &#x3D; this.datasetModel
+      .find(whereFilter, fieldsProjection)
+      .limit(limit)
+      .skip(skip)
+      .sort(sort);
+
+    const datasets &#x3D; await datasetPromise.exec();
+
+    return datasets;
+  }
+
+  async fullquery(
+    filter: IFilters&lt;DatasetDocument, IDatasetFields&gt;,
+    extraWhereClause: FilterQuery&lt;DatasetDocument&gt; &#x3D; {},
+  ): Promise&lt;DatasetClass[] | null&gt; {
+    const filterQuery: FilterQuery&lt;DatasetDocument&gt; &#x3D;
+      createFullqueryFilter&lt;DatasetDocument&gt;(
+        this.datasetModel,
+        &quot;pid&quot;,
+        filter.fields as FilterQuery&lt;DatasetDocument&gt;,
+      );
+    const whereClause: FilterQuery&lt;DatasetDocument&gt; &#x3D; {
+      ...filterQuery,
+      ...extraWhereClause,
+    };
+    const modifiers: QueryOptions &#x3D; parseLimitFilters(filter.limits);
+
+    const datasets &#x3D; await this.datasetModel
+      .find(whereClause, null, modifiers)
+      .exec();
+
+    return datasets;
+  }
+
+  async fullFacet(
+    filters: IFacets&lt;IDatasetFields&gt;,
+  ): Promise&lt;Record&lt;string, unknown&gt;[]&gt; {
+    const fields &#x3D; filters.fields ?? {};
+    const facets &#x3D; filters.facets ?? [];
+
+    const pipeline &#x3D; createFullfacetPipeline&lt;DatasetDocument, IDatasetFields&gt;(
+      this.datasetModel,
+      &quot;pid&quot;,
+      fields,
+      facets,
+    );
+
+    return await this.datasetModel.aggregate(pipeline).exec();
+  }
+
+  async updateAll(
+    filter: FilterQuery&lt;DatasetDocument&gt;,
+    updateDatasetDto: Record&lt;string, unknown&gt;,
+  ): Promise&lt;unknown&gt; {
+    return this.datasetModel
+      .updateMany(filter, updateDatasetDto, { new: true })
+      .exec();
+  }
+
+  async findOne(
+    filter: FilterQuery&lt;DatasetDocument&gt;,
+  ): Promise&lt;DatasetClass | null&gt; {
+    const whereFilter: FilterQuery&lt;DatasetDocument&gt; &#x3D; filter.where ?? {};
+    const fieldsProjection: FilterQuery&lt;DatasetDocument&gt; &#x3D; filter.fields ?? {};
+
+    return this.datasetModel.findOne(whereFilter, fieldsProjection).exec();
+  }
+
+  async count(
+    filter: FilterQuery&lt;DatasetDocument&gt;,
+  ): Promise&lt;{ count: number }&gt; {
+    const whereFilter: FilterQuery&lt;DatasetDocument&gt; &#x3D; filter.where ?? {};
+
+    const count &#x3D; await this.datasetModel.count(whereFilter).exec();
+    return { count };
+  }
+
+  // PUT dataset
+  // we update the full dataset if exist or create a new one if it does not
+  async findByIdAndReplace(
+    id: string,
+    updateDatasetDto:
+      | UpdateDatasetDto
+      | UpdateRawDatasetDto
+      | UpdateDerivedDatasetDto,
+  ): Promise&lt;DatasetClass&gt; {
+    const username &#x3D; (this.request.user as JWTUser).username;
+    const existingDataset &#x3D; await this.datasetModel.findOne({ pid: id }).exec();
+    if (!existingDataset) {
+      throw new NotFoundException();
+    }
+    // TODO: This might need a discussion.
+    // NOTE: _id, pid and some other fields should not be touched in any case.
+    const updatedDatasetInput &#x3D; {
+      ...updateDatasetDto,
+      pid: existingDataset.pid,
+      createdBy: existingDataset.createdBy,
+      createdAt: existingDataset.createdAt,
+      history: existingDataset.history,
+    };
+    const updatedDataset &#x3D; await this.datasetModel
+      .findOneAndReplace(
+        { pid: id },
+        addUpdatedByField(updatedDatasetInput, username),
+        {
+          new: true,
+        },
+      )
+      .exec();
+
+    // check if we were able to find the dataset and update it
+    if (!updatedDataset) {
+      throw new NotFoundException(&#x60;Dataset #${id} not found&#x60;);
+    }
+
+    // we were able to find the dataset and update it
+    return updatedDataset;
+  }
+
+  // PATCH dataset
+  // we update only the fields that have been modified on an existing dataset
+  async findByIdAndUpdate(
+    id: string,
+    updateDatasetDto:
+      | PartialUpdateDatasetDto
+      | PartialUpdateRawDatasetDto
+      | PartialUpdateDerivedDatasetDto
+      | UpdateQuery&lt;DatasetDocument&gt;,
+  ): Promise&lt;DatasetClass | null&gt; {
+    const existingDataset &#x3D; await this.datasetModel.findOne({ pid: id }).exec();
+    // check if we were able to find the dataset
+    if (!existingDataset) {
+      // no luck. we need to create a new dataset
+      throw new NotFoundException(&#x60;Dataset #${id} not found&#x60;);
+    }
+
+    const username &#x3D; (this.request.user as JWTUser).username;
+
+    // NOTE: When doing findByIdAndUpdate in mongoose it does reset the subdocuments to default values if no value is provided
+    // https://stackoverflow.com/questions/57324321/mongoose-overwriting-data-in-mongodb-with-default-values-in-subdocuments
+    const patchedDataset &#x3D; await this.datasetModel
+      .findOneAndUpdate(
+        { pid: id },
+        addUpdatedByField(
+          updateDatasetDto as UpdateQuery&lt;DatasetDocument&gt;,
+          username,
+        ),
+        { new: true },
+      )
+      .exec();
+
+    // we were able to find the dataset and update it
+    return patchedDataset;
+  }
+
+  // DELETE dataset
+  async findByIdAndDelete(id: string): Promise&lt;DatasetClass | null&gt; {
+    return await this.datasetModel.findOneAndRemove({ pid: id });
+  }
+
+  // Get metadata keys
+  async metadataKeys(
+    filters: IFilters&lt;DatasetDocument, IDatasetFields&gt;,
+  ): Promise&lt;string[]&gt; {
+    const blacklist &#x3D; [
+      new RegExp(&quot;.*_date&quot;),
+      new RegExp(&quot;runNumber&quot;),
+      new RegExp(&quot;Entrych*.&quot;),
+      new RegExp(&quot;entryCh*.&quot;),
+      new RegExp(&quot;FMC-PICO*.&quot;),
+      new RegExp(&quot;BW_measurement*.&quot;),
+      new RegExp(&quot;Linearity_measurement*.&quot;),
+      new RegExp(&quot;Pulse_measurement*.&quot;),
+    ];
+
+    // ensure that no more than MAXLIMIT someCollections are read for metadata key extraction
+    let MAXLIMIT;
+    if (this.configService.get&lt;number&gt;(&quot;metadataParentInstancesReturnLimit&quot;)) {
+      MAXLIMIT &#x3D; this.configService.get&lt;number&gt;(
+        &quot;metadataParentInstancesReturnLimit&quot;,
+      );
+
+      let lm;
+
+      if (filters.limits) {
+        lm &#x3D; JSON.parse(JSON.stringify(filters.limits));
+      } else {
+        lm &#x3D; {};
+      }
+
+      if (MAXLIMIT &amp;&amp; lm.limit) {
+        if (lm.limit &gt; MAXLIMIT) {
+          lm.limit &#x3D; MAXLIMIT;
+        }
+      } else {
+        lm.limit &#x3D; MAXLIMIT;
+      }
+      filters.limits &#x3D; lm;
+    }
+
+    const datasets &#x3D; await this.fullquery(filters);
+
+    const metadataKeys &#x3D; extractMetadataKeys&lt;DatasetClass&gt;(
+      datasets as unknown as DatasetClass[],
+      &quot;scientificMetadata&quot;,
+    ).filter((key) &#x3D;&gt; !blacklist.some((regex) &#x3D;&gt; regex.test(key)));
+
+    const metadataKey &#x3D; filters.fields ? filters.fields.metadataKey : undefined;
+    const returnLimit &#x3D; this.configService.get&lt;number&gt;(
+      &quot;metadataKeysReturnLimit&quot;,
+    );
+
+    if (metadataKey &amp;&amp; metadataKey.length &gt; 0) {
+      const filterKey &#x3D; metadataKey.toLowerCase();
+      return metadataKeys
+        .filter((key) &#x3D;&gt; key.toLowerCase().includes(filterKey))
+        .slice(0, returnLimit);
+    } else {
+      return metadataKeys.slice(0, returnLimit);
+    }
+  }
+
+  // this should update the history in all affected documents
+  async keepHistory(req: Request) {
+    // 4 different cases: (ctx.where:single/multiple instances)*(ctx.data: update of data/replacement of data)
+    if (req.query.where &amp;&amp; req.body) {
+      // do not keep history for status updates from jobs, because this can take much too long for large jobs
+      if (req.body.$set) {
+        return;
+      }
+
+      const datasets &#x3D; await this.findAll({
+        where: JSON.parse(
+          req.query.where as string,
+        ) as FilterQuery&lt;DatasetDocument&gt;,
+      });
+
+      const dataCopy &#x3D; JSON.parse(JSON.stringify(req.body));
+      await Promise.all(
+        datasets.map(async (dataset) &#x3D;&gt; {
+          req.body &#x3D; JSON.parse(JSON.stringify(dataCopy));
+          if (req.body &amp;&amp; req.body.datasetlifecycle) {
+            const changes &#x3D; JSON.parse(
+              JSON.stringify(req.body.datasetlifecycle),
+            );
+            req.body.datasetlifecycle &#x3D; JSON.parse(
+              JSON.stringify(dataset.datasetlifecycle),
+            );
+            for (const k in changes) {
+              req.body.datasetlifecycle[k] &#x3D; changes[k];
+            }
+
+            const initialDataset &#x3D; await this.initialDatasetsService.findById(
+              dataset.pid,
+            );
+
+            if (!initialDataset) {
+              await this.initialDatasetsService.create({ _id: dataset.pid });
+              await this.updateHistory(req, dataset as DatasetClass, dataCopy);
+            } else {
+              await this.updateHistory(req, dataset as DatasetClass, dataCopy);
+            }
+          }
+        }),
+      );
+    }
+
+    // single dataset, update
+    if (!req.query.where &amp;&amp; req.body.data) {
+      Logger.warn(
+        &quot;Single dataset update case without where condition is currently not treated: &quot; +
+          req.body.data,
+        &quot;DatasetsService.keepHistory&quot;,
+      );
+      return;
+    }
+
+    // single dataset, update
+    if (!req.query.where &amp;&amp; !req.body.data) {
+      return;
+    }
+
+    // single dataset, update
+    if (req.query.where &amp;&amp; !req.body.data) {
+      return;
+    }
+  }
+
+  async updateHistory(
+    req: Request,
+    dataset: DatasetClass,
+    data: UpdateDatasetDto,
+  ) {
+    if (req.body.history) {
+      delete req.body.history;
+    }
+
+    if (!req.body.size &amp;&amp; !req.body.packedSize) {
+      const updatedFields: Omit&lt;UpdateDatasetDto, &quot;updatedAt&quot; | &quot;updatedBy&quot;&gt; &#x3D;
+        data;
+      const historyItem: Record&lt;string, unknown&gt; &#x3D; {};
+      Object.keys(updatedFields).forEach((updatedField) &#x3D;&gt; {
+        historyItem[updatedField as keyof UpdateDatasetDto] &#x3D; {
+          currentValue: data[updatedField as keyof UpdateDatasetDto],
+          previousValue: dataset[updatedField as keyof UpdateDatasetDto],
+        };
+      });
+      dataset.history &#x3D; dataset.history ?? [];
+      dataset.history.push({
+        updatedBy: (req.user as JWTUser).username,
+        ...JSON.parse(JSON.stringify(historyItem).replace(/\$/g, &quot;&quot;)),
+      });
+      await this.findByIdAndUpdate(dataset.pid, { history: dataset.history });
+      const logbookEnabled &#x3D; this.configService.get&lt;boolean&gt;(&quot;logbook.enabled&quot;);
+      if (logbookEnabled) {
+        const user &#x3D; (req.user as JWTUser).username.replace(&quot;ldap.&quot;, &quot;&quot;);
+        const datasetPid &#x3D; dataset.pid;
+        const proposalId &#x3D;
+          dataset.type &#x3D;&#x3D;&#x3D; DatasetType.Raw
+            ? (dataset as unknown as DatasetClass).proposalId
+            : undefined;
+        if (proposalId) {
+          await Promise.all(
+            Object.keys(updatedFields).map(async (updatedField) &#x3D;&gt; {
+              const message &#x3D; &#x60;${user} updated &quot;${updatedField}&quot; of dataset with PID ${datasetPid}&#x60;;
+              await this.logbooksService.sendMessage(proposalId, { message });
+            }),
+          );
+        }
+      }
+    }
+  }
+}
+</code></pre>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+          <label class="dark-mode-switch">
+               <input type="checkbox">
+               <span class="slider">
+                    <svg class="slider-icon" viewBox="0 0 24 24" fill="none" height="20" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="20" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
+                    </svg>
+               </span>
+          </label>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'injectable';
+            var COMPODOC_CURRENT_PAGE_URL = 'DatasetsService.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+
+       <script src="../js/menu-wc.js" defer></script>
+       <script nomodule src="../js/menu-wc_es5.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>

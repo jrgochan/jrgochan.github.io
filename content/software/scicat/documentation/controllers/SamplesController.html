@@ -1,0 +1,2053 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>scicat-backend-next documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	   <link rel="stylesheet" href="../styles/style.css">
+        <link rel="stylesheet" href="../styles/dark.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top d-block d-sm-none">
+            <a href="../" class="navbar-brand">scicat-backend-next documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content controller">
+                   <div class="content-data">
+
+
+
+
+
+<ol class="breadcrumb">
+  <li class="breadcrumb-item">Controllers</li>
+  <li class="breadcrumb-item" >SamplesController</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="nav-item">
+            <a href="#info" 
+                class="nav-link"
+                class="nav-link active"
+                role="tab" id="info-tab" data-bs-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li class="nav-item">
+            <a href="#source" 
+                class="nav-link"
+                
+                role="tab" id="source-tab" data-bs-toggle="tab" data-link="source">Source</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="info">
+        <p class="comment">
+            <h3>File</h3>
+        </p>
+        <p class="comment">
+            <code>src/samples/samples.controller.ts</code>
+        </p>
+
+            <p class="comment">
+                <h3>Prefix</h3>
+            </p>
+            <p class="comment">
+                <code>samples</code>
+            </p>
+
+
+
+
+
+
+            <section data-compodoc="block-index">
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier">Async</span>
+                                <a href="#create" >create</a>
+                            </li>
+                            <li>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier">Async</span>
+                                <a href="#createAttachments" >createAttachments</a>
+                            </li>
+                            <li>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier">Async</span>
+                                <a href="#findAll" >findAll</a>
+                            </li>
+                            <li>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier">Async</span>
+                                <a href="#findAllAttachments" >findAllAttachments</a>
+                            </li>
+                            <li>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier">Async</span>
+                                <a href="#findAllDatasets" >findAllDatasets</a>
+                            </li>
+                            <li>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier">Async</span>
+                                <a href="#findById" >findById</a>
+                            </li>
+                            <li>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier">Async</span>
+                                <a href="#findOne" >findOne</a>
+                            </li>
+                            <li>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier">Async</span>
+                                <a href="#findOneAttachment" >findOneAttachment</a>
+                            </li>
+                            <li>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier">Async</span>
+                                <a href="#findOneAttachmentAndRemove" >findOneAttachmentAndRemove</a>
+                            </li>
+                            <li>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier">Async</span>
+                                <a href="#fullquery" >fullquery</a>
+                            </li>
+                            <li>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier">Async</span>
+                                <a href="#metadataKeys" >metadataKeys</a>
+                            </li>
+                            <li>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier">Async</span>
+                                <a href="#remove" >remove</a>
+                            </li>
+                            <li>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier">Async</span>
+                                <a href="#update" >update</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+            <section data-compodoc="block-methods">
+    
+    <h3 id="methods">
+        Methods
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="create"></a>
+                    <span class="name">
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier">Async</span>
+                        <span ><b>create</b></span>
+                        <a href="#create"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>create(createSampleDto: <a href="../classes/CreateSampleDto.html" target="_self">CreateSampleDto</a>)</code>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <b>Decorators : </b>
+                    <br />
+                    <code>@UseGuards(PoliciesGuard)<br />@CheckPolicies(ability &#x3D;&gt; )<br />@UseInterceptors(new FormatPhysicalQuantitiesInterceptor())<br />@HttpCode(HttpStatus.OK)<br />@Post()<br />@ApiOperation({summary: &#x27;It creates a new sample.&#x27;, description: &#x27;It creates a new sample and returns it completed with systems fields.&#x27;})<br />@ApiExtraModels(CreateSampleDto)<br />@ApiBody({type: CreateSampleDto})<br />@ApiResponse({status: undefined, type: SampleClass, description: &#x27;Create a new sample and return its representation in SciCat&#x27;})<br /></code>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="90"
+                            class="link-to-prism">src/samples/samples.controller.ts:90</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>createSampleDto</td>
+                                    <td>
+                                                <code><a href="../classes/CreateSampleDto.html" target="_self" >CreateSampleDto</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="../classes/SampleClass.html" target="_self" >Promise&lt;SampleClass&gt;</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="createAttachments"></a>
+                    <span class="name">
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier">Async</span>
+                        <span ><b>createAttachments</b></span>
+                        <a href="#createAttachments"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>createAttachments(id: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>, createAttachmentDto: <a href="../classes/CreateAttachmentDto.html" target="_self">CreateAttachmentDto</a>)</code>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <b>Decorators : </b>
+                    <br />
+                    <code>@UseGuards(PoliciesGuard)<br />@CheckPolicies(ability &#x3D;&gt; )<br />@Post(&#x27;/:id/attachments&#x27;)<br />@ApiOperation({summary: &#x27;It creates a new attachment related with this sample.&#x27;, description: &#x27;It creates a new attachment related to the sample id provided and returns it completed with system fields.&#x27;})<br />@ApiExtraModels(CreateAttachmentDto)<br />@ApiBody({type: CreateAttachmentDto})<br />@ApiParam({name: &#x27;id&#x27;, description: &#x27;Sample id that this attachment will be related to.&#x27;, type: String})<br />@ApiResponse({status: undefined, type: Attachment, description: &#x27;Create a new attachment related to sample id provided and return its representation in SciCat&#x27;})<br /></code>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="372"
+                            class="link-to-prism">src/samples/samples.controller.ts:372</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>id</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                                <tr>
+                                    <td>createAttachmentDto</td>
+                                    <td>
+                                                <code><a href="../classes/CreateAttachmentDto.html" target="_self" >CreateAttachmentDto</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="../classes/Attachment.html" target="_self" >Promise&lt;Attachment | null&gt;</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="findAll"></a>
+                    <span class="name">
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier">Async</span>
+                        <span ><b>findAll</b></span>
+                        <a href="#findAll"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>findAll(filters?: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>)</code>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <b>Decorators : </b>
+                    <br />
+                    <code>@UseGuards(PoliciesGuard)<br />@CheckPolicies(ability &#x3D;&gt; )<br />@Get()<br />@ApiOperation({summary: &#x27;It returns a list of samples&#x27;, description: &#x27;It returns a list of samples. The list returned can be modified by providing a filter.&#x27;})<br />@ApiQuery({name: &#x27;filter&#x27;, description: undefined, required: false, type: String, example: filterExample})<br />@ApiResponse({status: undefined, type: SampleClass, isArray: true, description: &#x27;Return the samples requested&#x27;})<br /></code>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="117"
+                            class="link-to-prism">src/samples/samples.controller.ts:117</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>filters</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        Yes
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="../classes/SampleClass.html" target="_self" >Promise&lt;SampleClass[]&gt;</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="findAllAttachments"></a>
+                    <span class="name">
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier">Async</span>
+                        <span ><b>findAllAttachments</b></span>
+                        <a href="#findAllAttachments"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>findAllAttachments(id: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>)</code>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <b>Decorators : </b>
+                    <br />
+                    <code>@UseGuards(PoliciesGuard)<br />@CheckPolicies(ability &#x3D;&gt; )<br />@Get(&#x27;/:id/attachments&#x27;)<br />@ApiOperation({summary: &#x27;It returns the attachments related to a specific sample.&#x27;, description: &#x27;It returns the attachments related to a sample through the id specified.&#x27;})<br />@ApiParam({name: &#x27;id&#x27;, description: &#x27;Id of the sample to get attachments related.&#x27;, type: String})<br />@ApiResponse({status: undefined, isArray: true, type: Attachment, description: &#x27;Return attachments related with sample id specified&#x27;})<br /></code>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="408"
+                            class="link-to-prism">src/samples/samples.controller.ts:408</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>id</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="../classes/Attachment.html" target="_self" >Promise&lt;Attachment[]&gt;</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="findAllDatasets"></a>
+                    <span class="name">
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier">Async</span>
+                        <span ><b>findAllDatasets</b></span>
+                        <a href="#findAllDatasets"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>findAllDatasets(sampleId: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>)</code>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <b>Decorators : </b>
+                    <br />
+                    <code>@UseGuards(PoliciesGuard)<br />@CheckPolicies(ability &#x3D;&gt; )<br />@Get(&#x27;/:id/datasets&#x27;)<br />@ApiOperation({summary: &#x27;It returns the datasets related to a specific sample.&#x27;, description: &#x27;It returns the datasets related to a sample through the id specified.&#x27;})<br />@ApiParam({name: &#x27;id&#x27;, description: &#x27;Id of the sample to get datasets related.&#x27;, type: String})<br />@ApiResponse({status: undefined, isArray: true, type: DatasetClass, description: &#x27;Return all datasets related with sample id specified&#x27;})<br /></code>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="539"
+                            class="link-to-prism">src/samples/samples.controller.ts:539</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>sampleId</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>    <code>Promise&lt;[] | null&gt;</code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="findById"></a>
+                    <span class="name">
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier">Async</span>
+                        <span ><b>findById</b></span>
+                        <a href="#findById"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>findById(id: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>)</code>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <b>Decorators : </b>
+                    <br />
+                    <code>@UseGuards(PoliciesGuard)<br />@CheckPolicies(ability &#x3D;&gt; )<br />@Get(&#x27;/:id&#x27;)<br />@ApiOperation({summary: &#x27;It returns the sample requested.&#x27;, description: &#x27;It returns the sample requested through the id specified.&#x27;})<br />@ApiParam({name: &#x27;id&#x27;, description: &#x27;Id of the sample to return&#x27;, type: String})<br />@ApiResponse({status: undefined, type: SampleClass, description: &#x27;Return sample with id specified&#x27;})<br /></code>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="281"
+                            class="link-to-prism">src/samples/samples.controller.ts:281</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>id</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="../classes/SampleClass.html" target="_self" >Promise&lt;SampleClass | null&gt;</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="findOne"></a>
+                    <span class="name">
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier">Async</span>
+                        <span ><b>findOne</b></span>
+                        <a href="#findOne"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>findOne(queryFilters?: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>)</code>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <b>Decorators : </b>
+                    <br />
+                    <code>@UseGuards(PoliciesGuard)<br />@CheckPolicies(ability &#x3D;&gt; )<br />@Get(&#x27;/findOne&#x27;)<br />@ApiOperation({summary: &#x27;It returns a sample matching the query provided.&#x27;, description: &#x27;It returns sample matching the query provided.&#x27;})<br />@ApiQuery({name: &#x27;filter&#x27;, description: undefined, required: false, type: String, example: filterExample})<br />@ApiResponse({status: undefined, type: SampleWithAttachmentsAndDatasets, description: &#x27;Return sample requested&#x27;})<br /></code>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="226"
+                            class="link-to-prism">src/samples/samples.controller.ts:226</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>queryFilters</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        Yes
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>    <code>Promise&lt;SampleWithAttachmentsAndDatasets | null&gt;</code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="findOneAttachment"></a>
+                    <span class="name">
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier">Async</span>
+                        <span ><b>findOneAttachment</b></span>
+                        <a href="#findOneAttachment"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>findOneAttachment(sampleId: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>, attachmentId: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>)</code>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <b>Decorators : </b>
+                    <br />
+                    <code>@UseGuards(PoliciesGuard)<br />@CheckPolicies(ability &#x3D;&gt; )<br />@Get(&#x27;/:id/attachments/:fk&#x27;)<br />@ApiOperation({summary: &#x27;It returns the attachment related to a specific sample.&#x27;, description: &#x27;It returns the attachment related to a sample through the sample and attachment ids specified.&#x27;})<br />@ApiParam({name: &#x27;id&#x27;, description: &#x27;Id of the sample to get attachments related.&#x27;, type: String})<br />@ApiParam({name: &#x27;fk&#x27;, description: &#x27;Id of the specific attachment to get.&#x27;, type: String})<br />@ApiResponse({status: undefined, type: Attachment, description: &#x27;Return one specific attachment by id(fk) related to specified sample id.&#x27;})<br /></code>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="458"
+                            class="link-to-prism">src/samples/samples.controller.ts:458</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>sampleId</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                                <tr>
+                                    <td>attachmentId</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="../classes/Attachment.html" target="_self" >Promise&lt;Attachment | null&gt;</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="findOneAttachmentAndRemove"></a>
+                    <span class="name">
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier">Async</span>
+                        <span ><b>findOneAttachmentAndRemove</b></span>
+                        <a href="#findOneAttachmentAndRemove"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>findOneAttachmentAndRemove(sampleId: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>, attachmentId: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>)</code>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <b>Decorators : </b>
+                    <br />
+                    <code>@UseGuards(PoliciesGuard)<br />@CheckPolicies(ability &#x3D;&gt; )<br />@Delete(&#x27;/:id/attachments/:fk&#x27;)<br />@ApiOperation({summary: &#x27;It deletes the attachment related to a specific sample.&#x27;, description: &#x27;It deletes the attachment specified through the id(fk) related to specific sample.&#x27;})<br />@ApiParam({name: &#x27;id&#x27;, description: &#x27;Id of the sample that this specific attachment is related with&#x27;, type: String})<br />@ApiParam({name: &#x27;fk&#x27;, description: &#x27;Id of the attachment to delete&#x27;, type: String})<br />@ApiResponse({status: undefined, description: &#x27;No value is returned&#x27;})<br /></code>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="494"
+                            class="link-to-prism">src/samples/samples.controller.ts:494</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>sampleId</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                                <tr>
+                                    <td>attachmentId</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>    <code>Promise&lt;&gt;</code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="fullquery"></a>
+                    <span class="name">
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier">Async</span>
+                        <span ><b>fullquery</b></span>
+                        <a href="#fullquery"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>fullquery(filters: literal type)</code>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <b>Decorators : </b>
+                    <br />
+                    <code>@UseGuards(PoliciesGuard)<br />@CheckPolicies(ability &#x3D;&gt; )<br />@Get(&#x27;/fullquery&#x27;)<br />@ApiOperation({summary: &#x27;It returns a list of samples matching the query provided.&#x27;, description: &#x27;It returns a list of samples matching the query provided.&lt;br&gt;This endpoint still needs some work on the query specification.&#x27;})<br />@ApiQuery({name: &#x27;fields&#x27;, description: undefined, required: false, type: String, example: samplesFullQueryExampleFields})<br />@ApiQuery({name: &#x27;limits&#x27;, description: undefined, required: false, type: String, example: fullQueryExampleLimits})<br />@ApiResponse({status: undefined, type: SampleClass, isArray: true, description: &#x27;Return samples requested&#x27;})<br /></code>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="157"
+                            class="link-to-prism">src/samples/samples.controller.ts:157</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>filters</td>
+                                    <td>
+                                            <code>literal type</code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="../classes/SampleClass.html" target="_self" >Promise&lt;SampleClass[]&gt;</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="metadataKeys"></a>
+                    <span class="name">
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier">Async</span>
+                        <span ><b>metadataKeys</b></span>
+                        <a href="#metadataKeys"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>metadataKeys(undefined: literal type)</code>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <b>Decorators : </b>
+                    <br />
+                    <code>@UseGuards(PoliciesGuard)<br />@CheckPolicies(ability &#x3D;&gt; )<br />@Get(&#x27;/metadataKeys&#x27;)<br />@ApiOperation({summary: &#x27;It returns a list of sample metadata keys matching the query provided.&#x27;, description: &#x27;It returns a list of sample metadata keys matching the query provided.&#x27;})<br />@ApiQuery({name: &#x27;filters&#x27;, description: &#x27;Full query filters to apply when retrieve sample metadata keys&#x27;, required: false, type: String, example: &#x27;{ &quot;fields&quot;: { &quot;metadataKey&quot;: &quot;chemical_formula&quot; } }&#x27;})<br />@ApiResponse({status: undefined, type: String, isArray: true, description: &#x27;Return sample metadata keys requested&#x27;})<br /></code>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="193"
+                            class="link-to-prism">src/samples/samples.controller.ts:193</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                            <code>literal type</code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>    <code>Promise&lt;string[]&gt;</code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="remove"></a>
+                    <span class="name">
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier">Async</span>
+                        <span ><b>remove</b></span>
+                        <a href="#remove"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>remove(id: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>)</code>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <b>Decorators : </b>
+                    <br />
+                    <code>@UseGuards()<br />@CheckPolicies(ability &#x3D;&gt; )<br />@Delete(&#x27;/:id&#x27;)<br />@ApiOperation({summary: &#x27;It deletes the sample.&#x27;, description: &#x27;It delete the sample specified through the id specified.&#x27;})<br />@ApiParam({name: &#x27;id&#x27;, description: &#x27;Id of the sample to delete&#x27;, type: String})<br />@ApiResponse({status: undefined, description: &#x27;No value is returned&#x27;})<br /></code>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="342"
+                            class="link-to-prism">src/samples/samples.controller.ts:342</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>id</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>    <code>Promise&lt;&gt;</code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="update"></a>
+                    <span class="name">
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier">Async</span>
+                        <span ><b>update</b></span>
+                        <a href="#update"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>update(id: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>, updateSampleDto: <a href="../classes/UpdateSampleDto.html" target="_self">UpdateSampleDto</a>)</code>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <b>Decorators : </b>
+                    <br />
+                    <code>@UseGuards(PoliciesGuard)<br />@CheckPolicies(ability &#x3D;&gt; )<br />@UseInterceptors(new FormatPhysicalQuantitiesInterceptor())<br />@Patch(&#x27;/:id&#x27;)<br />@ApiOperation({summary: &#x27;It updates the sample.&#x27;, description: &#x27;It updates the sample specified through the id specified. it updates only the specified fields.&#x27;})<br />@ApiParam({name: &#x27;id&#x27;, description: &#x27;Id of the sample to modify&#x27;, type: String})<br />@ApiExtraModels(UpdateSampleDto)<br />@ApiBody({type: UpdateSampleDto})<br />@ApiResponse({status: undefined, type: SampleClass, description: &#x27;Update an existing sample and return its representation in SciCat&#x27;})<br /></code>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="316"
+                            class="link-to-prism">src/samples/samples.controller.ts:316</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>id</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                                <tr>
+                                    <td>updateSampleDto</td>
+                                    <td>
+                                                <code><a href="../classes/UpdateSampleDto.html" target="_self" >UpdateSampleDto</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="../classes/SampleClass.html" target="_self" >Promise&lt;SampleClass | null&gt;</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>    </div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import {
+  Controller,
+  Get,
+  Post,
+  Body,
+  Patch,
+  Param,
+  Delete,
+  UseGuards,
+  Query,
+  UseInterceptors,
+  HttpCode,
+  HttpStatus,
+} from &quot;@nestjs/common&quot;;
+import { SamplesService } from &quot;./samples.service&quot;;
+import { CreateSampleDto } from &quot;./dto/create-sample.dto&quot;;
+import { UpdateSampleDto } from &quot;./dto/update-sample.dto&quot;;
+import {
+  ApiBearerAuth,
+  ApiBody,
+  ApiExtraModels,
+  ApiOperation,
+  ApiParam,
+  ApiQuery,
+  ApiResponse,
+  ApiTags,
+} from &quot;@nestjs/swagger&quot;;
+import { PoliciesGuard } from &quot;src/casl/guards/policies.guard&quot;;
+import { CheckPolicies } from &quot;src/casl/decorators/check-policies.decorator&quot;;
+import { AppAbility } from &quot;src/casl/casl-ability.factory&quot;;
+import { Action } from &quot;src/casl/action.enum&quot;;
+import {
+  SampleClass,
+  SampleDocument,
+  SampleWithAttachmentsAndDatasets,
+} from &quot;./schemas/sample.schema&quot;;
+import { Attachment } from &quot;src/attachments/schemas/attachment.schema&quot;;
+import { CreateAttachmentDto } from &quot;src/attachments/dto/create-attachment.dto&quot;;
+import { AttachmentsService } from &quot;src/attachments/attachments.service&quot;;
+import { DatasetClass } from &quot;src/datasets/schemas/dataset.schema&quot;;
+import { DatasetsService } from &quot;src/datasets/datasets.service&quot;;
+import { ISampleFields } from &quot;./interfaces/sample-filters.interface&quot;;
+import { FormatPhysicalQuantitiesInterceptor } from &quot;src/common/interceptors/format-physical-quantities.interceptor&quot;;
+import { IFilters } from &quot;src/common/interfaces/common.interface&quot;;
+import {
+  filterDescription,
+  filterExample,
+  fullQueryDescriptionLimits,
+  fullQueryExampleLimits,
+  samplesFullQueryDescriptionFields,
+  samplesFullQueryExampleFields,
+} from &quot;src/common/utils&quot;;
+
+@ApiBearerAuth()
+@ApiTags(&quot;samples&quot;)
+@Controller(&quot;samples&quot;)
+export class SamplesController {
+  constructor(
+    private readonly attachmentsService: AttachmentsService,
+    private readonly datasetsService: DatasetsService,
+    private readonly samplesService: SamplesService,
+  ) {}
+
+  // POST /samples
+  @UseGuards(PoliciesGuard)
+  @CheckPolicies((ability: AppAbility) &#x3D;&gt;
+    ability.can(Action.Create, SampleClass),
+  )
+  @UseInterceptors(
+    new FormatPhysicalQuantitiesInterceptor&lt;SampleClass&gt;(
+      &quot;sampleCharacteristics&quot;,
+    ),
+  )
+  @HttpCode(HttpStatus.OK)
+  @Post()
+  @ApiOperation({
+    summary: &quot;It creates a new sample.&quot;,
+    description:
+      &quot;It creates a new sample and returns it completed with systems fields.&quot;,
+  })
+  @ApiExtraModels(CreateSampleDto)
+  @ApiBody({
+    type: CreateSampleDto,
+  })
+  @ApiResponse({
+    status: HttpStatus.CREATED,
+    type: SampleClass,
+    description: &quot;Create a new sample and return its representation in SciCat&quot;,
+  })
+  async create(@Body() createSampleDto: CreateSampleDto): Promise&lt;SampleClass&gt; {
+    return this.samplesService.create(createSampleDto);
+  }
+
+  // GET /samples
+  @UseGuards(PoliciesGuard)
+  @CheckPolicies((ability: AppAbility) &#x3D;&gt; ability.can(Action.Read, SampleClass))
+  @Get()
+  @ApiOperation({
+    summary: &quot;It returns a list of samples&quot;,
+    description:
+      &quot;It returns a list of samples. The list returned can be modified by providing a filter.&quot;,
+  })
+  @ApiQuery({
+    name: &quot;filter&quot;,
+    description:
+      &quot;Database filters to apply when retrieve samples\n&quot; + filterDescription,
+    required: false,
+    type: String,
+    example: filterExample,
+  })
+  @ApiResponse({
+    status: HttpStatus.OK,
+    type: SampleClass,
+    isArray: true,
+    description: &quot;Return the samples requested&quot;,
+  })
+  async findAll(@Query(&quot;filter&quot;) filters?: string): Promise&lt;SampleClass[]&gt; {
+    const sampleFilters: IFilters&lt;SampleDocument, ISampleFields&gt; &#x3D; JSON.parse(
+      filters ?? &quot;{}&quot;,
+    );
+    return this.samplesService.findAll(sampleFilters);
+  }
+
+  // GET /samples/fullquery
+  @UseGuards(PoliciesGuard)
+  @CheckPolicies((ability: AppAbility) &#x3D;&gt; ability.can(Action.Read, SampleClass))
+  @Get(&quot;/fullquery&quot;)
+  @ApiOperation({
+    summary: &quot;It returns a list of samples matching the query provided.&quot;,
+    description:
+      &quot;It returns a list of samples matching the query provided.&lt;br&gt;This endpoint still needs some work on the query specification.&quot;,
+  })
+  @ApiQuery({
+    name: &quot;fields&quot;,
+    description:
+      &quot;Full query filters to apply when retrieve samples\n&quot; +
+      samplesFullQueryDescriptionFields,
+    required: false,
+    type: String,
+    example: samplesFullQueryExampleFields,
+  })
+  @ApiQuery({
+    name: &quot;limits&quot;,
+    description:
+      &quot;Define further query parameters like skip, limit, order\n&quot; +
+      fullQueryDescriptionLimits,
+    required: false,
+    type: String,
+    example: fullQueryExampleLimits,
+  })
+  @ApiResponse({
+    status: HttpStatus.OK,
+    type: SampleClass,
+    isArray: true,
+    description: &quot;Return samples requested&quot;,
+  })
+  async fullquery(
+    @Query() filters: { fields?: string; limits?: string },
+  ): Promise&lt;SampleClass[]&gt; {
+    const parsedFilters &#x3D; {
+      fields: JSON.parse(filters.fields ?? &quot;{}&quot;),
+      limits: JSON.parse(filters.limits ?? &quot;{}&quot;),
+    };
+    return this.samplesService.fullquery(parsedFilters);
+  }
+
+  // GET /samples/metadataKeys
+  @UseGuards(PoliciesGuard)
+  @CheckPolicies((ability: AppAbility) &#x3D;&gt; ability.can(Action.Read, SampleClass))
+  @Get(&quot;/metadataKeys&quot;)
+  @ApiOperation({
+    summary:
+      &quot;It returns a list of sample metadata keys matching the query provided.&quot;,
+    description:
+      &quot;It returns a list of sample metadata keys matching the query provided.&quot;,
+  })
+  @ApiQuery({
+    name: &quot;filters&quot;,
+    description:
+      &quot;Full query filters to apply when retrieve sample metadata keys&quot;,
+    required: false,
+    type: String,
+    // NOTE: This is custom example because the service function metadataKeys expects input like the following.
+    // eslint-disable-next-line @typescript-eslint/quotes
+    example: &#x27;{ &quot;fields&quot;: { &quot;metadataKey&quot;: &quot;chemical_formula&quot; } }&#x27;,
+  })
+  @ApiResponse({
+    status: HttpStatus.OK,
+    type: String,
+    isArray: true,
+    description: &quot;Return sample metadata keys requested&quot;,
+  })
+  async metadataKeys(
+    @Query() { filters }: { filters: string },
+  ): Promise&lt;string[]&gt; {
+    const parsedInput &#x3D; JSON.parse(filters ?? &quot;{}&quot;);
+
+    const parsedFilters &#x3D; {
+      fields: parsedInput.fields ?? {},
+      limits: parsedInput.limits ?? {},
+    };
+
+    return this.samplesService.metadataKeys(parsedFilters);
+  }
+
+  // GET /samples/findOne
+  @UseGuards(PoliciesGuard)
+  @CheckPolicies((ability: AppAbility) &#x3D;&gt; ability.can(Action.Read, SampleClass))
+  @Get(&quot;/findOne&quot;)
+  @ApiOperation({
+    summary: &quot;It returns a sample matching the query provided.&quot;,
+    description: &quot;It returns sample matching the query provided.&quot;,
+  })
+  @ApiQuery({
+    name: &quot;filter&quot;,
+    description: &quot;Filters to apply when retrieve sample\n&quot; + filterDescription,
+    required: false,
+    type: String,
+    example: filterExample,
+  })
+  @ApiResponse({
+    status: HttpStatus.OK,
+    type: SampleWithAttachmentsAndDatasets,
+    description: &quot;Return sample requested&quot;,
+  })
+  async findOne(
+    @Query(&quot;filter&quot;) queryFilters?: string,
+  ): Promise&lt;SampleWithAttachmentsAndDatasets | null&gt; {
+    const jsonFilters: IFilters&lt;SampleDocument, ISampleFields&gt; &#x3D; queryFilters
+      ? JSON.parse(queryFilters)
+      : {};
+    const whereFilters &#x3D; jsonFilters.where ?? {};
+
+    const sample &#x3D; (
+      await this.samplesService.findOne(whereFilters)
+    )?.toObject() as SampleWithAttachmentsAndDatasets;
+
+    if (sample) {
+      const includeFilters &#x3D; jsonFilters.include ?? [];
+      await Promise.all(
+        includeFilters.map(async ({ relation }) &#x3D;&gt; {
+          switch (relation) {
+            case &quot;attachments&quot;: {
+              sample.attachments &#x3D; await this.attachmentsService.findAll({
+                sampleId: sample.sampleId,
+              });
+              break;
+            }
+            case &quot;datasets&quot;: {
+              sample.datasets &#x3D; await this.datasetsService.findAll({
+                where: { sampleId: sample.sampleId },
+              });
+              break;
+            }
+          }
+        }),
+      );
+    }
+
+    return sample;
+  }
+
+  // GET /samples/:id
+  @UseGuards(PoliciesGuard)
+  @CheckPolicies((ability: AppAbility) &#x3D;&gt; ability.can(Action.Read, SampleClass))
+  @Get(&quot;/:id&quot;)
+  @ApiOperation({
+    summary: &quot;It returns the sample requested.&quot;,
+    description: &quot;It returns the sample requested through the id specified.&quot;,
+  })
+  @ApiParam({
+    name: &quot;id&quot;,
+    description: &quot;Id of the sample to return&quot;,
+    type: String,
+  })
+  @ApiResponse({
+    status: HttpStatus.OK,
+    type: SampleClass,
+    description: &quot;Return sample with id specified&quot;,
+  })
+  async findById(@Param(&quot;id&quot;) id: string): Promise&lt;SampleClass | null&gt; {
+    return this.samplesService.findOne({ sampleId: id });
+  }
+
+  // PATCH /samples/:id
+  @UseGuards(PoliciesGuard)
+  @CheckPolicies((ability: AppAbility) &#x3D;&gt;
+    ability.can(Action.Update, SampleClass),
+  )
+  @UseInterceptors(
+    new FormatPhysicalQuantitiesInterceptor&lt;SampleClass&gt;(
+      &quot;sampleCharacteristics&quot;,
+    ),
+  )
+  @Patch(&quot;/:id&quot;)
+  @ApiOperation({
+    summary: &quot;It updates the sample.&quot;,
+    description:
+      &quot;It updates the sample specified through the id specified. it updates only the specified fields.&quot;,
+  })
+  @ApiParam({
+    name: &quot;id&quot;,
+    description: &quot;Id of the sample to modify&quot;,
+    type: String,
+  })
+  @ApiExtraModels(UpdateSampleDto)
+  @ApiBody({
+    type: UpdateSampleDto,
+  })
+  @ApiResponse({
+    status: HttpStatus.OK,
+    type: SampleClass,
+    description:
+      &quot;Update an existing sample and return its representation in SciCat&quot;,
+  })
+  async update(
+    @Param(&quot;id&quot;) id: string,
+    @Body() updateSampleDto: UpdateSampleDto,
+  ): Promise&lt;SampleClass | null&gt; {
+    return this.samplesService.update({ sampleId: id }, updateSampleDto);
+  }
+
+  // DELETE /samples/:id
+  @UseGuards()
+  @CheckPolicies((ability: AppAbility) &#x3D;&gt;
+    ability.can(Action.Delete, SampleClass),
+  )
+  @Delete(&quot;/:id&quot;)
+  @ApiOperation({
+    summary: &quot;It deletes the sample.&quot;,
+    description: &quot;It delete the sample specified through the id specified.&quot;,
+  })
+  @ApiParam({
+    name: &quot;id&quot;,
+    description: &quot;Id of the sample to delete&quot;,
+    type: String,
+  })
+  @ApiResponse({
+    status: HttpStatus.OK,
+    description: &quot;No value is returned&quot;,
+  })
+  async remove(@Param(&quot;id&quot;) id: string): Promise&lt;unknown&gt; {
+    return this.samplesService.remove({ sampleId: id });
+  }
+
+  // POST /samples/:id/attachments
+  @UseGuards(PoliciesGuard)
+  @CheckPolicies((ability: AppAbility) &#x3D;&gt;
+    ability.can(Action.Create, Attachment),
+  )
+  @Post(&quot;/:id/attachments&quot;)
+  @ApiOperation({
+    summary: &quot;It creates a new attachment related with this sample.&quot;,
+    description:
+      &quot;It creates a new attachment related to the sample id provided and returns it completed with system fields.&quot;,
+  })
+  @ApiExtraModels(CreateAttachmentDto)
+  @ApiBody({
+    type: CreateAttachmentDto,
+  })
+  @ApiParam({
+    name: &quot;id&quot;,
+    description: &quot;Sample id that this attachment will be related to.&quot;,
+    type: String,
+  })
+  @ApiResponse({
+    status: HttpStatus.CREATED,
+    type: Attachment,
+    description:
+      &quot;Create a new attachment related to sample id provided and return its representation in SciCat&quot;,
+  })
+  async createAttachments(
+    @Param(&quot;id&quot;) id: string,
+    @Body() createAttachmentDto: CreateAttachmentDto,
+  ): Promise&lt;Attachment | null&gt; {
+    const sample &#x3D; await this.samplesService.findOne({ sampleId: id });
+    if (sample) {
+      const createAttachment: CreateAttachmentDto &#x3D; {
+        ...createAttachmentDto,
+        sampleId: id,
+        ownerGroup: sample.ownerGroup,
+      };
+      return this.attachmentsService.create(createAttachment);
+    }
+    return null;
+  }
+
+  // GET /samples/:id/attachments
+  @UseGuards(PoliciesGuard)
+  @CheckPolicies((ability: AppAbility) &#x3D;&gt; ability.can(Action.Read, Attachment))
+  @Get(&quot;/:id/attachments&quot;)
+  @ApiOperation({
+    summary: &quot;It returns the attachments related to a specific sample.&quot;,
+    description:
+      &quot;It returns the attachments related to a sample through the id specified.&quot;,
+  })
+  @ApiParam({
+    name: &quot;id&quot;,
+    description: &quot;Id of the sample to get attachments related.&quot;,
+    type: String,
+  })
+  @ApiResponse({
+    status: HttpStatus.OK,
+    isArray: true,
+    type: Attachment,
+    description: &quot;Return attachments related with sample id specified&quot;,
+  })
+  async findAllAttachments(@Param(&quot;id&quot;) id: string): Promise&lt;Attachment[]&gt; {
+    return this.attachmentsService.findAll({ sampleId: id });
+  }
+
+  /*
+  // PATCH /samples/:id/attachments/:fk
+  @UseGuards(PoliciesGuard)
+  @CheckPolicies((ability: AppAbility) &#x3D;&gt;
+    ability.can(Action.Update, Attachment),
+  )
+  @Patch(&quot;/:id/attachments/:fk&quot;)
+  async findOneAttachmentAndUpdate(
+    @Param(&quot;id&quot;) sampleId: string,
+    @Param(&quot;fk&quot;) attachmentId: string,
+    @Body() updateAttachmentDto: UpdateAttachmentDto,
+  ): Promise&lt;Attachment | null&gt; {
+    console.log(&quot;SampleId: &quot;, sampleId);
+    console.log(&quot;AttachmentIs: &quot;, attachmentId);
+    return this.attachmentsService.findOneAndUpdate(
+      { id: attachmentId, sampleId: sampleId },
+      updateAttachmentDto,
+    );
+  }
+  */
+
+  // GET /samples/:id/attachments/:fk
+  @UseGuards(PoliciesGuard)
+  @CheckPolicies((ability: AppAbility) &#x3D;&gt; ability.can(Action.Read, Attachment))
+  @Get(&quot;/:id/attachments/:fk&quot;)
+  @ApiOperation({
+    summary: &quot;It returns the attachment related to a specific sample.&quot;,
+    description:
+      &quot;It returns the attachment related to a sample through the sample and attachment ids specified.&quot;,
+  })
+  @ApiParam({
+    name: &quot;id&quot;,
+    description: &quot;Id of the sample to get attachments related.&quot;,
+    type: String,
+  })
+  @ApiParam({
+    name: &quot;fk&quot;,
+    description: &quot;Id of the specific attachment to get.&quot;,
+    type: String,
+  })
+  @ApiResponse({
+    status: HttpStatus.OK,
+    type: Attachment,
+    description:
+      &quot;Return one specific attachment by id(fk) related to specified sample id.&quot;,
+  })
+  async findOneAttachment(
+    @Param(&quot;id&quot;) sampleId: string,
+    @Param(&quot;fk&quot;) attachmentId: string,
+  ): Promise&lt;Attachment | null&gt; {
+    return this.attachmentsService.findOne({
+      id: attachmentId,
+      sampleId: sampleId,
+    });
+  }
+
+  // DELETE /samples/:id/attachments/:fk
+  @UseGuards(PoliciesGuard)
+  @CheckPolicies((ability: AppAbility) &#x3D;&gt;
+    ability.can(Action.Delete, Attachment),
+  )
+  @Delete(&quot;/:id/attachments/:fk&quot;)
+  @ApiOperation({
+    summary: &quot;It deletes the attachment related to a specific sample.&quot;,
+    description:
+      &quot;It deletes the attachment specified through the id(fk) related to specific sample.&quot;,
+  })
+  @ApiParam({
+    name: &quot;id&quot;,
+    description:
+      &quot;Id of the sample that this specific attachment is related with&quot;,
+    type: String,
+  })
+  @ApiParam({
+    name: &quot;fk&quot;,
+    description: &quot;Id of the attachment to delete&quot;,
+    type: String,
+  })
+  @ApiResponse({
+    status: HttpStatus.OK,
+    description: &quot;No value is returned&quot;,
+  })
+  async findOneAttachmentAndRemove(
+    @Param(&quot;id&quot;) sampleId: string,
+    @Param(&quot;fk&quot;) attachmentId: string,
+  ): Promise&lt;unknown&gt; {
+    return this.attachmentsService.findOneAndRemove({
+      _id: attachmentId,
+      sampleId: sampleId,
+    });
+  }
+
+  // POST /samples/:id/datasets
+  /*   @UseGuards(PoliciesGuard)
+  @CheckPolicies((ability: AppAbility) &#x3D;&gt; ability.can(Action.Create, Dataset))
+  @Post(&quot;/:id/datasets&quot;)
+  async createDataset(
+    @Param(&quot;id&quot;) id: string,
+    @Body() createRawDatasetDto: CreateRawDatasetDto,
+  ): Promise&lt;Dataset&gt; {
+    const createDataset &#x3D; { ...createRawDatasetDto, sampleId: id };
+    return this.datasetsService.create(createDataset);
+  }
+ */
+
+  // GET /samples/:id/datasets
+  @UseGuards(PoliciesGuard)
+  @CheckPolicies((ability: AppAbility) &#x3D;&gt;
+    ability.can(Action.Read, DatasetClass),
+  )
+  @Get(&quot;/:id/datasets&quot;)
+  @ApiOperation({
+    summary: &quot;It returns the datasets related to a specific sample.&quot;,
+    description:
+      &quot;It returns the datasets related to a sample through the id specified.&quot;,
+  })
+  @ApiParam({
+    name: &quot;id&quot;,
+    description: &quot;Id of the sample to get datasets related.&quot;,
+    type: String,
+  })
+  @ApiResponse({
+    status: HttpStatus.OK,
+    isArray: true,
+    type: DatasetClass,
+    description: &quot;Return all datasets related with sample id specified&quot;,
+  })
+  async findAllDatasets(
+    @Param(&quot;id&quot;) sampleId: string,
+  ): Promise&lt;DatasetClass[] | null&gt; {
+    const cond &#x3D; { where: { sampleId: sampleId } };
+    return this.datasetsService.findAll(cond);
+  }
+
+  // PATCH /samples/:id/datasets/:fk
+  /* @UseGuards(PoliciesGuard)
+  @CheckPolicies((ability: AppAbility) &#x3D;&gt; ability.can(Action.Update, Dataset))
+  @Patch(&quot;/:id/datasets/:fk&quot;)
+  async findOneDatasetAndUpdate(
+    @Param(&quot;id&quot;) sampleId: string,
+    @Param(&quot;fk&quot;) datasetId: string,
+    @Body() updateRawDatasetDto: UpdateRawDatasetDto,
+  ): Promise&lt;Dataset | null&gt; {
+    return this.datasetsService.findByIdAndUpdate(
+      datasetId,
+      updateRawDatasetDto,
+    );
+  } */
+
+  // DELETE /samples/:id/datasets/:fk
+  /*   @UseGuards(PoliciesGuard)
+  @CheckPolicies((ability: AppAbility) &#x3D;&gt; ability.can(Action.Delete, Dataset))
+  @Delete(&quot;/:id/datasets/:fk&quot;)
+  async findOneDatasetAndRemove(
+    @Param(&quot;id&quot;) sampleId: string,
+    @Param(&quot;fk&quot;) datasetId: string,
+  ): Promise&lt;unknown&gt; {
+    return this.datasetsService.findByIdAndDelete(datasetId);
+  }
+ */
+}
+</code></pre>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+          <label class="dark-mode-switch">
+               <input type="checkbox">
+               <span class="slider">
+                    <svg class="slider-icon" viewBox="0 0 24 24" fill="none" height="20" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="20" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
+                    </svg>
+               </span>
+          </label>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'controller';
+            var COMPODOC_CURRENT_PAGE_URL = 'SamplesController.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+
+       <script src="../js/menu-wc.js" defer></script>
+       <script nomodule src="../js/menu-wc_es5.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>

@@ -1,0 +1,1570 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>scicat-backend-next documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	   <link rel="stylesheet" href="../styles/style.css">
+        <link rel="stylesheet" href="../styles/dark.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top d-block d-sm-none">
+            <a href="../" class="navbar-brand">scicat-backend-next documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content controller">
+                   <div class="content-data">
+
+
+
+
+
+<ol class="breadcrumb">
+  <li class="breadcrumb-item">Controllers</li>
+  <li class="breadcrumb-item" >JobsController</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="nav-item">
+            <a href="#info" 
+                class="nav-link"
+                class="nav-link active"
+                role="tab" id="info-tab" data-bs-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li class="nav-item">
+            <a href="#source" 
+                class="nav-link"
+                
+                role="tab" id="source-tab" data-bs-toggle="tab" data-link="source">Source</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="info">
+        <p class="comment">
+            <h3>File</h3>
+        </p>
+        <p class="comment">
+            <code>src/jobs/jobs.controller.ts</code>
+        </p>
+
+            <p class="comment">
+                <h3>Prefix</h3>
+            </p>
+            <p class="comment">
+                <code>jobs</code>
+            </p>
+
+
+
+
+
+
+            <section data-compodoc="block-index">
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                    <span class="modifier">Async</span>
+                                <a href="#checkDatasetsExistence" >checkDatasetsExistence</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Async</span>
+                                <a href="#checkDatasetsState" >checkDatasetsState</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Async</span>
+                                <a href="#checkFilesExistence" >checkFilesExistence</a>
+                            </li>
+                            <li>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier">Async</span>
+                                <a href="#create" >create</a>
+                            </li>
+                            <li>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier">Async</span>
+                                <a href="#findAll" >findAll</a>
+                            </li>
+                            <li>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier">Async</span>
+                                <a href="#findOne" >findOne</a>
+                            </li>
+                            <li>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier">Async</span>
+                                <a href="#fullfacet" >fullfacet</a>
+                            </li>
+                            <li>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier">Async</span>
+                                <a href="#fullquery" >fullquery</a>
+                            </li>
+                            <li>
+                                <a href="#publishJob" >publishJob</a>
+                            </li>
+                            <li>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier">Async</span>
+                                <a href="#remove" >remove</a>
+                            </li>
+                            <li>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier"></span>
+                                    <span class="modifier">Async</span>
+                                <a href="#update" >update</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Async</span>
+                                <a href="#validateJob" >validateJob</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+            <section data-compodoc="block-methods">
+    
+    <h3 id="methods">
+        Methods
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="checkDatasetsExistence"></a>
+                    <span class="name">
+                        <span class="modifier">Async</span>
+                        <span ><b>checkDatasetsExistence</b></span>
+                        <a href="#checkDatasetsExistence"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>checkDatasetsExistence(ids: string[])</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="57"
+                            class="link-to-prism">src/jobs/jobs.controller.ts:57</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Check that all dataset exists</p>
+</div>
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>ids</td>
+                                    <td>
+                                            <code>string[]</code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="checkDatasetsState"></a>
+                    <span class="name">
+                        <span class="modifier">Async</span>
+                        <span ><b>checkDatasetsState</b></span>
+                        <a href="#checkDatasetsState"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>checkDatasetsState(type: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>, ids: string[])</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="98"
+                            class="link-to-prism">src/jobs/jobs.controller.ts:98</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Check that datasets is in state which the job can be performed
+For retrieve jobs all datasets must be in state retrievable
+For archive jobs all datasets must be in state archivable
+     * For copy jobs no need to check only need to filter out datasets that have already been copied when submitting to job queue
+ownerGroup is tested implicitly via Ownable</p>
+</div>
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>type</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                                <tr>
+                                    <td>ids</td>
+                                    <td>
+                                            <code>string[]</code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="checkFilesExistence"></a>
+                    <span class="name">
+                        <span class="modifier">Async</span>
+                        <span ><b>checkFilesExistence</b></span>
+                        <a href="#checkFilesExistence"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>checkFilesExistence(crateJobDto: <a href="../classes/CreateJobDto.html" target="_self">CreateJobDto</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="159"
+                            class="link-to-prism">src/jobs/jobs.controller.ts:159</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>crateJobDto</td>
+                                    <td>
+                                                <code><a href="../classes/CreateJobDto.html" target="_self" >CreateJobDto</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="create"></a>
+                    <span class="name">
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier">Async</span>
+                        <span ><b>create</b></span>
+                        <a href="#create"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>create(request: Request, createJobDto: <a href="../classes/CreateJobDto.html" target="_self">CreateJobDto</a>)</code>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <b>Decorators : </b>
+                    <br />
+                    <code>@AllowAny()<br />@Post()<br />@ApiResponse({status: undefined, type: Job, description: &#x27;Created job&#x27;})<br /></code>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="272"
+                            class="link-to-prism">src/jobs/jobs.controller.ts:272</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>request</td>
+                                    <td>
+                                            <code>Request</code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                                <tr>
+                                    <td>createJobDto</td>
+                                    <td>
+                                                <code><a href="../classes/CreateJobDto.html" target="_self" >CreateJobDto</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="../classes/Job.html" target="_self" >Promise&lt;Job&gt;</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="findAll"></a>
+                    <span class="name">
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier">Async</span>
+                        <span ><b>findAll</b></span>
+                        <a href="#findAll"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>findAll(filter?: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>)</code>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <b>Decorators : </b>
+                    <br />
+                    <code>@UseGuards(PoliciesGuard)<br />@CheckPolicies(ability &#x3D;&gt; )<br />@Get()<br />@ApiQuery({name: &#x27;filter&#x27;, description: &#x27;Database filters to apply when retrieve all jobs&#x27;, required: false})<br /></code>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="298"
+                            class="link-to-prism">src/jobs/jobs.controller.ts:298</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>filter</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        Yes
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="../classes/Job.html" target="_self" >Promise&lt;Job[]&gt;</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="findOne"></a>
+                    <span class="name">
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier">Async</span>
+                        <span ><b>findOne</b></span>
+                        <a href="#findOne"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>findOne(id: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>)</code>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <b>Decorators : </b>
+                    <br />
+                    <code>@UseGuards(PoliciesGuard)<br />@CheckPolicies(ability &#x3D;&gt; )<br />@Get(&#x27;:id&#x27;)<br /></code>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="335"
+                            class="link-to-prism">src/jobs/jobs.controller.ts:335</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>id</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="../classes/Job.html" target="_self" >Promise&lt;Job | null&gt;</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="fullfacet"></a>
+                    <span class="name">
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier">Async</span>
+                        <span ><b>fullfacet</b></span>
+                        <a href="#fullfacet"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>fullfacet(filters: literal type)</code>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <b>Decorators : </b>
+                    <br />
+                    <code>@UseGuards(PoliciesGuard)<br />@CheckPolicies(ability &#x3D;&gt; )<br />@Get(&#x27;/fullfacet&#x27;)<br /></code>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="322"
+                            class="link-to-prism">src/jobs/jobs.controller.ts:322</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>filters</td>
+                                    <td>
+                                            <code>literal type</code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>    <code>Promise&lt;Record[]&gt;</code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="fullquery"></a>
+                    <span class="name">
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier">Async</span>
+                        <span ><b>fullquery</b></span>
+                        <a href="#fullquery"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>fullquery(filters: literal type)</code>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <b>Decorators : </b>
+                    <br />
+                    <code>@UseGuards(PoliciesGuard)<br />@CheckPolicies(ability &#x3D;&gt; )<br />@Get(&#x27;/fullquery&#x27;)<br /></code>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="309"
+                            class="link-to-prism">src/jobs/jobs.controller.ts:309</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>filters</td>
+                                    <td>
+                                            <code>literal type</code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="../classes/Job.html" target="_self" >Promise&lt;Job[]&gt;</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="publishJob"></a>
+                    <span class="name">
+                        <span ><b>publishJob</b></span>
+                        <a href="#publishJob"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>publishJob()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="45"
+                            class="link-to-prism">src/jobs/jobs.controller.ts:45</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="remove"></a>
+                    <span class="name">
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier">Async</span>
+                        <span ><b>remove</b></span>
+                        <a href="#remove"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>remove(id: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>)</code>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <b>Decorators : </b>
+                    <br />
+                    <code>@UseGuards(PoliciesGuard)<br />@CheckPolicies(ability &#x3D;&gt; )<br />@Delete(&#x27;:id&#x27;)<br /></code>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="361"
+                            class="link-to-prism">src/jobs/jobs.controller.ts:361</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>id</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>    <code>Promise&lt;&gt;</code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="update"></a>
+                    <span class="name">
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier"></span>
+                        <span class="modifier">Async</span>
+                        <span ><b>update</b></span>
+                        <a href="#update"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>update(id: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>, updateJobDto: <a href="../classes/UpdateJobDto.html" target="_self">UpdateJobDto</a>)</code>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <b>Decorators : </b>
+                    <br />
+                    <code>@UseGuards(PoliciesGuard)<br />@CheckPolicies(ability &#x3D;&gt; )<br />@Patch(&#x27;:id&#x27;)<br /></code>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="342"
+                            class="link-to-prism">src/jobs/jobs.controller.ts:342</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>id</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                                <tr>
+                                    <td>updateJobDto</td>
+                                    <td>
+                                                <code><a href="../classes/UpdateJobDto.html" target="_self" >UpdateJobDto</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="../classes/Job.html" target="_self" >Promise&lt;Job | null&gt;</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="validateJob"></a>
+                    <span class="name">
+                        <span class="modifier">Async</span>
+                        <span ><b>validateJob</b></span>
+                        <a href="#validateJob"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>validateJob(createJobDto: <a href="../classes/CreateJobDto.html" target="_self">CreateJobDto</a>, request: Request)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="257"
+                            class="link-to-prism">src/jobs/jobs.controller.ts:257</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Validate if the job is performable</p>
+</div>
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>createJobDto</td>
+                                    <td>
+                                                <code><a href="../classes/CreateJobDto.html" target="_self" >CreateJobDto</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                                <tr>
+                                    <td>request</td>
+                                    <td>
+                                            <code>Request</code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>    </div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import {
+  Controller,
+  Get,
+  Post,
+  Body,
+  Patch,
+  Param,
+  Delete,
+  UseGuards,
+  Query,
+  HttpStatus,
+  HttpException,
+  Req,
+} from &quot;@nestjs/common&quot;;
+import { Request } from &quot;express&quot;;
+import { FilterQuery } from &quot;mongoose&quot;;
+import { JobsService } from &quot;./jobs.service&quot;;
+import { CreateJobDto } from &quot;./dto/create-job.dto&quot;;
+import { UpdateJobDto } from &quot;./dto/update-job.dto&quot;;
+import { PoliciesGuard } from &quot;src/casl/guards/policies.guard&quot;;
+import { CheckPolicies } from &quot;src/casl/decorators/check-policies.decorator&quot;;
+import { AppAbility } from &quot;src/casl/casl-ability.factory&quot;;
+import { Action } from &quot;src/casl/action.enum&quot;;
+import { Job, JobDocument } from &quot;./schemas/job.schema&quot;;
+import { ApiBearerAuth, ApiQuery, ApiResponse, ApiTags } from &quot;@nestjs/swagger&quot;;
+import { IFacets, IFilters } from &quot;src/common/interfaces/common.interface&quot;;
+import { DatasetsService } from &quot;src/datasets/datasets.service&quot;;
+import { JobType, DatasetState } from &quot;./job-type.enum&quot;;
+import configuration from &quot;src/config/configuration&quot;;
+import { EventEmitter2 } from &quot;@nestjs/event-emitter&quot;;
+import { OrigDatablocksService } from &quot;src/origdatablocks/origdatablocks.service&quot;;
+import { AllowAny } from &quot;src/auth/decorators/allow-any.decorator&quot;;
+
+@ApiBearerAuth()
+@ApiTags(&quot;jobs&quot;)
+@Controller(&quot;jobs&quot;)
+export class JobsController {
+  constructor(
+    private readonly jobsService: JobsService,
+    private readonly datasetsService: DatasetsService,
+    private readonly origDatablocksService: OrigDatablocksService,
+    private eventEmitter: EventEmitter2,
+  ) {}
+
+  publishJob() {
+    if (configuration().rabbitMq.enabled) {
+      // TODO: This should publish the job to the message broker.
+      // job.publishJob(ctx.instance, &quot;jobqueue&quot;);
+      console.log(&quot;Saved Job %s#%s and published to message broker&quot;);
+    }
+  }
+
+  /**
+   * Check that all dataset exists
+   * @param {List of dataset id} ids
+   */
+  async checkDatasetsExistence(ids: string[]) {
+    if (ids.length &#x3D;&#x3D;&#x3D; 0) {
+      throw new HttpException(
+        {
+          status: HttpStatus.BAD_REQUEST,
+          message: &quot;Empty list of datasets - no Job sent&quot;,
+        },
+        HttpStatus.BAD_REQUEST,
+      );
+    }
+    const filter &#x3D; {
+      fields: {
+        pid: true,
+      },
+      where: {
+        pid: {
+          $in: ids,
+        },
+      },
+    };
+
+    const datasets &#x3D; await this.datasetsService.findAll(filter);
+    if (datasets.length !&#x3D; ids.length) {
+      throw new HttpException(
+        {
+          status: HttpStatus.BAD_REQUEST,
+          message:
+            &quot;At least one of the datasets could not be found - no Job sent&quot;,
+        },
+        HttpStatus.BAD_REQUEST,
+      );
+    }
+  }
+
+  /**
+   * Check that datasets is in state which the job can be performed
+   * For retrieve jobs all datasets must be in state retrievable
+   * For archive jobs all datasets must be in state archivable
+   *      * For copy jobs no need to check only need to filter out datasets that have already been copied when submitting to job queue
+   * ownerGroup is tested implicitly via Ownable
+   */
+  async checkDatasetsState(type: string, ids: string[]) {
+    switch (type) {
+      case JobType.Retrieve: //Intentional fall through
+      case JobType.Archive:
+        {
+          const filter &#x3D; {
+            fields: {
+              pid: true,
+            },
+            where: {
+              [&#x60;datasetlifecycle.${DatasetState[type]}&#x60;]: false,
+              pid: {
+                $in: ids,
+              },
+            },
+          };
+          const result &#x3D; await this.datasetsService.findAll(filter);
+          if (result.length &gt; 0) {
+            throw new HttpException(
+              {
+                status: HttpStatus.CONFLICT,
+                message: &#x60;The following datasets are not in ${DatasetState[type]} state - no ${type} job sent:\n&#x60;,
+                error: JSON.stringify(result),
+              },
+              HttpStatus.CONFLICT,
+            );
+          }
+        }
+        break;
+      case JobType.Public:
+        {
+          const filter &#x3D; {
+            fields: {
+              pid: true,
+            },
+            where: {
+              [DatasetState.public]: true,
+              pid: {
+                $in: ids,
+              },
+            },
+          };
+          const result &#x3D; await this.datasetsService.findAll(filter);
+          if (result.length !&#x3D;&#x3D; ids.length) {
+            throw new HttpException(
+              {
+                status: HttpStatus.CONFLICT,
+                message: &quot;The following datasets are not public - no job sent&quot;,
+                error: JSON.stringify(result),
+              },
+              HttpStatus.CONFLICT,
+            );
+          }
+        }
+        break;
+      default:
+        //Not check other job types
+        break;
+    }
+  }
+
+  async checkFilesExistence(crateJobDto: CreateJobDto) {
+    const datasetsToCheck &#x3D; crateJobDto.datasetList.filter(
+      (x) &#x3D;&gt; x.files.length &gt; 0,
+    );
+    const ids &#x3D; datasetsToCheck.map((x) &#x3D;&gt; x.pid);
+    switch (crateJobDto.type) {
+      case JobType.Public:
+        if (ids.length &gt; 0) {
+          const filter &#x3D; {
+            fields: {
+              pid: true,
+              datasetId: true,
+              dataFileList: true,
+            },
+            where: {
+              pid: {
+                $in: ids,
+              },
+            },
+          };
+          // Indexing originDataBlock with pid and create set of files for each dataset
+          const datasets &#x3D; await this.datasetsService.findAll(filter);
+          // Include origdatablocks
+          await Promise.all(
+            datasets.map(async (dataset) &#x3D;&gt; {
+              dataset.origdatablocks &#x3D; await this.origDatablocksService.findAll(
+                {
+                  datasetId: dataset.pid,
+                },
+              );
+            }),
+          );
+          const result: Record&lt;string, Set&lt;string&gt;&gt; &#x3D; datasets.reduce(
+            (acc: Record&lt;string, Set&lt;string&gt;&gt;, dataset) &#x3D;&gt; {
+              // Using Set make searching more efficient
+              const files &#x3D; dataset.origdatablocks.reduce((acc, block) &#x3D;&gt; {
+                block.dataFileList.forEach((file) &#x3D;&gt; {
+                  acc.add(file.path);
+                });
+                return acc;
+              }, new Set&lt;string&gt;());
+              acc[dataset.pid] &#x3D; files;
+              return acc;
+            },
+            {},
+          );
+          // Get a list of requested files that is not in originDataBlocks
+          const checkResults &#x3D; datasetsToCheck.reduce(
+            (acc: { pid: string; nonExistFiles: string[] }[], x) &#x3D;&gt; {
+              const pid &#x3D; x.pid;
+              const referenceFiles &#x3D; result[pid];
+              const nonExistFiles &#x3D; x.files.filter(
+                (f) &#x3D;&gt; !referenceFiles.has(f),
+              );
+              if (nonExistFiles.length &gt; 0) {
+                acc.push({ pid, nonExistFiles });
+              }
+              return acc;
+            },
+            [],
+          );
+
+          if (checkResults.length &gt; 0) {
+            throw new HttpException(
+              {
+                status: HttpStatus.BAD_REQUEST,
+                message:
+                  &quot;At least one requested file could not be found - no job created&quot;,
+              },
+              HttpStatus.BAD_REQUEST,
+            );
+          }
+        }
+        break;
+      default:
+        // Not check for other job
+        break;
+    }
+  }
+
+  /**
+   * Check the the user is authenticated when requesting other job types than public job
+   */
+  checkPermission &#x3D; (request: Request, type: string) &#x3D;&gt; {
+    const unauthenticated &#x3D; request.user &#x3D;&#x3D;&#x3D; null;
+    if (unauthenticated &amp;&amp; type !&#x3D;&#x3D; JobType.Public) {
+      throw new HttpException(
+        {
+          status: HttpStatus.UNAUTHORIZED,
+        },
+        HttpStatus.UNAUTHORIZED,
+      );
+    }
+  };
+
+  /**
+   * Validate if the job is performable
+   */
+  async validateJob(createJobDto: CreateJobDto, request: Request) {
+    const ids &#x3D; createJobDto.datasetList.map((x) &#x3D;&gt; x.pid);
+    this.checkPermission(request, createJobDto.type);
+    await this.checkDatasetsExistence(ids);
+    await this.checkDatasetsState(createJobDto.type, ids);
+    await this.checkFilesExistence(createJobDto);
+  }
+
+  @AllowAny()
+  @Post()
+  @ApiResponse({
+    status: HttpStatus.CREATED,
+    type: Job,
+    description: &quot;Created job&quot;,
+  })
+  async create(
+    @Req() request: Request,
+    @Body() createJobDto: CreateJobDto,
+  ): Promise&lt;Job&gt; {
+    const jobToCreate &#x3D; { ...createJobDto, jobStatusMessage: &quot;jobSubmitted&quot; };
+    await this.validateJob(jobToCreate, request);
+
+    const createdJob &#x3D; await this.jobsService.create(jobToCreate);
+
+    if (createdJob) {
+      // Emit event so facilities can trigger custom code
+      this.publishJob();
+      this.eventEmitter.emit(&quot;jobCreated&quot;, { instance: createdJob });
+    }
+
+    return createdJob;
+  }
+
+  @UseGuards(PoliciesGuard)
+  @CheckPolicies((ability: AppAbility) &#x3D;&gt; ability.can(Action.Read, Job))
+  @Get()
+  @ApiQuery({
+    name: &quot;filter&quot;,
+    description: &quot;Database filters to apply when retrieve all jobs&quot;,
+    required: false,
+  })
+  async findAll(@Query(&quot;filter&quot;) filter?: string): Promise&lt;Job[]&gt; {
+    const parsedFilter: IFilters&lt;
+      JobDocument,
+      FilterQuery&lt;JobDocument&gt;
+    &gt; &#x3D; JSON.parse(filter ?? &quot;{}&quot;);
+    return this.jobsService.findAll(parsedFilter);
+  }
+
+  @UseGuards(PoliciesGuard)
+  @CheckPolicies((ability: AppAbility) &#x3D;&gt; ability.can(Action.Read, Job))
+  @Get(&quot;/fullquery&quot;)
+  async fullquery(
+    @Query() filters: { fields?: string; limits?: string },
+  ): Promise&lt;Job[]&gt; {
+    const parsedFilters: IFilters&lt;JobDocument, FilterQuery&lt;JobDocument&gt;&gt; &#x3D; {
+      fields: JSON.parse(filters.fields ?? &quot;{}&quot;),
+      limits: JSON.parse(filters.limits ?? &quot;{}&quot;),
+    };
+    return this.jobsService.fullquery(parsedFilters);
+  }
+
+  @UseGuards(PoliciesGuard)
+  @CheckPolicies((ability: AppAbility) &#x3D;&gt; ability.can(Action.Read, Job))
+  @Get(&quot;/fullfacet&quot;)
+  async fullfacet(
+    @Query() filters: { fields?: string; facets?: string },
+  ): Promise&lt;Record&lt;string, unknown&gt;[]&gt; {
+    const parsedFilters: IFacets&lt;FilterQuery&lt;JobDocument&gt;&gt; &#x3D; {
+      fields: JSON.parse(filters.fields ?? &quot;{}&quot;),
+      facets: JSON.parse(filters.facets ?? &quot;[]&quot;),
+    };
+    return this.jobsService.fullfacet(parsedFilters);
+  }
+
+  @UseGuards(PoliciesGuard)
+  @CheckPolicies((ability: AppAbility) &#x3D;&gt; ability.can(Action.Read, Job))
+  @Get(&quot;:id&quot;)
+  async findOne(@Param(&quot;id&quot;) id: string): Promise&lt;Job | null&gt; {
+    return this.jobsService.findOne({ _id: id });
+  }
+
+  @UseGuards(PoliciesGuard)
+  @CheckPolicies((ability: AppAbility) &#x3D;&gt; ability.can(Action.Update, Job))
+  @Patch(&quot;:id&quot;)
+  async update(
+    @Param(&quot;id&quot;) id: string,
+    @Body() updateJobDto: UpdateJobDto,
+  ): Promise&lt;Job | null&gt; {
+    const updatedJob &#x3D; await this.jobsService.update({ _id: id }, updateJobDto);
+
+    if (updatedJob) {
+      this.eventEmitter.emit(&quot;jobUpdated&quot;, {
+        instance: updatedJob,
+        hookState: { oldData: [updatedJob] },
+      });
+    }
+
+    return updatedJob;
+  }
+
+  @UseGuards(PoliciesGuard)
+  @CheckPolicies((ability: AppAbility) &#x3D;&gt; ability.can(Action.Delete, Job))
+  @Delete(&quot;:id&quot;)
+  async remove(@Param(&quot;id&quot;) id: string): Promise&lt;unknown&gt; {
+    return this.jobsService.remove({ _id: id });
+  }
+}
+</code></pre>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+          <label class="dark-mode-switch">
+               <input type="checkbox">
+               <span class="slider">
+                    <svg class="slider-icon" viewBox="0 0 24 24" fill="none" height="20" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="20" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
+                    </svg>
+               </span>
+          </label>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'controller';
+            var COMPODOC_CURRENT_PAGE_URL = 'JobsController.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+
+       <script src="../js/menu-wc.js" defer></script>
+       <script nomodule src="../js/menu-wc_es5.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>
