@@ -31,3 +31,16 @@ tags = "tutorial"
 
 - Important People
   - 
+
+- Phases
+  - Year One (started october 2022)
+    - Gathering input and developing recommendations
+  - Year Two
+    - Dissemination and adoption of recommendations
+  - Year Three
+    - something. Broader adoption I think.
+
+- PIDs in use
+  - UC Boulder
+    - Datacite
+    - Crossref
