@@ -16,6 +16,10 @@ show_comments = true
 - https://ncar.github.io/FAIR-Facilities-Instruments/
 - https://github.com/NCAR/FAIR-Facilities-Instruments
 
+### Itinerary
+
+- https://docs.google.com/document/d/1YQ0bEx7UKzfm0emibASfxhIiQvJce1IQnfONaPBj1SA/edit
+
 ### Statements
 - I did not attend in person.
 - I am attempting to watch through Zoom.
