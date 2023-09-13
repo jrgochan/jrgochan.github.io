@@ -18,7 +18,7 @@ HOW TO DOCUMENT
 
 ### ESS Summer School
 
-- https://jrgochan.github.io/things/travel/2023/ess_dmsc/index.html
+- https://jrgochan.github.io/travel/2023/ess_dmsc/index.html
 
 ### Diagrams
 
