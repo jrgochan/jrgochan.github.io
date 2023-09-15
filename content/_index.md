@@ -13,7 +13,9 @@ menuTitle = "Home"
 
 ### Landing Page?
 
-HOW TO DOCUMENT
+Just a place for notes right now.
+
+### HOW TO DOCUMENT?
 - https://diataxis.fr/
 
 ### ESS Summer School
