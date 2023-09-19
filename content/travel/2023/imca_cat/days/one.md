@@ -5,13 +5,16 @@ menuTitle = "2023-09-17"
 weight = 1
 bookCollapseSection = false
 bookHidden = false
-draft = false
+draft = true
 categories = ["taxonomy", "content"]
 tags = "tutorial"
 +++
 
+### IF you remember
+ask todd if he'd be ok with listing off some tags
+
 ### Todd Hastings
-- Kentucky
+- University of Kentucky
 - open source hardware and software for electron beam lithography....
   - Todd cares about this.
   - maybe start doing it in 6-7 years? Has stuff to finish.
