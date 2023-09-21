@@ -25,6 +25,8 @@ Just a place for notes right now.
 ### ESS Summer School
 
 - https://jrgochan.github.io/travel/2023/ess_dmsc/index.html
+- https://ess-dmsc-dram.github.io/dmsc-school/_static/proposals.pdf
+- https://ess-dmsc-dram.github.io/dmsc-school
 
 ### Diagrams
 

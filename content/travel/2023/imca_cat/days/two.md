@@ -2,10 +2,10 @@
 title = 'Two'
 date = 2023-09-18T18:06:56+00:00
 menuTitle = "2023-09-18"
-weight = 1
+weight = 2
 bookCollapseSection = false
 bookHidden = false
-draft = false
+draft = true
 categories = ["taxonomy", "content"]
 tags = "tutorial"
 +++
