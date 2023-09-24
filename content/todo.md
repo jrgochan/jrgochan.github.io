@@ -14,18 +14,24 @@ title = "ToDo"
 +++
 
 # Hasty thoughts to ensure I don't lose
-
-Not sure what will go here yet. At least one note though.
-
-sorta a CRO (Contract Research Organization)
-
+- IMCA-CAT is sorta like a CRO (Contract Research Organization)
 - Thoughts
   - Not Lisa
     - I feel like I had something to mention to David from the hotel?....
     - Think about the important bits that I relayed to Connie and crew.
       - Ensure that I communicate the fact that the important bits have been communicated to them
       - Shea, Don B, etc.
-    - Ask Fredrik for help with the social side of things.
-      - May get sticky if we are going to unify the country.
-      - He could likely help.
     - Check out Naperville, and Willow.... spring? brook? downs? Willow something.
+- ATLAS
+  - Has been around since the mid 80s
+  - Office of Science User Facility
+- All the offices are 
+  - right now there is a push to have the Office of Science User Facilities Coordinate.
+- There are Three User Facilities at Argon 
+  - APS ( Advanced Photon Source )
+  - ATLAS ( Argonne Tandem Linear Accelerator )
+    - Small user Facility ( 300-400 users )
+    - User Program is Year Round
+    - Daniel Santiago
+      - Does the user office stuff
+  - NST ( Nano Science and Technology )

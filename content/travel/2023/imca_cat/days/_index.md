@@ -10,3 +10,9 @@ draft = false
 +++
 
 My notes on ideas throughout the week.
+
+#### Thoughts
+- Talk to various folks about Keanan
+  - NPI
+  - Whatever that air current modeling thing is?
+  - HPC

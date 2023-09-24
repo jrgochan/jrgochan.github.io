@@ -143,6 +143,9 @@ tags = "tutorial"
 - Thoughts
 - Questions
 - Answers
+- Additional
+  - "With APS Upgrade, beamlines MUST be able to provide up to 50% of the beam time to 'General Users'. Right now that is at 25%"
+  - This may already be fixed by talking with the APS User Office.
 
 ##### Me
 - Statements
