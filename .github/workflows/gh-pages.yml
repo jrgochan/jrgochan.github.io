@@ -27,8 +27,18 @@ jobs:
     - name: Build the MkDocs site
       run: mkdocs build
 
-    - name: Deploy to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./public  # Directory where MkDocs builds the site
+    - name: Deploy docs
+      uses: mhausenblas/mkdocs-deploy-gh-pages@nomaterial
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        CUSTOM_DOMAIN: jrgochan.github.io
+        CONFIG_FILE: ./mkdocs.yml
+        # EXTRA_PACKAGES: build-base
+        # GITHUB_DOMAIN: github.myenterprise.com
+        REQUIREMENTS: ./requirements.txt
+
+    # - name: Deploy to GitHub Pages
+    #   uses: peaceiris/actions-gh-pages@v3
+    #   with:
+    #     github_token: ${{ secrets.GITHUB_TOKEN }}
+    #     publish_dir: ./public  # Directory where MkDocs builds the site

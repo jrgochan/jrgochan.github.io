@@ -11,8 +11,6 @@ nav:
   - Home: index.md
   - Travel:
     - travel/index.md
-    - 2022:
-      - travel/2022/index.md
     - 2023:
       - travel/2023/index.md
       - ESS DMSC:
