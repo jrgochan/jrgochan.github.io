@@ -1,0 +1,211 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "_learning_"
+authors = [{ name = "Jason Gochanour", email = "jrgochan@gmail.com" }]
+description = "A package. For learning."
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+  "Development Status :: 1 - Planning",
+  "Intended Audience :: Science/Research",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: BSD License",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Scientific/Engineering",
+  "Typing :: Typed",
+]
+dynamic = ["version"]
+dependencies = ["typing_extensions >=4.6; python_version<'3.11'"]
+
+[project.optional-dependencies]
+test = [
+  "pytest ~= 7.1.2",
+  "pytest-cov ~= 3.0.0",
+  "pytest-sugar ~= 0.9.5",
+  "pytest-xdist[psutil] ~= 2.5.0",
+  "pytest-randomly ~= 3.12.0",
+]
+lint = [
+  "mypy ~= 0.971",
+  "isort ~= 5.10.1",
+  "black ~= 22.3.0",
+  "bandit[toml] ~= 1.7.4",
+  "pyupgrade ~= 2.37.3",
+  "pydocstringformatter ~= 0.6.2",
+  "pylint ~= 2.14.5",
+]
+doc = [
+  "mkdocs ~= 1.5.3",
+]
+dev = [ # All development features
+  "_learning_[test,lint,doc]",
+  "latex",
+  "nox",
+  "ruff",
+]
+
+[project.urls]
+Homepage = "https://<url>/scratch/_learning_.git"
+"Bug Tracker" = "https://<url>/scratch/_learning_/issues"
+Discussions = "https://<url>/scratch/_learning_/discussions"
+Changelog = "https://<url>/scratch/_learning_/releases"
+
+[tool.hatch]
+version.path = "src/_learning_/__init__.py"
+
+[tool.pylint.format]
+max-line-length = 120
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = ["-ra", "--showlocals", "--strict-markers", "--strict-config"]
+xfail_strict = true
+filterwarnings = [
+  "error",
+  "ignore:(ast.Str|Attribute s|ast.NameConstant|ast.Num) is deprecated:DeprecationWarning:_pytest",
+]
+log_cli_level = "INFO"
+testpaths = ["tests"]
+
+
+[tool.coverage]
+run.source = ["_learning_"]
+port.exclude_lines = ['pragma: no cover', '\.\.\.', 'if typing.TYPE_CHECKING:']
+
+[tool.mypy]
+files = ["src", "tests"]
+python_version = "3.11"
+warn_unused_configs = true
+strict = true
+show_error_codes = true
+enable_error_code = ["ignore-without-code", "redundant-expr", "truthy-bool"]
+warn_unreachable = true
+disallow_untyped_defs = false
+disallow_incomplete_defs = false
+ignore_missing_imports = true
+
+[[tool.mypy.overrides]]
+module = "_learning_.*"
+disallow_untyped_defs = true
+disallow_incomplete_defs = true
+
+
+[tool.ruff]
+select = [
+  "E",
+  "F",
+  "W",   # flake8
+  "B",   # flake8-bugbear
+  "I",   # isort
+  "ARG", # flake8-unused-arguments
+  "C4",  # flake8-comprehensions
+  "EM",  # flake8-errmsg
+  "ICN", # flake8-import-conventions
+  "ISC", # flake8-implicit-str-concat
+  "G",   # flake8-logging-format
+  "PGH", # pygrep-hooks
+  "PIE", # flake8-pie
+  "PL",  # pylint
+  "PT",  # flake8-pytest-style
+  "PTH", # flake8-use-pathlib
+  "RET", # flake8-return
+  "RUF", # Ruff-specific
+  "SIM", # flake8-simplify
+  "T20", # flake8-print
+  "UP",  # pyupgrade
+  "YTT", # flake8-2020
+  "EXE", # flake8-executable
+  "NPY", # NumPy specific rules
+  "PD",  # pandas-vet
+]
+extend-ignore = [
+  "PLR",  # Design related pylint codes
+  "E501", # Line too long
+]
+target-version = "py38"
+typing-modules = ["_learning_._compat.typing"]
+src = ["src"]
+unfixable = [
+  "T20",  # Removes print statements
+  "F841", # Removes unused variables
+]
+exclude = []
+flake8-unused-arguments.ignore-variadic-names = true
+isort.required-imports = ["from __future__ import annotations"]
+
+[tool.ruff.per-file-ignores]
+"tests/**" = ["T20"]
+"noxfile.py" = ["T20"]
+
+[tool.pylint]
+py-version = "3.11"
+ignore-paths = ["src/_learning_/_version.py"]
+reports.output-format = "colorized"
+similarities.ignore-imports = "yes"
+messages_control.disable = [
+  "design",
+  "fixme",
+  "line-too-long",
+  "missing-module-docstring",
+  "wrong-import-position",
+]
+
+[tool.bandit]
+skips = []
+targets = ["_learning_"]
+
+[tool.hatch.envs.default.scripts]
+test = "pytest tests/"
+lint = "./scripts/lint.sh"
+doc = "sphinx-build docs docs/_build -j auto -W --keep-going --exclude-dir=.direnv"
+doc-live = "sphinx-autobuild -a docs docs/_build/html --watch . --ignore-dir=.direnv"
+
+[tool.hatch.envs.default]
+python = "3.11"
+dependencies = ["pytest", "pytest-cov", "mypy"]
+platforms = ["linux", "macos"]
+features = ["dev"]
+
+[tool.hatch.envs.dev]
+dev-mode = true
+features = ["dev"]
+
+
+[tool.hatch.envs.mrun] # Used to run a command in multiple python environments
+# type = "container"  # Needs the "hatch-containers" plugin
+# type = "conda"  # Needs the "hatch-conda" plugin
+
+[[tool.hatch.envs.mrun.matrix]]
+python = ["38", "39", "310", "311"]
+
+[tool.hatch.envs.locked] # Used for working with locked environments
+platforms = ["linux"]
+features = []
+pre-install-commands = [
+  "pip install -r pip.lock || true", # Linux specific cmd
+]
+
+[tool.hatch.envs.locked.scripts]
+lock = "pip check && pip freeze --exclude-editable > pip.lock"                                                       # Linux specific cmd
+check = "pip freeze --exclude-editable | diff pip.lock -"                                                            # Linux specific cmd
+update = "pip uninstall -r pip.lock -y && pip install -e . && pip check && pip freeze --exclude-editable > pip.lock" # Linux specific cmd
+
+
+## Minimal CI specific environments
+[tool.hatch.envs.test]
+dev-mode = false
+features = ["test"]
+
+[tool.hatch.envs.lint]
+features = ["lint"]
+
+[tool.hatch.envs.doc]
+features = ["doc"]

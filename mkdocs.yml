@@ -1,0 +1,248 @@
+---
+site_name: Jason's Notes
+site_description: A place to keep things
+site_author: Jason Gochanour
+repo_url: https://jrgochan.github.io
+repo_name: jrgochan.github.io
+site_url: https://github.com/jrgochan/jrgochan.github.io.git
+edit_uri: edit/main/docs/
+
+nav:
+  - Home: index.md
+  - Travel:
+    - travel/index.md
+    - 2022:
+      - travel/2022/index.md
+    - 2023:
+      - travel/2023/index.md
+      - ESS DMSC:
+        - travel/2023/ess-dmsc/index.md
+        - Conversations:
+          - travel/2023/ess-dmsc/conversations/index.md
+          - Quotes: travel/2023/ess-dmsc/conversations/quotes.md
+        - Days:
+          - travel/2023/ess-dmsc/days/index.md
+          - One: travel/2023/ess-dmsc/days/one.md
+          - Two: travel/2023/ess-dmsc/days/two.md
+          - Three: travel/2023/ess-dmsc/days/three.md
+          - Four: travel/2023/ess-dmsc/days/four.md
+          - Five: travel/2023/ess-dmsc/days/five.md
+        - Ideas:
+          - travel/2023/ess-dmsc/ideas/index.md
+          - PIDs: travel/2023/ess-dmsc/ideas/pids.md
+        - Links:
+          - travel/2023/ess-dmsc/links/index.md
+        - People:
+          - travel/2023/ess-dmsc/people/index.md
+          - Austin: travel/2023/ess-dmsc/people/austin-ccm.md
+          - jrgochan: travel/2023/ess-dmsc/people/jrgochan.md
+          - Politics: travel/2023/ess-dmsc/people/politics.md
+        - Posters:
+          - travel/2023/ess-dmsc/posters/index.md
+        - Tips:
+          - travel/2023/ess-dmsc/tips/index.md
+          - Python: travel/2023/ess-dmsc/tips/python.md
+      - FAIR Facilities & Instruments:
+        - travel/2023/fair-facilities/index.md
+        - Days:
+          - travel/2023/fair-facilities/days/index.md
+          - One: travel/2023/fair-facilities/days/one.md
+      - IMCA-CAT:
+        - travel/2023/imca-cat/index.md
+        - Days:
+          - travel/2023/imca-cat/days/index.md
+          - One: travel/2023/imca-cat/days/one.md
+          - Two: travel/2023/imca-cat/days/two.md
+          - Three: travel/2023/imca-cat/days/three.md
+    # - Installation: getting-started/installation.md
+  # - Usage:
+    # - usage/index.md
+    # - Usage Examples: usage/usage-examples.md
+    # - Common Use Cases: usage/common-use-cases.md
+    # - Command-Line Interface: usage/cli.md
+    # - API Documentation: usage/api.md
+  # - Configuration:
+    # - configuration/index.md
+    # - Configuration Options: configuration/config-options.md
+    # - Environment Variables: configuration/env-variables.md
+    # - Customization: configuration/customization.md
+  - How To:
+    - how-to/index.md
+    - Diagram: how-to/diagram.md
+    - Document: how-to/document.md
+  # - Deployment:
+    # - deployment/index.md
+    # - Deployment Strategies: deployment/deployment-strategies.md
+    # - Deployment Configuration: deployment/deployment-config.md
+    # - Hosting Requirements: deployment/hosting-requirements.md
+    # - Best Practices: deployment/best-practices.md
+  #- Development:
+    #- development/index.md
+    # - Development Setup: development/development-setup.md
+    # - Coding Guidelines: development/coding-guidelines.md
+    # - Contributing: development/contributing.md
+    # - Development Workflows: development/development-workflows.md
+  - Troubleshooting:
+    - troubleshooting/index.md
+    # - Common Issues: troubleshooting/common-issues.md
+    # - Error Messages: troubleshooting/error-messages.md
+    # - Debugging: troubleshooting/debugging.md
+  - FAQs:
+    - faqs/index.md
+    # - FAQ 1: faqs/faq1.md
+    # - FAQ 2: faqs/faq2.md
+  # - API Reference:
+    # - api-reference/index.md
+    # - Endpoint 1: api-reference/endpoint1.md
+    # - Endpoint 2: api-reference/endpoint2.md
+  # - Release Notes:
+    # - release-notes/index.md
+    # - Version 1.0: release-notes/version-1.0.md
+    # - Version 1.1: release-notes/version-1.1.md
+  - Contributing:
+    - contributing/index.md
+  - Appendix:
+    - appendix/index.md
+  - Glossary:
+    - glossary/index.md
+    # - Term 1: glossary/term1.md
+  - Notes:
+    - notes/index.md
+    - Jason Gochanour:
+      - notes/jrgochan/index.md
+      - Idea One:
+        - notes/jrgochan/idea-one/index.md
+        - Thought One: notes/jrgochan/idea-one/thought-one.md
+        - Thought Two: notes/jrgochan/idea-one/thought-two.md
+      - Scratch Space: notes/jrgochan/scratch.md
+    - Zesty McTesterson:
+      - notes/zesty/index.md
+      - Idea One:
+        - notes/zesty/idea-one/index.md
+        - Thought One: notes/zesty/idea-one/thought-one.md
+        - Thought Two: notes/zesty/idea-one/thought-two.md
+      - Scratch Space: notes/zesty/scratch.md
+    #- notes/your_moniker/index.md
+    # touch docs/your_moniker/index.md && echo "# Your Name's Personal Notes about LISDI" > docs/your_moniker/index.md
+
+exclude_docs: |
+  excluded_api-config.json    # A file with this name anywhere.
+  excluded_drafts/            # A "drafts" directory anywhere.
+  /excluded_requirements.txt  # Top-level "docs/requirements.txt".
+  excluded_*.py               # Any file with this extension anywhere.
+  !/excluded_foo/example.py   # But keep this particular file.
+
+theme:
+  name: material
+  favicon: assets/images/favicon.ico
+  logo: assets/images/<logo>.png
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: custom-scheme
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+  font:
+    text: Source Sans Pro
+  # https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/
+  features:
+    - navigation.footer
+    - navigation.indexes
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.path
+    - navigation.prune
+    # - navigation.sections
+    - navigation.tabs
+    - navigation.tracking
+    # - navigation.expand
+    - toc.follow
+    - toc.integrate
+  icon:
+    repo: fontawesome/brands/github
+
+extra_css:
+  - stylesheets/extra.css
+
+extra:
+  consent:
+    title: Cookie consent
+    actions:
+      - accept
+      - manage
+      - reject
+    description: >-
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/
+    - icon: fontawesome/brands/medium
+      link: https://medium.com/
+  copyright: Copyright &copy; 2023 - 2023 Nerds Unlimited
+
+docs_dir: docs
+site_dir: public
+
+plugins:
+  #- git-authors:
+  #    enabled: true
+  #- git-revision-date-localized:
+  #    enable_creation_date: true
+  #    type: iso_datetime
+  #    locale: en
+  - markmap:
+      base_path: docs
+      encoding: utf-8
+      file_extension: .mm.md
+      d3_version: '7'
+      lib_version: 0.15.3
+      view_version: 0.15.3
+  - mermaid2:
+      version: 10.5.0
+  - search:
+      lang: en
+  - table-reader
+  - tags
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - codehilite:
+      linenums: true
+  - toc:
+      permalink: true
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tasklist
+  - pymdownx.tilde
+...
